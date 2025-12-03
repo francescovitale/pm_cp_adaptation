@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Sputum examination (procedure)">
+        <name>
+          <text>Sputum examination (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f84ed2d2-018a-4471-9a6f-3b0d677b5ed0"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="470f913c-b74f-49fc-8b92-6f3ec3fb5e97"/>
+      </transition>
+      <arc id="2228082974672" source="Sputum examination (procedure)" target="3"/>
+      <arc id="2228082970128" source="▶" target="2"/>
+      <arc id="2228082970896" source="2" target="Plain chest X-ray (procedure)"/>
+      <arc id="2228082970256" source="2" target="Face mask (physical object)"/>
+      <arc id="2228082970384" source="2" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2228082970512" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2228082969104" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="2228082969232" source="Oxygen administration by mask (procedure)" target="2"/>
+      <arc id="2228082968976" source="Measurement of respiratory function (procedure)" target="2"/>
+      <arc id="2228082845328" source="source" target="▶"/>
+      <arc id="2228082969360" source="Placing subject in prone position (procedure)" target="2"/>
+      <arc id="2228082974800" source="Throat culture (procedure)" target="3"/>
+      <arc id="2228082974928" source="3" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2228082975056" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="2228082975184" source="3" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2228082975312" source="3" target="Placing subject in prone position (procedure)"/>
+      <arc id="2228082975440" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2228082975568" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2228082969488" source="Plain chest X-ray (procedure)" target="2"/>
+      <arc id="2228082975696" source="3" target="Spirometry (procedure)"/>
+      <arc id="2228082969616" source="Pulmonary rehabilitation (regime/therapy)" target="2"/>
+      <arc id="2228082975824" source="3" target="Sputum examination (procedure)"/>
+      <arc id="2228082979920" source="Face mask (physical object)" target="4"/>
+      <arc id="2228082969744" source="Spirometry (procedure)" target="2"/>
+      <arc id="2228082975952" source="3" target="Throat culture (procedure)"/>
+      <arc id="2228082980048" source="Measurement of respiratory function (procedure)" target="4"/>
+      <arc id="2228082969872" source="Sputum examination (procedure)" target="2"/>
+      <arc id="2228082980176" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2228082970000" source="Throat culture (procedure)" target="2"/>
+      <arc id="2228082980304" source="Oxygen administration by mask (procedure)" target="4"/>
+      <arc id="2228082980432" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2228082980560" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2228082980688" source="Pulmonary rehabilitation (regime/therapy)" target="4"/>
+      <arc id="2228082980816" source="Spirometry (procedure)" target="4"/>
+      <arc id="2228082845008" source="■" target="sink"/>
+      <arc id="2228082970640" source="2" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2228082973776" source="Measurement of respiratory function (procedure)" target="3"/>
+      <arc id="2228082973904" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2228082974032" source="Oxygen administration by mask (procedure)" target="3"/>
+      <arc id="2228082970768" source="2" target="Placing subject in prone position (procedure)"/>
+      <arc id="2228082974160" source="Placing subject in prone position (procedure)" target="3"/>
+      <arc id="2228082974288" source="Plain chest X-ray (procedure)" target="3"/>
+      <arc id="2228082974416" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+      <arc id="2228082974544" source="Spirometry (procedure)" target="3"/>
+      <arc id="2228082980944" source="Sputum examination (procedure)" target="4"/>
+      <arc id="2228082981072" source="Throat culture (procedure)" target="4"/>
+      <arc id="2228082981200" source="4" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2228082971024" source="2" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2228082981328" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="2228082971152" source="2" target="Spirometry (procedure)"/>
+      <arc id="2228082981456" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2228082971280" source="2" target="Sputum examination (procedure)"/>
+      <arc id="2228082981584" source="4" target="Placing subject in prone position (procedure)"/>
+      <arc id="2228082971408" source="2" target="Throat culture (procedure)"/>
+      <arc id="2228082981712" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2228082981840" source="4" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2228082981968" source="4" target="Spirometry (procedure)"/>
+      <arc id="2228082982096" source="4" target="Sputum examination (procedure)"/>
+      <arc id="2228082982224" source="4" target="Throat culture (procedure)"/>
+      <arc id="2228082982352" source="4" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

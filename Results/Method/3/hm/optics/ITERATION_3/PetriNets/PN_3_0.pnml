@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f0d01632-fb61-449d-b7ab-3dc3175b9668"/>
+      </transition>
+      <arc id="1755578245072" source="source0" target="Throat culture (procedure)"/>
+      <arc id="1755578687824" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="1755578694480" source="source0" target="hid_2"/>
+      <arc id="1755578680720" source="hid_2" target="pre_Face mask (physical object)"/>
+      <arc id="1755578694416" source="Throat culture (procedure)" target="pre_Face mask (physical object)"/>
+      <arc id="1755578685264" source="Face mask (physical object)" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

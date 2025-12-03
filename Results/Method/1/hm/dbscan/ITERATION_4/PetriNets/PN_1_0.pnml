@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021359.713248" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021359.713248</text>
+    </name>
+    <page id="n0">
+      <place id="pre_Placing subject in prone position (procedure)">
+        <name>
+          <text>pre_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Oxygen administration by mask (procedure)">
+        <name>
+          <text>pre_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="intplace_Plain chest X-ray (procedure)">
+        <name>
+          <text>intplace_Plain chest X-ray (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Placing subject in prone position (procedure)">
+        <name>
+          <text>intplace_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>pre_Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Plain chest X-ray (procedure)">
+        <name>
+          <text>pre_Plain chest X-ray (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Hemodialysis (procedure)">
+        <name>
+          <text>intplace_Hemodialysis (procedure)</text>
+        </name>
+      </place>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_9">
+        <name>
+          <text>hid_9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cd4cdd75-0285-4d5b-8965-de759650d43a"/>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6057bc7f-0e55-40fa-aab6-0d44163bb90f"/>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4fa4b088-5aca-4b8b-bd14-5c8fb4abc262"/>
+      </transition>
+      <transition id="hid_10">
+        <name>
+          <text>hid_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5687461a-9de2-4d69-a65b-da205285a258"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0163e998-88d5-4759-be4b-8bf70d7eef52"/>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_12">
+        <name>
+          <text>hid_12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5a47a5ca-ba08-4bb0-89ce-964370611d62"/>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="68d1a91e-f37f-40b9-bc64-836e59298447"/>
+      </transition>
+      <arc id="2481443286992" source="pre_Placing subject in prone position (procedure)" target="Placing subject in prone position (procedure)"/>
+      <arc id="2481443285520" source="intplace_Plain chest X-ray (procedure)" target="hid_9"/>
+      <arc id="2481443286672" source="hid_9" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="2481443285776" source="Hemodialysis (procedure)" target="intplace_Hemodialysis (procedure)"/>
+      <arc id="2481443285904" source="hid_15" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443284240" source="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443284752" source="hid_10" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443285136" source="hid_14" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="2481443284880" source="Oxygen administration by mask (procedure)" target="pre_Placing subject in prone position (procedure)"/>
+      <arc id="2481443285392" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="hid_12"/>
+      <arc id="2481443285264" source="hid_8" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443287376" source="Face mask (physical object)" target="pre_Plain chest X-ray (procedure)"/>
+      <arc id="2481443287760" source="Placing subject in prone position (procedure)" target="intplace_Placing subject in prone position (procedure)"/>
+      <arc id="2481443287888" source="hid_12" target="sink0"/>
+      <arc id="2481443286160" source="intplace_Plain chest X-ray (procedure)" target="hid_8"/>
+      <arc id="2481443286416" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="2481443286800" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443285968" source="intplace_Placing subject in prone position (procedure)" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2481443284048" source="Medication Reconciliation (procedure)" target="pre_Face mask (physical object)"/>
+      <arc id="2481443284688" source="Plain chest X-ray (procedure)" target="intplace_Plain chest X-ray (procedure)"/>
+      <arc id="2481443284432" source="Insertion of endotracheal tube (procedure)" target="pre_Plain chest X-ray (procedure)"/>
+      <arc id="2481443285072" source="intplace_Placing subject in prone position (procedure)" target="hid_14"/>
+      <arc id="2481443285328" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="Hemodialysis (procedure)"/>
+      <arc id="2481443286096" source="intplace_Hemodialysis (procedure)" target="hid_15"/>
+      <arc id="2481443286608" source="pre_Oxygen administration by mask (procedure)" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2481443287248" source="hid_16" target="sink0"/>
+      <arc id="2481443287184" source="source0" target="Medication Reconciliation (procedure)"/>
+      <arc id="2481443287568" source="intplace_Hemodialysis (procedure)" target="hid_16"/>
+      <arc id="2481443287824" source="pre_Plain chest X-ray (procedure)" target="Plain chest X-ray (procedure)"/>
+      <arc id="2481443288080" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="hid_10"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760041941.0164766" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760041941.0164766</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="7aa07356-4510-433d-8042-6c9c489e0e3f">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="b2c004c1-9da0-4efa-bf3a-7e224e914915">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2709098932048" source="source" target="7aa07356-4510-433d-8042-6c9c489e0e3f"/>
+      <arc id="2709098926352" source="b2c004c1-9da0-4efa-bf3a-7e224e914915" target="sink"/>
+      <arc id="2709098938192" source="p_3" target="b2c004c1-9da0-4efa-bf3a-7e224e914915"/>
+      <arc id="2709098935504" source="7aa07356-4510-433d-8042-6c9c489e0e3f" target="p_3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

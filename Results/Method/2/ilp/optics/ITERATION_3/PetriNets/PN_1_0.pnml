@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041774.8186784" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041774.8186784</text>
+    </name>
+    <page id="n0">
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6336e746-bb7c-42e3-98e5-8ce3fdcbfb6a"/>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a4d0251a-0a3b-4758-96c1-ee4f4d111e4b"/>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Removal of subcutaneous contraceptive">
+        <name>
+          <text>Removal of subcutaneous contraceptive</text>
+        </name>
+      </transition>
+      <transition id="Upper arm X-ray">
+        <name>
+          <text>Upper arm X-ray</text>
+        </name>
+      </transition>
+      <transition id="Bone immobilization">
+        <name>
+          <text>Bone immobilization</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Bone density scan (procedure)">
+        <name>
+          <text>Bone density scan (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of subcutaneous contraceptive">
+        <name>
+          <text>Insertion of subcutaneous contraceptive</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2408856114704" source="Spirometry (procedure)" target="9"/>
+      <arc id="2408856114192" source="Removal of subcutaneous contraceptive" target="10"/>
+      <arc id="2408856119824" source="■" target="sink"/>
+      <arc id="2408856119312" source="10" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856122192" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2408856122704" source="4" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856123216" source="Insertion of subcutaneous contraceptive" target="5"/>
+      <arc id="2408856116816" source="Spirometry (procedure)" target="6"/>
+      <arc id="2408856117840" source="Insertion of subcutaneous contraceptive" target="3"/>
+      <arc id="2408856121936" source="5" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856118352" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2408856121424" source="6" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856114768" source="Spirometry (procedure)" target="8"/>
+      <arc id="2408856118864" source="Spirometry (procedure)" target="3"/>
+      <arc id="2408856113744" source="9" target="Bone immobilization"/>
+      <arc id="2408856113232" source="Face mask (physical object)" target="5"/>
+      <arc id="2408856114256" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="7"/>
+      <arc id="2408856115280" source="6" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856119760" source="Bone density scan (procedure)" target="2"/>
+      <arc id="2408856115792" source="3" target="Spirometry (procedure)"/>
+      <arc id="2408856120272" source="2" target="Face mask (physical object)"/>
+      <arc id="2408856116304" source="Removal of subcutaneous contraceptive" target="5"/>
+      <arc id="2408856112272" source="Spirometry (procedure)" target="4"/>
+      <arc id="2408856115344" source="Spirometry (procedure)" target="10"/>
+      <arc id="2408856119440" source="8" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856119952" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2408856118416" source="Bone immobilization" target="10"/>
+      <arc id="2408856122512" source="10" target="Medication Reconciliation (procedure)"/>
+      <arc id="2408856113360" source="5" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856122832" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2408856123344" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2408856116944" source="8" target="Spirometry (procedure)"/>
+      <arc id="2408856121040" source="3" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856117456" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2408856121552" source="Removal of subcutaneous contraceptive" target="2"/>
+      <arc id="2408856117968" source="Insertion of endotracheal tube (procedure)" target="7"/>
+      <arc id="2408856122064" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="2408856120528" source="9" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856114896" source="2" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856118992" source="Removal of subcutaneous contraceptive" target="7"/>
+      <arc id="2408856112848" source="4" target="■"/>
+      <arc id="2408856115920" source="7" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856116432" source="9" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856112912" source="source" target="▶"/>
+      <arc id="2408856112400" source="7" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856114448" source="Insertion of subcutaneous contraceptive" target="10"/>
+      <arc id="2408856115472" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2408856120592" source="Upper arm X-ray" target="9"/>
+      <arc id="2408856121104" source="10" target="Bone density scan (procedure)"/>
+      <arc id="2408856117520" source="2" target="Upper arm X-ray"/>
+      <arc id="2408856118544" source="5" target="Spirometry (procedure)"/>
+      <arc id="2408856122640" source="Insertion of subcutaneous contraceptive" target="7"/>
+      <arc id="2408856123664" source="10" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856122448" source="Removal of subcutaneous contraceptive" target="6"/>
+      <arc id="2408856122960" source="7" target="■"/>
+      <arc id="2408856117072" source="7" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2408856121680" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="2408856118096" source="7" target="Spirometry (procedure)"/>
+      <arc id="2408856118608" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2408856115024" source="Removal of subcutaneous contraceptive" target="8"/>
+      <arc id="2408856114000" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2408856113488" source="6" target="■"/>
+      <arc id="2408856115536" source="Spirometry (procedure)" target="2"/>
+      <arc id="2408856119504" source="Insertion of subcutaneous contraceptive" target="2"/>
+      <arc id="2408856116048" source="Removal of subcutaneous contraceptive" target="3"/>
+      <arc id="2408856120016" source="Insertion of subcutaneous contraceptive" target="8"/>
+      <arc id="2408856116560" source="6" target="Spirometry (procedure)"/>
+      <arc id="2408856114064" source="10" target="Spirometry (procedure)"/>
+      <arc id="2408856113040" source="Spirometry (procedure)" target="7"/>
+      <arc id="2408856114576" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2408856120720" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2408856121232" source="Insertion of subcutaneous contraceptive" target="6"/>
+      <arc id="2408856117648" source="Insertion of subcutaneous contraceptive" target="9"/>
+      <arc id="2408856123088" source="4" target="Spirometry (procedure)"/>
+      <arc id="2408856117200" source="▶" target="2"/>
+      <arc id="2408856117712" source="9" target="Spirometry (procedure)"/>
+      <arc id="2408856121808" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="6"/>
+      <arc id="2408856121296" source="8" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856120784" source="Face mask (physical object)" target="3"/>
+      <arc id="2408856118736" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="2408856119248" source="Removal of subcutaneous contraceptive" target="4"/>
+      <arc id="2408856112080" source="Removal of subcutaneous contraceptive" target="9"/>
+      <arc id="2408856113104" source="3" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="2408856113616" source="Insertion of subcutaneous contraceptive" target="4"/>
+      <arc id="2408856123600" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2408856115664" source="Spirometry (procedure)" target="5"/>
+      <arc id="2408856120144" source="4" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856116176" source="2" target="Removal of subcutaneous contraceptive"/>
+      <arc id="2408856116688" source="2" target="Spirometry (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

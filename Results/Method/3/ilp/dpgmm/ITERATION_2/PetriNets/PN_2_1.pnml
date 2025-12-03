@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="92154e99-3242-4933-a3f1-fe7b2ae122b6"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c4cf018d-68e4-4638-a3a6-d90fba82d285"/>
+      </transition>
+      <arc id="2779989947920" source="7" target="Throat culture (procedure)"/>
+      <arc id="2779989934608" source="3" target="Electrical cardioversion"/>
+      <arc id="2779989935120" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989940752" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2779989944848" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2779989946384" source="Electrical cardioversion" target="7"/>
+      <arc id="2779989941264" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989945360" source="6" target="Electrical cardioversion"/>
+      <arc id="2779989945872" source="6" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989940240" source="Colonoscopy" target="5"/>
+      <arc id="2779989969808" source="9" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989949456" source="Plain chest X-ray (procedure)" target="8"/>
+      <arc id="2779989949968" source="8" target="Medication Reconciliation (procedure)"/>
+      <arc id="2779989937744" source="4" target="Colonoscopy"/>
+      <arc id="2779989938256" source="4" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989946960" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="2779989816400" source="Placing subject in prone position (procedure)" target="2"/>
+      <arc id="2779989816912" source="2" target="Electrical cardioversion"/>
+      <arc id="2779989818960" source="Colonoscopy" target="3"/>
+      <arc id="2779989812816" source="source" target="▶"/>
+      <arc id="2779989817424" source="2" target="Throat culture (procedure)"/>
+      <arc id="2779989937232" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2779989949008" source="Electrical cardioversion" target="8"/>
+      <arc id="2779989948048" source="7" target="■"/>
+      <arc id="2779989934224" source="Plain chest X-ray (procedure)" target="3"/>
+      <arc id="2779989934736" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="2779989940368" source="Electrical cardioversion" target="5"/>
+      <arc id="2779989940880" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2779989944976" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="2779989941392" source="5" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989945488" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="2779989947024" source="Colonoscopy" target="7"/>
+      <arc id="2779989947536" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989968912" source="Placing subject in prone position (procedure)" target="9"/>
+      <arc id="2779989969424" source="9" target="Electrical cardioversion"/>
+      <arc id="2779989949072" source="Oxygen administration by mask (procedure)" target="8"/>
+      <arc id="2779989949584" source="Throat culture (procedure)" target="8"/>
+      <arc id="2779989950096" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989937872" source="4" target="Electrical cardioversion"/>
+      <arc id="2779989938384" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989946576" source="Face mask (physical object)" target="7"/>
+      <arc id="2779989816528" source="Plain chest X-ray (procedure)" target="2"/>
+      <arc id="2779989943504" source="Electrical cardioversion" target="6"/>
+      <arc id="2779989817040" source="2" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989819088" source="Electrical cardioversion" target="3"/>
+      <arc id="2779989816016" source="Colonoscopy" target="2"/>
+      <arc id="2779989944528" source="Colonoscopy" target="6"/>
+      <arc id="2779989937360" source="Oxygen administration by mask (procedure)" target="4"/>
+      <arc id="2779989968016" source="Electrical cardioversion" target="9"/>
+      <arc id="2779989947664" source="7" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989812496" source="■" target="sink"/>
+      <arc id="2779989934352" source="Throat culture (procedure)" target="3"/>
+      <arc id="2779989934864" source="3" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989940496" source="Face mask (physical object)" target="5"/>
+      <arc id="2779989944592" source="Oxygen administration by mask (procedure)" target="6"/>
+      <arc id="2779989941008" source="5" target="Colonoscopy"/>
+      <arc id="2779989945104" source="▶" target="6"/>
+      <arc id="2779989941520" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989945616" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989947152" source="▶" target="7"/>
+      <arc id="2779989969552" source="9" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989949712" source="8" target="Colonoscopy"/>
+      <arc id="2779989950224" source="8" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989938000" source="4" target="Face mask (physical object)"/>
+      <arc id="2779989946704" source="Oxygen administration by mask (procedure)" target="7"/>
+      <arc id="2779989816656" source="▶" target="2"/>
+      <arc id="2779989817168" source="2" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989819216" source="Oxygen administration by mask (procedure)" target="3"/>
+      <arc id="2779989816144" source="Electrical cardioversion" target="2"/>
+      <arc id="2779989936976" source="Colonoscopy" target="4"/>
+      <arc id="2779989937488" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2779989948496" source="Face mask (physical object)" target="8"/>
+      <arc id="2779989969232" source="9" target="Colonoscopy"/>
+      <arc id="2779989934480" source="3" target="Colonoscopy"/>
+      <arc id="2779989934992" source="3" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989940624" source="Oxygen administration by mask (procedure)" target="5"/>
+      <arc id="2779989941136" source="5" target="Electrical cardioversion"/>
+      <arc id="2779989945232" source="6" target="Colonoscopy"/>
+      <arc id="2779989941648" source="5" target="■"/>
+      <arc id="2779989945744" source="6" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989947280" source="7" target="Colonoscopy"/>
+      <arc id="2779989947792" source="7" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989949328" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="2779989966928" source="8" target="■"/>
+      <arc id="2779989969168" source="Plain chest X-ray (procedure)" target="9"/>
+      <arc id="2779989969680" source="9" target="Placing subject in prone position (procedure)"/>
+      <arc id="2779989949840" source="8" target="Electrical cardioversion"/>
+      <arc id="2779989950352" source="8" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989819344" source="Placing subject in prone position (procedure)" target="3"/>
+      <arc id="2779989948368" source="Colonoscopy" target="8"/>
+      <arc id="2779989816784" source="2" target="Colonoscopy"/>
+      <arc id="2779989938128" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2779989817296" source="2" target="Plain chest X-ray (procedure)"/>
+      <arc id="2779989816272" source="Oxygen administration by mask (procedure)" target="2"/>
+      <arc id="2779989937104" source="Electrical cardioversion" target="4"/>
+      <arc id="2779989937616" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2779989968336" source="Colonoscopy" target="9"/>
+      <arc id="2779989968848" source="Oxygen administration by mask (procedure)" target="9"/>
+      <arc id="2779989946896" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="2779989947408" source="7" target="Electrical cardioversion"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

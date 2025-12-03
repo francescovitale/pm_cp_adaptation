@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041910.8910167" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041910.8910167</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <transition id="tauSplit_1">
+        <name>
+          <text>tauSplit_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f6d520fb-b91c-42aa-95b9-14f6bc4fe5f0"/>
+      </transition>
+      <transition id="447827bf-f8a2-4a13-924f-669adfe1d213">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="473f7632-6c97-49c5-a527-0bff72e4309f">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f9fbc1f6-4312-4041-b18f-2a2c15a67ab1"/>
+      </transition>
+      <transition id="95ab7608-49d3-4a6d-a9c7-40f99617abb5">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="63b45b63-75f0-4a34-89c3-c3689909be25">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2204393182800" source="skip_5" target="p_7"/>
+      <arc id="2204393182928" source="p_8" target="63b45b63-75f0-4a34-89c3-c3689909be25"/>
+      <arc id="2204393181776" source="p_4" target="447827bf-f8a2-4a13-924f-669adfe1d213"/>
+      <arc id="2204393181968" source="tauSplit_1" target="p_4"/>
+      <arc id="2204393181712" source="p_10" target="95ab7608-49d3-4a6d-a9c7-40f99617abb5"/>
+      <arc id="2204393181520" source="p_8" target="skip_5"/>
+      <arc id="2204393181328" source="95ab7608-49d3-4a6d-a9c7-40f99617abb5" target="p_11"/>
+      <arc id="2204393182480" source="tauSplit_1" target="p_10"/>
+      <arc id="2204393182096" source="source" target="tauSplit_1"/>
+      <arc id="2204393182224" source="p_11" target="63b45b63-75f0-4a34-89c3-c3689909be25"/>
+      <arc id="2204393182416" source="p_7" target="473f7632-6c97-49c5-a527-0bff72e4309f"/>
+      <arc id="2204393182736" source="473f7632-6c97-49c5-a527-0bff72e4309f" target="p_8"/>
+      <arc id="2204393183248" source="63b45b63-75f0-4a34-89c3-c3689909be25" target="sink"/>
+      <arc id="2204393182608" source="447827bf-f8a2-4a13-924f-669adfe1d213" target="p_7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

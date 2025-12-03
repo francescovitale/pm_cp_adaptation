@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Oxygen administration by mask (procedure)">
+        <name>
+          <text>pre_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Placing subject in prone position (procedure)">
+        <name>
+          <text>pre_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Face mask (physical object)">
+        <name>
+          <text>intplace_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="intplace_Placing subject in prone position (procedure)">
+        <name>
+          <text>intplace_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <transition id="hid_6">
+        <name>
+          <text>hid_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a4416da6-248e-4ac1-9148-ff53be89c7ce"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7604982c-1447-4359-a181-51d45b2d38da"/>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="73c8b640-bf71-40ca-89bd-f95bfee03989"/>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="213e98b1-df38-4728-9adf-e8d8a6bd2e9f"/>
+      </transition>
+      <arc id="1923124804112" source="pre_Placing subject in prone position (procedure)" target="Placing subject in prone position (procedure)"/>
+      <arc id="1923124798864" source="source0" target="hid_2"/>
+      <arc id="1923124938128" source="Plain chest X-ray (procedure)" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="1923124945424" source="hid_7" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="1923124947344" source="hid_6" target="sink0"/>
+      <arc id="1923124951568" source="Oxygen administration by mask (procedure)" target="pre_Placing subject in prone position (procedure)"/>
+      <arc id="1923124945616" source="Throat culture (procedure)" target="pre_Face mask (physical object)"/>
+      <arc id="1923124941904" source="hid_8" target="sink0"/>
+      <arc id="1923124942544" source="Face mask (physical object)" target="intplace_Face mask (physical object)"/>
+      <arc id="1923124952016" source="intplace_Face mask (physical object)" target="hid_6"/>
+      <arc id="1923124797776" source="source0" target="Throat culture (procedure)"/>
+      <arc id="1923124790480" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="1923124800080" source="hid_2" target="pre_Face mask (physical object)"/>
+      <arc id="1923124797392" source="pre_Oxygen administration by mask (procedure)" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1923124940368" source="intplace_Placing subject in prone position (procedure)" target="hid_7"/>
+      <arc id="1923124948176" source="intplace_Placing subject in prone position (procedure)" target="hid_8"/>
+      <arc id="1923124944080" source="intplace_Face mask (physical object)" target="Plain chest X-ray (procedure)"/>
+      <arc id="1923124941968" source="Placing subject in prone position (procedure)" target="intplace_Placing subject in prone position (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

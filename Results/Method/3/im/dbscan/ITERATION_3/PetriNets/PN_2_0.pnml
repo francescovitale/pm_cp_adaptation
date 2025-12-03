@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042224.0851243" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042224.0851243</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="2d7e508a-f684-4933-b466-fc2cd68d1737">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2657575849232" source="source" target="2d7e508a-f684-4933-b466-fc2cd68d1737"/>
+      <arc id="2657575849168" source="2d7e508a-f684-4933-b466-fc2cd68d1737" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

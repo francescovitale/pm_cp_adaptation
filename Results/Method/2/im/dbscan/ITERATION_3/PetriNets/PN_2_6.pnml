@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041943.36967" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041943.36967</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="7d96d6b3-6ba8-481b-aa84-ca4384f460a2">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="24908cdb-d668-41e5-8a3a-a4e5df6604f7">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2698409022864" source="source" target="7d96d6b3-6ba8-481b-aa84-ca4384f460a2"/>
+      <arc id="2698409021968" source="p_3" target="24908cdb-d668-41e5-8a3a-a4e5df6604f7"/>
+      <arc id="2698409022800" source="24908cdb-d668-41e5-8a3a-a4e5df6604f7" target="sink"/>
+      <arc id="2698409022608" source="7d96d6b3-6ba8-481b-aa84-ca4384f460a2" target="p_3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760041941.0164766" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760041941.0164766</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="1ea0a653-8db3-45a0-821e-9c5208a6aee3">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="161dc00b-9f3d-4fe7-8c30-9f5271a737ef">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="7ed9c723-70df-47db-b363-20266c6db9a2">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2709099463568" source="source" target="1ea0a653-8db3-45a0-821e-9c5208a6aee3"/>
+      <arc id="2709099464720" source="p_4" target="7ed9c723-70df-47db-b363-20266c6db9a2"/>
+      <arc id="2709099472272" source="161dc00b-9f3d-4fe7-8c30-9f5271a737ef" target="p_4"/>
+      <arc id="2709099478352" source="1ea0a653-8db3-45a0-821e-9c5208a6aee3" target="p_3"/>
+      <arc id="2709099462800" source="p_3" target="161dc00b-9f3d-4fe7-8c30-9f5271a737ef"/>
+      <arc id="2709099464592" source="7ed9c723-70df-47db-b363-20266c6db9a2" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

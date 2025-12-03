@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760021528.624005" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760021528.624005</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <transition id="c331c293-a3a0-43e5-859e-3e63ebaacb82">
+        <name>
+          <text>Sputum examination (procedure)</text>
+        </name>
+      </transition>
+      <transition id="6b57545c-cdd0-44a2-9a44-530fe04d993d">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_3">
+        <name>
+          <text>skip_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a328007c-8f51-4611-bdaf-cf7bf2b101ae"/>
+      </transition>
+      <transition id="6442dd53-f9f6-4070-8ac6-767aafa84419">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2146500316752" source="6442dd53-f9f6-4070-8ac6-767aafa84419" target="sink"/>
+      <arc id="2146500321360" source="source" target="c331c293-a3a0-43e5-859e-3e63ebaacb82"/>
+      <arc id="2146497718992" source="c331c293-a3a0-43e5-859e-3e63ebaacb82" target="p_5"/>
+      <arc id="2146500313360" source="p_5" target="6b57545c-cdd0-44a2-9a44-530fe04d993d"/>
+      <arc id="2146500320400" source="6b57545c-cdd0-44a2-9a44-530fe04d993d" target="p_6"/>
+      <arc id="2146500316240" source="p_6" target="skip_3"/>
+      <arc id="2146500727760" source="skip_3" target="p_5"/>
+      <arc id="2146500736144" source="p_6" target="6442dd53-f9f6-4070-8ac6-767aafa84419"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

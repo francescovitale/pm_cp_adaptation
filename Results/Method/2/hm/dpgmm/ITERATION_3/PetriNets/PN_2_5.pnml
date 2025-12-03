@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041724.4468687" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041724.4468687</text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Medication Reconciliation (procedure)">
+        <name>
+          <text>pre_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Medication Reconciliation (procedure)">
+        <name>
+          <text>intplace_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="510f0763-a0cd-4151-8a05-b5ca04c49cd7"/>
+      </transition>
+      <arc id="1959593687440" source="pre_Medication Reconciliation (procedure)" target="Medication Reconciliation (procedure)"/>
+      <arc id="1959593687056" source="hid_2" target="sink0"/>
+      <arc id="1959593686608" source="Medication Reconciliation (procedure)" target="intplace_Medication Reconciliation (procedure)"/>
+      <arc id="1959593687888" source="intplace_Medication Reconciliation (procedure)" target="hid_2"/>
+      <arc id="1959593687248" source="intplace_Medication Reconciliation (procedure)" target="Face mask (physical object)"/>
+      <arc id="1959593688080" source="Face mask (physical object)" target="sink0"/>
+      <arc id="1959593687568" source="Electrical cardioversion" target="pre_Medication Reconciliation (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

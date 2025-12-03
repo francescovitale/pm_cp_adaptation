@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Medication Reconciliation (procedure)">
+        <name>
+          <text>pre_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="44d0b9b6-d3f2-4054-a896-6b3dd24f2a8b"/>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5bd58ad4-7b47-45bc-ac03-d07febbc9bab"/>
+      </transition>
+      <arc id="1837235067792" source="Face mask (physical object)" target="sink0"/>
+      <arc id="1837234657616" source="pre_Medication Reconciliation (procedure)" target="Medication Reconciliation (procedure)"/>
+      <arc id="1837234656720" source="source0" target="hid_2"/>
+      <arc id="1837234651280" source="hid_2" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="1837233063440" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="1837235074960" source="Medication Reconciliation (procedure)" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="1837233061968" source="source0" target="hid_4"/>
+      <arc id="1837233077584" source="hid_4" target="pre_Face mask (physical object)"/>
+      <arc id="1837235066128" source="Medication Reconciliation (procedure)" target="pre_Face mask (physical object)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

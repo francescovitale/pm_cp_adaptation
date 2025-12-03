@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041927.062274" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041927.062274</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cafc83e1-4b27-4e41-955e-e64a4f949aaa"/>
+      </transition>
+      <transition id="4d338a91-4d0e-4a65-afa6-9b7a40bca085">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="e23b0958-74c0-4cef-aa1e-cd1dd528c614">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ed086f98-d5c7-471a-87d8-d3c75c52adb1"/>
+      </transition>
+      <arc id="2668268756304" source="source" target="tau_1"/>
+      <arc id="2668268756240" source="p_6" target="skip_4"/>
+      <arc id="2668268756816" source="skip_4" target="p_5"/>
+      <arc id="2668268755472" source="e23b0958-74c0-4cef-aa1e-cd1dd528c614" target="p_6"/>
+      <arc id="2668268755664" source="p_5" target="e23b0958-74c0-4cef-aa1e-cd1dd528c614"/>
+      <arc id="2668268755856" source="p_6" target="4d338a91-4d0e-4a65-afa6-9b7a40bca085"/>
+      <arc id="2668268757072" source="tau_1" target="p_5"/>
+      <arc id="2668268756560" source="4d338a91-4d0e-4a65-afa6-9b7a40bca085" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

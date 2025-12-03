@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="be760a50-a477-4095-9249-67d4ab866876"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="311ba93b-1c4b-4d8a-92d2-88e5868be9f0"/>
+      </transition>
+      <transition id="Intramuscular injection">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <arc id="2092795237648" source="■" target="sink"/>
+      <arc id="2092795238416" source="▶" target="2"/>
+      <arc id="2092795240848" source="Intramuscular injection" target="2"/>
+      <arc id="2092795238032" source="2" target="Intramuscular injection"/>
+      <arc id="2092795243728" source="source" target="▶"/>
+      <arc id="2092795243984" source="2" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

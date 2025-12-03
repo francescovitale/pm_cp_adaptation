@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021561.8183055" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021561.8183055</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="3e9257e6-7c8b-4d0b-9092-52d7fbe7422a">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="e5b1099f-085e-480d-97b2-07bac25333a9">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2822850628048" source="source" target="3e9257e6-7c8b-4d0b-9092-52d7fbe7422a"/>
+      <arc id="2822850626960" source="p_3" target="e5b1099f-085e-480d-97b2-07bac25333a9"/>
+      <arc id="2822850627984" source="3e9257e6-7c8b-4d0b-9092-52d7fbe7422a" target="p_3"/>
+      <arc id="2822850627792" source="e5b1099f-085e-480d-97b2-07bac25333a9" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

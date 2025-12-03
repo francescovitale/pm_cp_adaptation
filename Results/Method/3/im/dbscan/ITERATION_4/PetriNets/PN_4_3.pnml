@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760042236.4717104" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760042236.4717104</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b2caae1e-0242-4d47-a26c-f4b1313b247d"/>
+      </transition>
+      <transition id="a4b34855-26eb-45af-9ee4-1bb58b2c0cf2">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="13b0d1da-b747-4e4b-bbbc-e51d28212da3"/>
+      </transition>
+      <transition id="f133157b-e6f1-403f-84df-3447f4d712ee">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2194460099664" source="source" target="tau_1"/>
+      <arc id="2194460099920" source="p_5" target="a4b34855-26eb-45af-9ee4-1bb58b2c0cf2"/>
+      <arc id="2194460110672" source="a4b34855-26eb-45af-9ee4-1bb58b2c0cf2" target="p_6"/>
+      <arc id="2194461272592" source="p_6" target="skip_4"/>
+      <arc id="2194461447952" source="skip_4" target="p_5"/>
+      <arc id="2194461455504" source="p_6" target="f133157b-e6f1-403f-84df-3447f4d712ee"/>
+      <arc id="2194461268048" source="f133157b-e6f1-403f-84df-3447f4d712ee" target="sink"/>
+      <arc id="2194461448656" source="tau_1" target="p_5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

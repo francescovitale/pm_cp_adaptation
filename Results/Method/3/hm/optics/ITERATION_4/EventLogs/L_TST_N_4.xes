@@ -1,0 +1,3089 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="CaseID" value="2" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="2" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="2" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="2" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="CaseID" value="5" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="5" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="5" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="5" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<int key="CaseID" value="6" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="6" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="6" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="6" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17" />
+		<event>
+			<int key="CaseID" value="17" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="17" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="17" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="17" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="7" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14" />
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="14" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8" />
+		<event>
+			<int key="CaseID" value="8" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="8" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="8" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24" />
+		<event>
+			<int key="CaseID" value="24" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="24" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="24" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="98" />
+		<event>
+			<int key="CaseID" value="98" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="98" />
+			<string key="concept:name" value="Pulmonary rehabilitation (regime/therapy)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="98" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15" />
+		<event>
+			<int key="CaseID" value="15" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="15" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20" />
+		<event>
+			<int key="CaseID" value="20" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="20" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21" />
+		<event>
+			<int key="CaseID" value="21" />
+			<string key="concept:name" value="Spirometry (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="21" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="85" />
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:25+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:26+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:27+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:28+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="85" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:29+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="144" />
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:25+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:26+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:27+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:28+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="144" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:29+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="172" />
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:25+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:26+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:27+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:28+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="172" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:29+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="86" />
+		<event>
+			<int key="CaseID" value="86" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="86" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="106" />
+		<event>
+			<int key="CaseID" value="106" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="106" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="120" />
+		<event>
+			<int key="CaseID" value="120" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="120" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="138" />
+		<event>
+			<int key="CaseID" value="138" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="138" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="198" />
+		<event>
+			<int key="CaseID" value="198" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="198" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="201" />
+		<event>
+			<int key="CaseID" value="201" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="201" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="216" />
+		<event>
+			<int key="CaseID" value="216" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="216" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="217" />
+		<event>
+			<int key="CaseID" value="217" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="217" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="87" />
+		<event>
+			<int key="CaseID" value="87" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="89" />
+		<event>
+			<int key="CaseID" value="89" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="96" />
+		<event>
+			<int key="CaseID" value="96" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="101" />
+		<event>
+			<int key="CaseID" value="101" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="102" />
+		<event>
+			<int key="CaseID" value="102" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="104" />
+		<event>
+			<int key="CaseID" value="104" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="113" />
+		<event>
+			<int key="CaseID" value="113" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="115" />
+		<event>
+			<int key="CaseID" value="115" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="117" />
+		<event>
+			<int key="CaseID" value="117" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="121" />
+		<event>
+			<int key="CaseID" value="121" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="123" />
+		<event>
+			<int key="CaseID" value="123" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="125" />
+		<event>
+			<int key="CaseID" value="125" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="130" />
+		<event>
+			<int key="CaseID" value="130" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="135" />
+		<event>
+			<int key="CaseID" value="135" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="141" />
+		<event>
+			<int key="CaseID" value="141" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="146" />
+		<event>
+			<int key="CaseID" value="146" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="154" />
+		<event>
+			<int key="CaseID" value="154" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="161" />
+		<event>
+			<int key="CaseID" value="161" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="163" />
+		<event>
+			<int key="CaseID" value="163" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="165" />
+		<event>
+			<int key="CaseID" value="165" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="171" />
+		<event>
+			<int key="CaseID" value="171" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="173" />
+		<event>
+			<int key="CaseID" value="173" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="186" />
+		<event>
+			<int key="CaseID" value="186" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="187" />
+		<event>
+			<int key="CaseID" value="187" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="193" />
+		<event>
+			<int key="CaseID" value="193" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="203" />
+		<event>
+			<int key="CaseID" value="203" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="204" />
+		<event>
+			<int key="CaseID" value="204" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="209" />
+		<event>
+			<int key="CaseID" value="209" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="211" />
+		<event>
+			<int key="CaseID" value="211" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="213" />
+		<event>
+			<int key="CaseID" value="213" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="222" />
+		<event>
+			<int key="CaseID" value="222" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="226" />
+		<event>
+			<int key="CaseID" value="226" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="227" />
+		<event>
+			<int key="CaseID" value="227" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="238" />
+		<event>
+			<int key="CaseID" value="238" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="249" />
+		<event>
+			<int key="CaseID" value="249" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="250" />
+		<event>
+			<int key="CaseID" value="250" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="252" />
+		<event>
+			<int key="CaseID" value="252" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="254" />
+		<event>
+			<int key="CaseID" value="254" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="274" />
+		<event>
+			<int key="CaseID" value="274" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="298" />
+		<event>
+			<int key="CaseID" value="298" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="301" />
+		<event>
+			<int key="CaseID" value="301" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="308" />
+		<event>
+			<int key="CaseID" value="308" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="341" />
+		<event>
+			<int key="CaseID" value="341" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="344" />
+		<event>
+			<int key="CaseID" value="344" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="360" />
+		<event>
+			<int key="CaseID" value="360" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="91" />
+		<event>
+			<int key="CaseID" value="91" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="91" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="118" />
+		<event>
+			<int key="CaseID" value="118" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="118" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="131" />
+		<event>
+			<int key="CaseID" value="131" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="131" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="142" />
+		<event>
+			<int key="CaseID" value="142" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="142" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="151" />
+		<event>
+			<int key="CaseID" value="151" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="151" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="157" />
+		<event>
+			<int key="CaseID" value="157" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="157" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="180" />
+		<event>
+			<int key="CaseID" value="180" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="180" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="188" />
+		<event>
+			<int key="CaseID" value="188" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="188" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="215" />
+		<event>
+			<int key="CaseID" value="215" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="215" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="233" />
+		<event>
+			<int key="CaseID" value="233" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="233" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="246" />
+		<event>
+			<int key="CaseID" value="246" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="246" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="259" />
+		<event>
+			<int key="CaseID" value="259" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="259" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="272" />
+		<event>
+			<int key="CaseID" value="272" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="272" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="283" />
+		<event>
+			<int key="CaseID" value="283" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="283" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="348" />
+		<event>
+			<int key="CaseID" value="348" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="348" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="353" />
+		<event>
+			<int key="CaseID" value="353" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="353" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="357" />
+		<event>
+			<int key="CaseID" value="357" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="357" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="361" />
+		<event>
+			<int key="CaseID" value="361" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="361" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="92" />
+		<event>
+			<int key="CaseID" value="92" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="92" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="107" />
+		<event>
+			<int key="CaseID" value="107" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="107" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="124" />
+		<event>
+			<int key="CaseID" value="124" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="124" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="148" />
+		<event>
+			<int key="CaseID" value="148" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="148" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="155" />
+		<event>
+			<int key="CaseID" value="155" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="155" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="162" />
+		<event>
+			<int key="CaseID" value="162" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="162" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="177" />
+		<event>
+			<int key="CaseID" value="177" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="177" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="181" />
+		<event>
+			<int key="CaseID" value="181" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="181" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="195" />
+		<event>
+			<int key="CaseID" value="195" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="195" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="200" />
+		<event>
+			<int key="CaseID" value="200" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="200" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="206" />
+		<event>
+			<int key="CaseID" value="206" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="206" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="208" />
+		<event>
+			<int key="CaseID" value="208" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="208" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="218" />
+		<event>
+			<int key="CaseID" value="218" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="218" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="236" />
+		<event>
+			<int key="CaseID" value="236" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="236" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="241" />
+		<event>
+			<int key="CaseID" value="241" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="241" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="93" />
+		<event>
+			<int key="CaseID" value="93" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="93" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="93" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="99" />
+		<event>
+			<int key="CaseID" value="99" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="99" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="99" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="112" />
+		<event>
+			<int key="CaseID" value="112" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="112" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="112" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="137" />
+		<event>
+			<int key="CaseID" value="137" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="137" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="137" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="166" />
+		<event>
+			<int key="CaseID" value="166" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="166" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="166" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="170" />
+		<event>
+			<int key="CaseID" value="170" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="170" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="170" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="100" />
+		<event>
+			<int key="CaseID" value="100" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="100" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="100" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="129" />
+		<event>
+			<int key="CaseID" value="129" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="129" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="129" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="156" />
+		<event>
+			<int key="CaseID" value="156" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="156" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="156" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="158" />
+		<event>
+			<int key="CaseID" value="158" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="158" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="158" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="202" />
+		<event>
+			<int key="CaseID" value="202" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="202" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="202" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="109" />
+		<event>
+			<int key="CaseID" value="109" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="109" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="109" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="152" />
+		<event>
+			<int key="CaseID" value="152" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="152" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="152" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="164" />
+		<event>
+			<int key="CaseID" value="164" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="164" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="164" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="114" />
+		<event>
+			<int key="CaseID" value="114" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="114" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="114" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="199" />
+		<event>
+			<int key="CaseID" value="199" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="199" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="199" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="302" />
+		<event>
+			<int key="CaseID" value="302" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="302" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="302" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="349" />
+		<event>
+			<int key="CaseID" value="349" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="349" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="349" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="134" />
+		<event>
+			<int key="CaseID" value="134" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="134" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="134" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="134" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="134" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="134" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="149" />
+		<event>
+			<int key="CaseID" value="149" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="149" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="149" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="149" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="149" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="149" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="225" />
+		<event>
+			<int key="CaseID" value="225" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="225" />
+			<string key="concept:name" value="Throat culture (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="225" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="225" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="225" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="225" />
+			<string key="concept:name" value="Intramuscular injection" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="169" />
+		<event>
+			<int key="CaseID" value="169" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="169" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="221" />
+		<event>
+			<int key="CaseID" value="221" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="221" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="224" />
+		<event>
+			<int key="CaseID" value="224" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="224" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="228" />
+		<event>
+			<int key="CaseID" value="228" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="228" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="235" />
+		<event>
+			<int key="CaseID" value="235" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="235" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="322" />
+		<event>
+			<int key="CaseID" value="322" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="322" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="362" />
+		<event>
+			<int key="CaseID" value="362" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="362" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="243" />
+		<event>
+			<int key="CaseID" value="243" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="243" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="248" />
+		<event>
+			<int key="CaseID" value="248" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="248" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="265" />
+		<event>
+			<int key="CaseID" value="265" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="265" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="293" />
+		<event>
+			<int key="CaseID" value="293" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="293" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="294" />
+		<event>
+			<int key="CaseID" value="294" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="294" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="307" />
+		<event>
+			<int key="CaseID" value="307" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="307" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="315" />
+		<event>
+			<int key="CaseID" value="315" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="315" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="323" />
+		<event>
+			<int key="CaseID" value="323" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="323" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="326" />
+		<event>
+			<int key="CaseID" value="326" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="326" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="354" />
+		<event>
+			<int key="CaseID" value="354" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="354" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="247" />
+		<event>
+			<int key="CaseID" value="247" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="247" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="264" />
+		<event>
+			<int key="CaseID" value="264" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="264" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="319" />
+		<event>
+			<int key="CaseID" value="319" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="319" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="324" />
+		<event>
+			<int key="CaseID" value="324" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="324" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="356" />
+		<event>
+			<int key="CaseID" value="356" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="356" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="266" />
+		<event>
+			<int key="CaseID" value="266" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="266" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="266" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="266" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="269" />
+		<event>
+			<int key="CaseID" value="269" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="269" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="269" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="269" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="279" />
+		<event>
+			<int key="CaseID" value="279" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="279" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="279" />
+			<string key="concept:name" value="Measurement of respiratory function (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="279" />
+			<string key="concept:name" value="Medication Reconciliation (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="276" />
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="276" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="334" />
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="334" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="313" />
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:25+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:26+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:27+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="313" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:28+00:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="346" />
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Sputum examination (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:00+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Face mask (physical object)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:01+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Plain chest X-ray (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:02+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:03+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:04+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:05+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:06+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:07+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:08+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:09+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:10+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:11+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:12+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:13+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:14+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:15+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:16+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:17+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:18+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:19+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:20+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:21+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:22+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:23+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:24+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:25+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:26+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Oxygen administration by mask (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:27+00:00" />
+		</event>
+		<event>
+			<int key="CaseID" value="346" />
+			<string key="concept:name" value="Placing subject in prone position (procedure)" />
+			<date key="time:timestamp" value="1900-01-01T00:00:28+00:00" />
+		</event>
+	</trace>
+</log>

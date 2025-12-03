@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <transition id="Screening for occult blood in feces (procedure)">
+        <name>
+          <text>Screening for occult blood in feces (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Transthoracic three dimensional ultrasonography of heart (procedure)">
+        <name>
+          <text>Transthoracic three dimensional ultrasonography of heart (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Rectal polypectomy">
+        <name>
+          <text>Rectal polypectomy</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1e75080c-75ee-47f7-85ef-f3661ac46249"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="88e57750-5c65-4516-8f1d-d76aee0dead2"/>
+      </transition>
+      <arc id="2769244927504" source="Rectal polypectomy" target="10"/>
+      <arc id="2769244923536" source="Electrical cardioversion" target="9"/>
+      <arc id="2769244939920" source="Colonoscopy" target="11"/>
+      <arc id="2769244925776" source="9" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244915600" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="2769244921808" source="8" target="Hemodialysis (procedure)"/>
+      <arc id="2769244886544" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2769244847120" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2769244847632" source="Spirometry (procedure)" target="3"/>
+      <arc id="2769244887568" source="4" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244838416" source="5" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244887056" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2769244885520" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="2769244886032" source="Rectal polypectomy" target="4"/>
+      <arc id="2769244895248" source="Colonoscopy" target="6"/>
+      <arc id="2769244895760" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="2769244913872" source="6" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244924048" source="Hemodialysis (procedure)" target="9"/>
+      <arc id="2769244916112" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="7"/>
+      <arc id="2769244922320" source="8" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244928528" source="10" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244916624" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2769244896272" source="Screening for occult blood in feces (procedure)" target="6"/>
+      <arc id="2769244914896" source="Face mask (physical object)" target="7"/>
+      <arc id="2769244927312" source="Hemodialysis (procedure)" target="10"/>
+      <arc id="2769244917136" source="7" target="Rectal polypectomy"/>
+      <arc id="2769244939728" source="Medication Reconciliation (procedure)" target="11"/>
+      <arc id="2769244896784" source="6" target="Hemodialysis (procedure)"/>
+      <arc id="2769244940240" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="11"/>
+      <arc id="2769244844112" source="2" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244880976" source="3" target="Face mask (physical object)"/>
+      <arc id="2769244881488" source="3" target="Rectal polypectomy"/>
+      <arc id="2769244890704" source="Face mask (physical object)" target="5"/>
+      <arc id="2769244843600" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244290640" source="source" target="▶"/>
+      <arc id="2769244842576" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="2769244891216" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2769244891728" source="5" target="Colonoscopy"/>
+      <arc id="2769244843088" source="▶" target="2"/>
+      <arc id="2769244924368" source="Rectal polypectomy" target="9"/>
+      <arc id="2769244940752" source="11" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244920400" source="Electrical cardioversion" target="8"/>
+      <arc id="2769244924880" source="9" target="Colonoscopy"/>
+      <arc id="2769244920912" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="2769244927120" source="Colonoscopy" target="10"/>
+      <arc id="2769244925392" source="9" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244915216" source="Hemodialysis (procedure)" target="7"/>
+      <arc id="2769244921424" source="8" target="Colonoscopy"/>
+      <arc id="2769244927632" source="Screening for occult blood in feces (procedure)" target="10"/>
+      <arc id="2769244886672" source="4" target="Electrical cardioversion"/>
+      <arc id="2769244846736" source="Colonoscopy" target="3"/>
+      <arc id="2769244847248" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+      <arc id="2769244887184" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2769244887696" source="4" target="■"/>
+      <arc id="2769244847760" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="3"/>
+      <arc id="2769244885136" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="4"/>
+      <arc id="2769244885648" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2769244886160" source="Screening for occult blood in feces (procedure)" target="4"/>
+      <arc id="2769244895376" source="Electrical cardioversion" target="6"/>
+      <arc id="2769244915728" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="2769244914000" source="6" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244921936" source="8" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244920208" source="Colonoscopy" target="8"/>
+      <arc id="2769244928144" source="10" target="Electrical cardioversion"/>
+      <arc id="2769244916240" source="7" target="Colonoscopy"/>
+      <arc id="2769244922448" source="8" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244895888" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="2769244928656" source="10" target="Rectal polypectomy"/>
+      <arc id="2769244916752" source="7" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244896400" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="6"/>
+      <arc id="2769244915024" source="Electrical cardioversion" target="7"/>
+      <arc id="2769244917264" source="7" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244896912" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2769244881104" source="3" target="Hemodialysis (procedure)"/>
+      <arc id="2769244881616" source="3" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244890832" source="Hemodialysis (procedure)" target="5"/>
+      <arc id="2769244843728" source="2" target="Rectal polypectomy"/>
+      <arc id="2769244843216" source="2" target="Colonoscopy"/>
+      <arc id="2769244842192" source="Colonoscopy" target="2"/>
+      <arc id="2769244891344" source="Rectal polypectomy" target="5"/>
+      <arc id="2769244842704" source="Rectal polypectomy" target="2"/>
+      <arc id="2769244891856" source="5" target="Electrical cardioversion"/>
+      <arc id="2769244838608" source="5" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244940368" source="11" target="Colonoscopy"/>
+      <arc id="2769244924496" source="Screening for occult blood in feces (procedure)" target="9"/>
+      <arc id="2769244940880" source="11" target="Rectal polypectomy"/>
+      <arc id="2769244920528" source="Face mask (physical object)" target="8"/>
+      <arc id="2769244892240" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2769244925008" source="9" target="Electrical cardioversion"/>
+      <arc id="2769244925264" source="9" target="Hemodialysis (procedure)"/>
+      <arc id="2769244921040" source="Rectal polypectomy" target="8"/>
+      <arc id="2769244927248" source="Medication Reconciliation (procedure)" target="10"/>
+      <arc id="2769244925520" source="9" target="Rectal polypectomy"/>
+      <arc id="2769244915344" source="Insertion of endotracheal tube (procedure)" target="7"/>
+      <arc id="2769244921552" source="8" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2769244927760" source="Spirometry (procedure)" target="10"/>
+      <arc id="2769244923792" source="Colonoscopy" target="9"/>
+      <arc id="2769244886800" source="4" target="Hemodialysis (procedure)"/>
+      <arc id="2769244290320" source="■" target="sink"/>
+      <arc id="2769244846864" source="Electrical cardioversion" target="3"/>
+      <arc id="2769244847376" source="Rectal polypectomy" target="3"/>
+      <arc id="2769244887312" source="4" target="Rectal polypectomy"/>
+      <arc id="2769244847888" source="3" target="Colonoscopy"/>
+      <arc id="2769244885264" source="Electrical cardioversion" target="4"/>
+      <arc id="2769244885776" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2769244886288" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="4"/>
+      <arc id="2769244892432" source="5" target="■"/>
+      <arc id="2769244895504" source="Face mask (physical object)" target="6"/>
+      <arc id="2769244915856" source="Rectal polypectomy" target="7"/>
+      <arc id="2769244922064" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2769244928272" source="10" target="Face mask (physical object)"/>
+      <arc id="2769244916368" source="7" target="Electrical cardioversion"/>
+      <arc id="2769244922576" source="8" target="■"/>
+      <arc id="2769244896016" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2769244928784" source="10" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244916880" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2769244896528" source="6" target="Colonoscopy"/>
+      <arc id="2769244917392" source="7" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244939984" source="Rectal polypectomy" target="11"/>
+      <arc id="2769244897040" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244884816" source="Colonoscopy" target="4"/>
+      <arc id="2769244881232" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244881744" source="3" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244890448" source="Colonoscopy" target="5"/>
+      <arc id="2769244890960" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="2769244843856" source="2" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244842320" source="Electrical cardioversion" target="2"/>
+      <arc id="2769244891472" source="Screening for occult blood in feces (procedure)" target="5"/>
+      <arc id="2769244842832" source="Screening for occult blood in feces (procedure)" target="2"/>
+      <arc id="2769244891984" source="5" target="Hemodialysis (procedure)"/>
+      <arc id="2769244940496" source="11" target="Electrical cardioversion"/>
+      <arc id="2769244920144" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="8"/>
+      <arc id="2769244928016" source="10" target="Colonoscopy"/>
+      <arc id="2769244924624" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="9"/>
+      <arc id="2769244941008" source="11" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244920656" source="Hemodialysis (procedure)" target="8"/>
+      <arc id="2769244926864" source="Electrical cardioversion" target="10"/>
+      <arc id="2769244892368" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2769244925136" source="9" target="Face mask (physical object)"/>
+      <arc id="2769244921168" source="Screening for occult blood in feces (procedure)" target="8"/>
+      <arc id="2769244925648" source="9" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244915472" source="Medication Reconciliation (procedure)" target="7"/>
+      <arc id="2769244921680" source="8" target="Electrical cardioversion"/>
+      <arc id="2769244927888" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="10"/>
+      <arc id="2769244886928" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244846992" source="Hemodialysis (procedure)" target="3"/>
+      <arc id="2769244847504" source="Screening for occult blood in feces (procedure)" target="3"/>
+      <arc id="2769244887440" source="4" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2769244838800" source="5" target="Rectal polypectomy"/>
+      <arc id="2769244848016" source="3" target="Electrical cardioversion"/>
+      <arc id="2769244885392" source="Face mask (physical object)" target="4"/>
+      <arc id="2769244885904" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2769244886416" source="4" target="Colonoscopy"/>
+      <arc id="2769244895632" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="2769244913744" source="6" target="Rectal polypectomy"/>
+      <arc id="2769244915984" source="Screening for occult blood in feces (procedure)" target="7"/>
+      <arc id="2769244922192" source="8" target="Rectal polypectomy"/>
+      <arc id="2769244928400" source="10" target="Hemodialysis (procedure)"/>
+      <arc id="2769244916496" source="7" target="Hemodialysis (procedure)"/>
+      <arc id="2769244939088" source="Hemodialysis (procedure)" target="11"/>
+      <arc id="2769244896144" source="Rectal polypectomy" target="6"/>
+      <arc id="2769244928912" source="10" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244914768" source="Colonoscopy" target="7"/>
+      <arc id="2769244917008" source="7" target="Plain chest X-ray (procedure)"/>
+      <arc id="2769244939600" source="Electrical cardioversion" target="11"/>
+      <arc id="2769244896656" source="6" target="Electrical cardioversion"/>
+      <arc id="2769244917520" source="7" target="■"/>
+      <arc id="2769244940112" source="Screening for occult blood in feces (procedure)" target="11"/>
+      <arc id="2769244897168" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2769244881360" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2769244890576" source="Electrical cardioversion" target="5"/>
+      <arc id="2769244891088" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2769244843984" source="2" target="Spirometry (procedure)"/>
+      <arc id="2769244842448" source="Hemodialysis (procedure)" target="2"/>
+      <arc id="2769244891600" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="5"/>
+      <arc id="2769244842960" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="2"/>
+      <arc id="2769244892112" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="2769244843472" source="2" target="Hemodialysis (procedure)"/>
+      <arc id="2769244914128" source="6" target="■"/>
+      <arc id="2769244924240" source="Medication Reconciliation (procedure)" target="9"/>
+      <arc id="2769244940624" source="11" target="Hemodialysis (procedure)"/>
+      <arc id="2769244924752" source="▶" target="9"/>
+      <arc id="2769244941136" source="11" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2769244920784" source="Medication Reconciliation (procedure)" target="8"/>
+      <arc id="2769244843344" source="2" target="Electrical cardioversion"/>
+      <arc id="2769244921296" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="8"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

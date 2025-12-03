@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041830.4999568" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041830.4999568</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Intramuscular injection">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="787c4d2d-dd5c-41d4-9aa2-28bb8d6e84d3"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="54ef3a8b-8925-4d67-8e59-a3742fd3c257"/>
+      </transition>
+      <arc id="2556628745744" source="2" target="Intramuscular injection"/>
+      <arc id="2556628745872" source="2" target="Colonoscopy"/>
+      <arc id="2556628796176" source="Colonoscopy" target="5"/>
+      <arc id="2556628744208" source="4" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2556628744848" source="4" target="Colonoscopy"/>
+      <arc id="2556628744976" source="Colonoscopy" target="4"/>
+      <arc id="2556628745104" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2556628795536" source="2" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2556628795664" source="Face mask (physical object)" target="5"/>
+      <arc id="2556628796432" source="3" target="Colonoscopy"/>
+      <arc id="2556628796112" source="Intramuscular injection" target="2"/>
+      <arc id="2556628796368" source="Measurement of respiratory function (procedure)" target="3"/>
+      <arc id="2556628798608" source="■" target="sink"/>
+      <arc id="2556628796624" source="Measurement of respiratory function (procedure)" target="4"/>
+      <arc id="2556628798736" source="3" target="Face mask (physical object)"/>
+      <arc id="2556628796880" source="Intramuscular injection" target="5"/>
+      <arc id="2556628797008" source="Measurement of respiratory function (procedure)" target="5"/>
+      <arc id="2556628797136" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="2556628797264" source="2" target="Throat culture (procedure)"/>
+      <arc id="2556628797392" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="2556628746064" source="Colonoscopy" target="3"/>
+      <arc id="2556628744400" source="3" target="Intramuscular injection"/>
+      <arc id="2556628744528" source="3" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2556628744016" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="2556628745296" source="5" target="Colonoscopy"/>
+      <arc id="2556628745424" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2556628745552" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2556628795728" source="Throat culture (procedure)" target="3"/>
+      <arc id="2556628795856" source="Measurement of respiratory function (procedure)" target="2"/>
+      <arc id="2556628745680" source="Colonoscopy" target="2"/>
+      <arc id="2556628797520" source="4" target="Intramuscular injection"/>
+      <arc id="2556628797648" source="Intramuscular injection" target="4"/>
+      <arc id="2556628797776" source="5" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2556628797904" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="2556628798032" source="5" target="■"/>
+      <arc id="2556628798160" source="Intramuscular injection" target="3"/>
+      <arc id="2556628798288" source="▶" target="2"/>
+      <arc id="2556628798544" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="2556628796688" source="source" target="▶"/>
+      <arc id="2556628796816" source="5" target="Intramuscular injection"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

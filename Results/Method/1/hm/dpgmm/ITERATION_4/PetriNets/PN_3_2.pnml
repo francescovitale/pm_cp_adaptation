@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021338.391359" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021338.391359</text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Throat culture (procedure)">
+        <name>
+          <text>pre_Throat culture (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Oxygen administration by mask (procedure)">
+        <name>
+          <text>pre_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="pre_Placing subject in prone position (procedure)">
+        <name>
+          <text>pre_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Placing subject in prone position (procedure)">
+        <name>
+          <text>intplace_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Face mask (physical object)">
+        <name>
+          <text>intplace_Face mask (physical object)</text>
+        </name>
+      </place>
+      <transition id="hid_9">
+        <name>
+          <text>hid_9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8a2de2bb-58e9-4bde-992e-a5296b274a8c"/>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="44404f07-080b-475f-91f1-e96fe5de12e4"/>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9dfab50f-b629-4607-a6b6-3d25d345ae03"/>
+      </transition>
+      <transition id="hid_10">
+        <name>
+          <text>hid_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="86086ef6-565e-47ed-834b-5db4054587f8"/>
+      </transition>
+      <arc id="1708378965520" source="Oxygen administration by mask (procedure)" target="pre_Placing subject in prone position (procedure)"/>
+      <arc id="1708378965904" source="intplace_Placing subject in prone position (procedure)" target="hid_10"/>
+      <arc id="1708378964624" source="Medication Reconciliation (procedure)" target="pre_Face mask (physical object)"/>
+      <arc id="1708378965264" source="source0" target="hid_2"/>
+      <arc id="1708378965648" source="hid_8" target="sink0"/>
+      <arc id="1708378964752" source="Medication Reconciliation (procedure)" target="pre_Throat culture (procedure)"/>
+      <arc id="1708378896912" source="Placing subject in prone position (procedure)" target="intplace_Placing subject in prone position (procedure)"/>
+      <arc id="1708378897936" source="source0" target="Medication Reconciliation (procedure)"/>
+      <arc id="1708378898320" source="Throat culture (procedure)" target="sink0"/>
+      <arc id="1708378898192" source="Face mask (physical object)" target="intplace_Face mask (physical object)"/>
+      <arc id="1708378964112" source="hid_10" target="sink0"/>
+      <arc id="1708378965136" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="1708378964560" source="Plain chest X-ray (procedure)" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="1708378965584" source="pre_Placing subject in prone position (procedure)" target="Placing subject in prone position (procedure)"/>
+      <arc id="1708378965200" source="pre_Throat culture (procedure)" target="Throat culture (procedure)"/>
+      <arc id="1708378964944" source="hid_9" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="1708378897744" source="hid_2" target="pre_Throat culture (procedure)"/>
+      <arc id="1708378897104" source="pre_Oxygen administration by mask (procedure)" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1708378897872" source="intplace_Face mask (physical object)" target="Plain chest X-ray (procedure)"/>
+      <arc id="1708378964176" source="intplace_Face mask (physical object)" target="hid_8"/>
+      <arc id="1708378964432" source="intplace_Placing subject in prone position (procedure)" target="hid_9"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

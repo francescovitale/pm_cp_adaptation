@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021359.697167" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021359.697167</text>
+    </name>
+    <page id="n0">
+      <place id="intplace_Face mask (physical object)">
+        <name>
+          <text>intplace_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="intplace_Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>intplace_Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>pre_Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </place>
+      <place id="intplace_Placing subject in prone position (procedure)">
+        <name>
+          <text>intplace_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="pre_Auscultation of the fetal heart">
+        <name>
+          <text>pre_Auscultation of the fetal heart</text>
+        </name>
+      </place>
+      <place id="intplace_Oxygen administration by mask (procedure)">
+        <name>
+          <text>intplace_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Medication Reconciliation (procedure)">
+        <name>
+          <text>intplace_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>pre_Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Oxygen administration by mask (procedure)">
+        <name>
+          <text>pre_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Plain chest X-ray (procedure)">
+        <name>
+          <text>intplace_Plain chest X-ray (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Hemodialysis (procedure)">
+        <name>
+          <text>intplace_Hemodialysis (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Plain chest X-ray (procedure)">
+        <name>
+          <text>pre_Plain chest X-ray (procedure)</text>
+        </name>
+      </place>
+      <transition id="hid_17">
+        <name>
+          <text>hid_17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f9afd552-1772-4cb3-9ca6-ee242f283d62"/>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e8cd9c55-7e7d-4120-afe7-e2b33c643ce6"/>
+      </transition>
+      <transition id="hid_18">
+        <name>
+          <text>hid_18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="90bb3263-c14f-46fb-8ece-2aee4e8af06c"/>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="32771ffb-3209-46b7-8a52-3322a37c139f"/>
+      </transition>
+      <transition id="hid_28">
+        <name>
+          <text>hid_28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f422d786-dee5-47a8-aafc-64420c5a46a8"/>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Microbial culture (procedure)">
+        <name>
+          <text>Microbial culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_26">
+        <name>
+          <text>hid_26</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2ec2d00f-9738-450e-a741-9ff09b88634d"/>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_30">
+        <name>
+          <text>hid_30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="47073631-281f-496e-8777-d4708dfe87e0"/>
+      </transition>
+      <transition id="hid_19">
+        <name>
+          <text>hid_19</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="883a3f73-5d56-47f4-9303-de05af7ecd6d"/>
+      </transition>
+      <transition id="hid_20">
+        <name>
+          <text>hid_20</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5fbede41-b5c6-45e6-bed3-b758cfc72e36"/>
+      </transition>
+      <transition id="hid_29">
+        <name>
+          <text>hid_29</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="79fab328-52d0-4e95-90fd-d0bd6e1b66d9"/>
+      </transition>
+      <transition id="hid_31">
+        <name>
+          <text>hid_31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="241e1d72-af4b-4ebd-8a57-775a1db8d02f"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1d68802d-2663-4063-b5cb-32b9af2f89aa"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="97420835-240a-43a0-ad65-4fe9c4ee442e"/>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="hid_22">
+        <name>
+          <text>hid_22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ceadf348-be39-45a0-9506-dcdd75ef41de"/>
+      </transition>
+      <transition id="Evaluation of uterine fundal height">
+        <name>
+          <text>Evaluation of uterine fundal height</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Auscultation of the fetal heart">
+        <name>
+          <text>Auscultation of the fetal heart</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_12">
+        <name>
+          <text>hid_12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a72f3b89-f5fb-48fb-a1fe-cc9829b4b124"/>
+      </transition>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="90f8920c-2cca-4403-9329-a6efbd76f8a8"/>
+      </transition>
+      <arc id="2481443276880" source="Evaluation of uterine fundal height" target="pre_Auscultation of the fetal heart"/>
+      <arc id="2481443241552" source="hid_18" target="sink0"/>
+      <arc id="2481443278416" source="intplace_Hemodialysis (procedure)" target="hid_31"/>
+      <arc id="2481443276432" source="intplace_Pulmonary rehabilitation (regime/therapy)" target="hid_12"/>
+      <arc id="2481443241808" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443240208" source="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443238928" source="hid_14" target="sink0"/>
+      <arc id="2481443239312" source="hid_26" target="sink0"/>
+      <arc id="2481443239696" source="source0" target="hid_3"/>
+      <arc id="2481443239440" source="hid_15" target="pre_Face mask (physical object)"/>
+      <arc id="2481443240080" source="hid_31" target="sink0"/>
+      <arc id="2481443239056" source="intplace_Plain chest X-ray (procedure)" target="hid_19"/>
+      <arc id="2481443240720" source="hid_30" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443241616" source="hid_16" target="sink0"/>
+      <arc id="2481443240976" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="Microbial culture (procedure)"/>
+      <arc id="2481443275088" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="2481443277328" source="Spirometry (procedure)" target="pre_Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2481443277456" source="intplace_Pulmonary rehabilitation (regime/therapy)" target="Medication Reconciliation (procedure)"/>
+      <arc id="2481443277712" source="intplace_Placing subject in prone position (procedure)" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2481443275728" source="intplace_Hemodialysis (procedure)" target="hid_30"/>
+      <arc id="2481443275856" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="hid_26"/>
+      <arc id="2481443277968" source="Face mask (physical object)" target="intplace_Face mask (physical object)"/>
+      <arc id="2481443278096" source="pre_Oxygen administration by mask (procedure)" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2481443276240" source="source0" target="Spirometry (procedure)"/>
+      <arc id="2481443278352" source="intplace_Oxygen administration by mask (procedure)" target="Placing subject in prone position (procedure)"/>
+      <arc id="2481443276368" source="pre_Pulmonary rehabilitation (regime/therapy)" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2481443276496" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="hid_23"/>
+      <arc id="2481443241744" source="intplace_Placing subject in prone position (procedure)" target="hid_29"/>
+      <arc id="2481443276752" source="intplace_Placing subject in prone position (procedure)" target="hid_28"/>
+      <arc id="2481443239632" source="intplace_Pulmonary rehabilitation (regime/therapy)" target="hid_14"/>
+      <arc id="2481443240784" source="hid_23" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443241040" source="hid_12" target="pre_Face mask (physical object)"/>
+      <arc id="2481443239888" source="intplace_Face mask (physical object)" target="hid_17"/>
+      <arc id="2481437950160" source="Oxygen administration by mask (procedure)" target="intplace_Oxygen administration by mask (procedure)"/>
+      <arc id="2481443238736" source="Microbial culture (procedure)" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443238864" source="intplace_Medication Reconciliation (procedure)" target="hid_15"/>
+      <arc id="2481443239248" source="Medication Reconciliation (procedure)" target="intplace_Medication Reconciliation (procedure)"/>
+      <arc id="2481443239504" source="hid_28" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="2481443239120" source="hid_17" target="pre_Plain chest X-ray (procedure)"/>
+      <arc id="2481443240016" source="hid_3" target="pre_Face mask (physical object)"/>
+      <arc id="2481443274896" source="hid_29" target="sink0"/>
+      <arc id="2481443275024" source="pre_Auscultation of the fetal heart" target="Auscultation of the fetal heart"/>
+      <arc id="2481443277008" source="intplace_Oxygen administration by mask (procedure)" target="hid_22"/>
+      <arc id="2481443277136" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="Hemodialysis (procedure)"/>
+      <arc id="2481443240400" source="Placing subject in prone position (procedure)" target="intplace_Placing subject in prone position (procedure)"/>
+      <arc id="2481443277264" source="Hemodialysis (procedure)" target="intplace_Hemodialysis (procedure)"/>
+      <arc id="2481443275280" source="Insertion of endotracheal tube (procedure)" target="pre_Plain chest X-ray (procedure)"/>
+      <arc id="2481443275408" source="hid_22" target="sink0"/>
+      <arc id="2481443240656" source="hid_19" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2481443275664" source="intplace_Medication Reconciliation (procedure)" target="hid_16"/>
+      <arc id="2481443240912" source="intplace_Face mask (physical object)" target="hid_18"/>
+      <arc id="2481443277776" source="intplace_Plain chest X-ray (procedure)" target="hid_20"/>
+      <arc id="2481443277904" source="Plain chest X-ray (procedure)" target="intplace_Plain chest X-ray (procedure)"/>
+      <arc id="2481443275920" source="hid_20" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="2481443276048" source="pre_Plain chest X-ray (procedure)" target="Plain chest X-ray (procedure)"/>
+      <arc id="2481443241424" source="Pulmonary rehabilitation (regime/therapy)" target="intplace_Pulmonary rehabilitation (regime/therapy)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

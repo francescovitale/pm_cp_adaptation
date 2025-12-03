@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_Medication Reconciliation (procedure)">
+        <name>
+          <text>pre_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Measurement of respiratory function (procedure)">
+        <name>
+          <text>pre_Measurement of respiratory function (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Medication Reconciliation (procedure)">
+        <name>
+          <text>intplace_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fe187b8d-c3ba-4afc-9430-d6c8c37eae31"/>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c8cf1eeb-67af-4e51-89e2-ad12d7108b43"/>
+      </transition>
+      <arc id="3044049067856" source="hid_4" target="sink0"/>
+      <arc id="3044048295248" source="pre_Medication Reconciliation (procedure)" target="Medication Reconciliation (procedure)"/>
+      <arc id="3044048531024" source="Measurement of respiratory function (procedure)" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="3044049127312" source="hid_2" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="3044049133392" source="source0" target="hid_2"/>
+      <arc id="3044049126032" source="pre_Measurement of respiratory function (procedure)" target="Measurement of respiratory function (procedure)"/>
+      <arc id="3044049129040" source="Medication Reconciliation (procedure)" target="intplace_Medication Reconciliation (procedure)"/>
+      <arc id="3044048531536" source="intplace_Medication Reconciliation (procedure)" target="Face mask (physical object)"/>
+      <arc id="3044049075344" source="intplace_Medication Reconciliation (procedure)" target="hid_4"/>
+      <arc id="3044048291216" source="Face mask (physical object)" target="pre_Measurement of respiratory function (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

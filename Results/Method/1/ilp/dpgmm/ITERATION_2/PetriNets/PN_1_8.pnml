@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021417.9878056" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021417.9878056</text>
+    </name>
+    <page id="n0">
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0a9ab90e-cfec-4a19-9de9-eee328de4df2"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="07c96e89-6c35-40df-83b5-2dbc3ac56035"/>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Microbial culture (procedure)">
+        <name>
+          <text>Microbial culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <arc id="1517229975056" source="5" target="Face mask (physical object)"/>
+      <arc id="1517229975184" source="2" target="Face mask (physical object)"/>
+      <arc id="1517229977296" source="9" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1517229975440" source="Colonoscopy" target="5"/>
+      <arc id="1517229977552" source="9" target="Microbial culture (procedure)"/>
+      <arc id="1517229974160" source="10" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1517229972112" source="11" target="■"/>
+      <arc id="1517229971728" source="Face mask (physical object)" target="8"/>
+      <arc id="1517229972368" source="Microbial culture (procedure)" target="10"/>
+      <arc id="1517229972752" source="5" target="Colonoscopy"/>
+      <arc id="1517229972496" source="6" target="Plain chest X-ray (procedure)"/>
+      <arc id="1517229972880" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1517229973904" source="Insertion of endotracheal tube (procedure)" target="10"/>
+      <arc id="1517229974288" source="5" target="Spirometry (procedure)"/>
+      <arc id="1517229974800" source="Insertion of endotracheal tube (procedure)" target="11"/>
+      <arc id="1517229975824" source="source" target="▶"/>
+      <arc id="1517229973840" source="Hemodialysis (procedure)" target="9"/>
+      <arc id="1517229977680" source="9" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1517229975952" source="2" target="Spirometry (procedure)"/>
+      <arc id="1517229977808" source="9" target="■"/>
+      <arc id="1517229974352" source="Microbial culture (procedure)" target="9"/>
+      <arc id="1517229974480" source="Hemodialysis (procedure)" target="10"/>
+      <arc id="1517229974608" source="11" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1517229974736" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="1517229977104" source="10" target="Microbial culture (procedure)"/>
+      <arc id="1517229975248" source="■" target="sink"/>
+      <arc id="1517229977360" source="10" target="■"/>
+      <arc id="1517229977488" source="9" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1517229973072" source="Face mask (physical object)" target="6"/>
+      <arc id="1517229974096" source="Placing subject in prone position (procedure)" target="9"/>
+      <arc id="1517229973200" source="Hemodialysis (procedure)" target="7"/>
+      <arc id="1517229973328" source="7" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1517229973456" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1517229971536" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="1517229972304" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="1517229972688" source="Spirometry (procedure)" target="3"/>
+      <arc id="1517229972944" source="▶" target="5"/>
+      <arc id="1517229973584" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="1517229975760" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1517229976016" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1517229975568" source="▶" target="2"/>
+      <arc id="1517229978128" source="Hemodialysis (procedure)" target="11"/>
+      <arc id="1517229976144" source="Pulmonary rehabilitation (regime/therapy)" target="4"/>
+      <arc id="1517229976272" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="1517229976400" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1517229976528" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1517229976656" source="Plain chest X-ray (procedure)" target="9"/>
+      <arc id="1517229976784" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1517229977040" source="7" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

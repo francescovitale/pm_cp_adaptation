@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021425.654204" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021425.654204</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Intramuscular injection">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="13dc75c7-eba2-4733-a653-9babc853ee59"/>
+      </transition>
+      <arc id="2877554035024" source="■" target="sink"/>
+      <arc id="2877554034960" source="source" target="Throat culture (procedure)"/>
+      <arc id="2877554035280" source="Intramuscular injection" target="4"/>
+      <arc id="2877554034768" source="Throat culture (procedure)" target="3"/>
+      <arc id="2877554035152" source="3" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2877554035344" source="Measurement of respiratory function (procedure)" target="4"/>
+      <arc id="2877554035472" source="4" target="Intramuscular injection"/>
+      <arc id="2877554035600" source="4" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021379.0706625" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021379.0706625</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="afa3ba3b-bbaf-4a76-b240-e0ef1a4560a8"/>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Transthoracic three dimensional ultrasonography of heart (procedure)">
+        <name>
+          <text>Transthoracic three dimensional ultrasonography of heart (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="21a2fbd9-bbad-4c57-a1ec-20d9331019e4"/>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <arc id="1427068743248" source="Pulmonary rehabilitation (regime/therapy)" target="6"/>
+      <arc id="1427068743376" source="4" target="Spirometry (procedure)"/>
+      <arc id="1427068739408" source="7" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1427068743504" source="Spirometry (procedure)" target="7"/>
+      <arc id="1427068739536" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068738448" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="1427068737040" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="1427068738320" source="source" target="▶"/>
+      <arc id="1427068738704" source="■" target="sink"/>
+      <arc id="1427068738832" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="1427068739664" source="Pulmonary rehabilitation (regime/therapy)" target="7"/>
+      <arc id="1427068743632" source="Medication Reconciliation (procedure)" target="7"/>
+      <arc id="1427068739792" source="Pulmonary rehabilitation (regime/therapy)" target="2"/>
+      <arc id="1427068743760" source="6" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068743888" source="7" target="Spirometry (procedure)"/>
+      <arc id="1427068739920" source="2" target="Spirometry (procedure)"/>
+      <arc id="1427068744016" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="1427068740048" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="1427068744144" source="3" target="Spirometry (procedure)"/>
+      <arc id="1427068740176" source="Spirometry (procedure)" target="2"/>
+      <arc id="1427068742992" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068744272" source="Pulmonary rehabilitation (regime/therapy)" target="4"/>
+      <arc id="1427068740304" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="1427068744400" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068740432" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1427068744528" source="7" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068740560" source="Face mask (physical object)" target="3"/>
+      <arc id="1427068744656" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068740688" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1427068744784" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="1427068740816" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="4"/>
+      <arc id="1427068744912" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1427068740944" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068745040" source="3" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1427068741072" source="2" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1427068745168" source="4" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1427068741200" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="1427068745296" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+      <arc id="1427068741328" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="1427068745424" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068745680" source="Spirometry (procedure)" target="5"/>
+      <arc id="1427068741456" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="6"/>
+      <arc id="1427068745552" source="Pulmonary rehabilitation (regime/therapy)" target="5"/>
+      <arc id="1427068741584" source="2" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068739152" source="7" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068738256" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068739280" source="Spirometry (procedure)" target="3"/>
+      <arc id="1427068739024" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="5"/>
+      <arc id="1427068737488" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="3"/>
+      <arc id="1427068736848" source="Face mask (physical object)" target="5"/>
+      <arc id="1427068737360" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="1427068737232" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1427068737616" source="5" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1427068737744" source="5" target="Spirometry (procedure)"/>
+      <arc id="1427068741712" source="6" target="Spirometry (procedure)"/>
+      <arc id="1427068737872" source="Spirometry (procedure)" target="4"/>
+      <arc id="1427068741840" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="7"/>
+      <arc id="1427068741968" source="5" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068745808" source="6" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1427068738000" source="2" target="Face mask (physical object)"/>
+      <arc id="1427068742096" source="▶" target="2"/>
+      <arc id="1427068742224" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="2"/>
+      <arc id="1427068742352" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="1427068742480" source="4" target="■"/>
+      <arc id="1427068742608" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068738640" source="4" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068742736" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068742864" source="Spirometry (procedure)" target="6"/>
+      <arc id="1427068738896" source="6" target="■"/>
+      <arc id="1427068743120" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041799.3792624" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041799.3792624</text>
+    </name>
+    <page id="n0">
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="14">
+        <name>
+          <text>14</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="12">
+        <name>
+          <text>12</text>
+        </name>
+      </place>
+      <place id="13">
+        <name>
+          <text>13</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Mammography (procedure)">
+        <name>
+          <text>Mammography (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Transthoracic three dimensional ultrasonography of heart (procedure)">
+        <name>
+          <text>Transthoracic three dimensional ultrasonography of heart (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="31d71ee8-56ef-4aa1-91f6-acbb9148a4c2"/>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f8ceb630-05a6-4705-9104-78129031e1dd"/>
+      </transition>
+      <transition id="Bone density scan (procedure)">
+        <name>
+          <text>Bone density scan (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2522185551440" source="4" target="Throat culture (procedure)"/>
+      <arc id="2522185584208" source="8" target="Electrical cardioversion"/>
+      <arc id="2522185590736" source="12" target="Electrical cardioversion"/>
+      <arc id="2522185563856" source="9" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185586448" source="5" target="Hemodialysis (procedure)"/>
+      <arc id="2522185582480" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="2"/>
+      <arc id="2522185588688" source="10" target="Medication Reconciliation (procedure)"/>
+      <arc id="2522185528848" source="11" target="Bone density scan (procedure)"/>
+      <arc id="2522185527312" source="11" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185525776" source="5" target="Bone density scan (procedure)"/>
+      <arc id="2522185526288" source="Mammography (procedure)" target="4"/>
+      <arc id="2522185527824" source="10" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185529872" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185550352" source="Pulmonary rehabilitation (regime/therapy)" target="10"/>
+      <arc id="2522185549840" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="10"/>
+      <arc id="2522185530384" source="Electrical cardioversion" target="6"/>
+      <arc id="2522185550864" source="Electrical cardioversion" target="8"/>
+      <arc id="2522185551952" source="4" target="Bone density scan (procedure)"/>
+      <arc id="2522185554192" source="14" target="Electrical cardioversion"/>
+      <arc id="2522185560400" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="2522185580752" source="14" target="Throat culture (procedure)"/>
+      <arc id="2522185582992" source="7" target="Throat culture (procedure)"/>
+      <arc id="2522185556432" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="2522185584720" source="11" target="Throat culture (procedure)"/>
+      <arc id="2522185589200" source="8" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185552464" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="2522185585232" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="10"/>
+      <arc id="2522185591440" source="3" target="Bone density scan (procedure)"/>
+      <arc id="2522185554704" source="10" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185560912" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2522185593680" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="3"/>
+      <arc id="2522185583504" source="Electrical cardioversion" target="10"/>
+      <arc id="2522185556944" source="2" target="Electrical cardioversion"/>
+      <arc id="2522185589712" source="11" target="Hemodialysis (procedure)"/>
+      <arc id="2522185563152" source="Bone density scan (procedure)" target="13"/>
+      <arc id="2522185552976" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2522185591952" source="2" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185555216" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="13"/>
+      <arc id="2522185561424" source="8" target="Throat culture (procedure)"/>
+      <arc id="2522185557456" source="3" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185530896" source="Hemodialysis (procedure)" target="2"/>
+      <arc id="2522185563664" source="Measurement of respiratory function (procedure)" target="12"/>
+      <arc id="2522185559696" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185592464" source="Measurement of respiratory function (procedure)" target="8"/>
+      <arc id="2522185557968" source="9" target="Spirometry (procedure)"/>
+      <arc id="2522185530960" source="12" target="Hemodialysis (procedure)"/>
+      <arc id="2522185547856" source="2" target="Mammography (procedure)"/>
+      <arc id="2522185548368" source="2" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185528912" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="12"/>
+      <arc id="2522185549392" source="Mammography (procedure)" target="9"/>
+      <arc id="2522185526864" source="Face mask (physical object)" target="6"/>
+      <arc id="2522185525328" source="10" target="Bone density scan (procedure)"/>
+      <arc id="2522185526352" source="Hemodialysis (procedure)" target="5"/>
+      <arc id="2522185529424" source="▶" target="9"/>
+      <arc id="2522185529936" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="12"/>
+      <arc id="2522185556240" source="Insertion of endotracheal tube (procedure)" target="2"/>
+      <arc id="2522185529680" source="14" target="Mammography (procedure)"/>
+      <arc id="2522185560208" source="Mammography (procedure)" target="14"/>
+      <arc id="2522185530192" source="11" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185585552" source="4" target="■"/>
+      <arc id="2522185558992" source="8" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185593040" source="Electrical cardioversion" target="12"/>
+      <arc id="2522185548816" source="■" target="sink"/>
+      <arc id="2522185581584" source="▶" target="2"/>
+      <arc id="2522185587792" source="5" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185583824" source="Mammography (procedure)" target="13"/>
+      <arc id="2522185586064" source="Throat culture (procedure)" target="4"/>
+      <arc id="2522185559504" source="13" target="Mammography (procedure)"/>
+      <arc id="2522185582096" source="3" target="Face mask (physical object)"/>
+      <arc id="2522185584336" source="Measurement of respiratory function (procedure)" target="10"/>
+      <arc id="2522185584656" source="5" target="Electrical cardioversion"/>
+      <arc id="2522185586576" source="5" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185592784" source="12" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185549456" source="12" target="Throat culture (procedure)"/>
+      <arc id="2522185525904" source="Electrical cardioversion" target="4"/>
+      <arc id="2522185527440" source="Face mask (physical object)" target="7"/>
+      <arc id="2522185550480" source="13" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185550992" source="Insertion of endotracheal tube (procedure)" target="14"/>
+      <arc id="2522185549968" source="13" target="Bone density scan (procedure)"/>
+      <arc id="2522185528464" source="5" target="■"/>
+      <arc id="2522185548944" source="Hemodialysis (procedure)" target="8"/>
+      <arc id="2522185552080" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2522185553040" source="10" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185556048" source="9" target="Hemodialysis (procedure)"/>
+      <arc id="2522184188240" source="4" target="Hemodialysis (procedure)"/>
+      <arc id="2522185580880" source="7" target="Hemodialysis (procedure)"/>
+      <arc id="2522185587088" source="Mammography (procedure)" target="6"/>
+      <arc id="2522185560528" source="4" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185593296" source="Face mask (physical object)" target="11"/>
+      <arc id="2522185583120" source="Mammography (procedure)" target="8"/>
+      <arc id="2522185556560" source="Throat culture (procedure)" target="3"/>
+      <arc id="2522185589328" source="12" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185562768" source="10" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185552592" source="8" target="Medication Reconciliation (procedure)"/>
+      <arc id="2522185585360" source="4" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185558800" source="Mammography (procedure)" target="10"/>
+      <arc id="2522185591568" source="2" target="Throat culture (procedure)"/>
+      <arc id="2522185581392" source="11" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185561040" source="Mammography (procedure)" target="5"/>
+      <arc id="2522185557072" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="2"/>
+      <arc id="2522185562128" source="5" target="Throat culture (procedure)"/>
+      <arc id="2522185589840" source="6" target="Hemodialysis (procedure)"/>
+      <arc id="2522185559312" source="Electrical cardioversion" target="14"/>
+      <arc id="2522185592080" source="Electrical cardioversion" target="2"/>
+      <arc id="2522185561552" source="13" target="Throat culture (procedure)"/>
+      <arc id="2522185551376" source="Face mask (physical object)" target="4"/>
+      <arc id="2522185557584" source="6" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185590352" source="14" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185563792" source="6" target="Electrical cardioversion"/>
+      <arc id="2522185553616" source="Oxygen administration by mask (procedure)" target="11"/>
+      <arc id="2522185592592" source="Measurement of respiratory function (procedure)" target="13"/>
+      <arc id="2522185531088" source="Throat culture (procedure)" target="2"/>
+      <arc id="2522185547984" source="3" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185548496" source="6" target="Throat culture (procedure)"/>
+      <arc id="2522185528528" source="14" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185549008" source="9" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185529040" source="6" target="Bone density scan (procedure)"/>
+      <arc id="2522185526992" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2522185526480" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="4"/>
+      <arc id="2522185550544" source="8" target="Hemodialysis (procedure)"/>
+      <arc id="2522185551568" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="5"/>
+      <arc id="2522185554128" source="Throat culture (procedure)" target="7"/>
+      <arc id="2522185558096" source="Insertion of endotracheal tube (procedure)" target="13"/>
+      <arc id="2522185560336" source="Bone density scan (procedure)" target="4"/>
+      <arc id="2522185580688" source="12" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185593104" source="Hemodialysis (procedure)" target="10"/>
+      <arc id="2522185562576" source="Throat culture (procedure)" target="11"/>
+      <arc id="2522185590928" source="Bone density scan (procedure)" target="5"/>
+      <arc id="2522185554640" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185587408" source="Mammography (procedure)" target="11"/>
+      <arc id="2522185563088" source="Throat culture (procedure)" target="9"/>
+      <arc id="2522185585680" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="5"/>
+      <arc id="2522185581712" source="Mammography (procedure)" target="3"/>
+      <arc id="2522185555152" source="9" target="Bone density scan (procedure)"/>
+      <arc id="2522185587920" source="Bone density scan (procedure)" target="10"/>
+      <arc id="2522185563600" source="11" target="Electrical cardioversion"/>
+      <arc id="2522185553424" source="Hemodialysis (procedure)" target="7"/>
+      <arc id="2522185586192" source="Measurement of respiratory function (procedure)" target="5"/>
+      <arc id="2522185582224" source="3" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185588432" source="Hemodialysis (procedure)" target="12"/>
+      <arc id="2522185561872" source="10" target="Electrical cardioversion"/>
+      <arc id="2522185551696" source="Measurement of respiratory function (procedure)" target="4"/>
+      <arc id="2522185584464" source="Medication Reconciliation (procedure)" target="10"/>
+      <arc id="2522185590672" source="6" target="Placing subject in prone position (procedure)"/>
+      <arc id="2522185550096" source="8" target="Bone density scan (procedure)"/>
+      <arc id="2522185529104" source="Insertion of endotracheal tube (procedure)" target="12"/>
+      <arc id="2522185549584" source="Placing subject in prone position (procedure)" target="13"/>
+      <arc id="2522185525520" source="Hemodialysis (procedure)" target="14"/>
+      <arc id="2522185527568" source="13" target="■"/>
+      <arc id="2522185528080" source="Bone density scan (procedure)" target="8"/>
+      <arc id="2522185529616" source="7" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185530128" source="9" target="Face mask (physical object)"/>
+      <arc id="2522185550608" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="11"/>
+      <arc id="2522185530640" source="7" target="Mammography (procedure)"/>
+      <arc id="2522185553936" source="Pulmonary rehabilitation (regime/therapy)" target="9"/>
+      <arc id="2522185552208" source="5" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185560144" source="Electrical cardioversion" target="3"/>
+      <arc id="2522185562384" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="14"/>
+      <arc id="2522185582736" source="Bone density scan (procedure)" target="7"/>
+      <arc id="2522185581008" source="Bone density scan (procedure)" target="11"/>
+      <arc id="2522185584976" source="13" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185554448" source="Mammography (procedure)" target="12"/>
+      <arc id="2522185591184" source="2" target="Bone density scan (procedure)"/>
+      <arc id="2522185560656" source="Throat culture (procedure)" target="5"/>
+      <arc id="2522185593424" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="8"/>
+      <arc id="2522185583248" source="9" target="Throat culture (procedure)"/>
+      <arc id="2522185556688" source="3" target="Electrical cardioversion"/>
+      <arc id="2522185562896" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="9"/>
+      <arc id="2522185552720" source="11" target="■"/>
+      <arc id="2522185585488" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="4"/>
+      <arc id="2522185591696" source="3" target="Hemodialysis (procedure)"/>
+      <arc id="2522185581520" source="Mammography (procedure)" target="2"/>
+      <arc id="2522185554960" source="11" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185561168" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185593936" source="13" target="Placing subject in prone position (procedure)"/>
+      <arc id="2522185583760" source="Throat culture (procedure)" target="8"/>
+      <arc id="2522185557200" source="2" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185589968" source="Bone density scan (procedure)" target="14"/>
+      <arc id="2522185563408" source="14" target="Hemodialysis (procedure)"/>
+      <arc id="2522185592208" source="9" target="Mammography (procedure)"/>
+      <arc id="2522185555472" source="14" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185561680" source="Insertion of endotracheal tube (procedure)" target="11"/>
+      <arc id="2522185557712" source="7" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185582608" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="2522185531152" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+      <arc id="2522185563920" source="10" target="■"/>
+      <arc id="2522185590480" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185559952" source="4" target="Mammography (procedure)"/>
+      <arc id="2522185527632" source="Measurement of respiratory function (procedure)" target="11"/>
+      <arc id="2522185548112" source="2" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185530704" source="Electrical cardioversion" target="11"/>
+      <arc id="2522185528656" source="Measurement of respiratory function (procedure)" target="7"/>
+      <arc id="2522185549136" source="7" target="■"/>
+      <arc id="2522185529168" source="10" target="Throat culture (procedure)"/>
+      <arc id="2522185549648" source="Medication Reconciliation (procedure)" target="8"/>
+      <arc id="2522185527120" source="Pulmonary rehabilitation (regime/therapy)" target="14"/>
+      <arc id="2522181878096" source="8" target="Face mask (physical object)"/>
+      <arc id="2522185525072" source="Electrical cardioversion" target="13"/>
+      <arc id="2522185558224" source="12" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185588816" source="14" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185590992" source="11" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2522185593232" source="▶" target="13"/>
+      <arc id="2522185581328" source="9" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185587536" source="Electrical cardioversion" target="9"/>
+      <arc id="2522185583568" source="12" target="Mammography (procedure)"/>
+      <arc id="2522185530448" source="14" target="■"/>
+      <arc id="2522185585808" source="Insertion of endotracheal tube (procedure)" target="4"/>
+      <arc id="2522185581840" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="3"/>
+      <arc id="2522185588048" source="13" target="Hemodialysis (procedure)"/>
+      <arc id="2522185584080" source="13" target="Electrical cardioversion"/>
+      <arc id="2522185590288" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="6"/>
+      <arc id="2522185553552" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2522185586320" source="4" target="Electrical cardioversion"/>
+      <arc id="2522185582352" source="2" target="Hemodialysis (procedure)"/>
+      <arc id="2522185555792" source="6" target="Mammography (procedure)"/>
+      <arc id="2522185588560" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="11"/>
+      <arc id="2522185584592" source="Measurement of respiratory function (procedure)" target="14"/>
+      <arc id="2522185526160" source="source" target="▶"/>
+      <arc id="2522185550224" source="Insertion of endotracheal tube (procedure)" target="10"/>
+      <arc id="2522185551248" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185528208" source="Measurement of respiratory function (procedure)" target="9"/>
+      <arc id="2522183718288" source="Hemodialysis (procedure)" target="3"/>
+      <arc id="2522185553808" source="10" target="Mammography (procedure)"/>
+      <arc id="2522185555856" source="12" target="Bone density scan (procedure)"/>
+      <arc id="2522185558416" source="Bone density scan (procedure)" target="12"/>
+      <arc id="2522185558928" source="13" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2522185559440" source="Throat culture (procedure)" target="10"/>
+      <arc id="2522185582864" source="6" target="■"/>
+      <arc id="2522185556304" source="Bone density scan (procedure)" target="3"/>
+      <arc id="2522185585936" source="Face mask (physical object)" target="5"/>
+      <arc id="2522185562512" source="Throat culture (procedure)" target="6"/>
+      <arc id="2522185586832" source="8" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185585104" source="8" target="Mammography (procedure)"/>
+      <arc id="2522185589072" source="Face mask (physical object)" target="13"/>
+      <arc id="2522185558544" source="Throat culture (procedure)" target="13"/>
+      <arc id="2522185591312" source="Measurement of respiratory function (procedure)" target="3"/>
+      <arc id="2522185581136" source="6" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2522185587344" source="14" target="Bone density scan (procedure)"/>
+      <arc id="2522185560784" source="Electrical cardioversion" target="5"/>
+      <arc id="2522185556816" source="3" target="Mammography (procedure)"/>
+      <arc id="2522185589584" source="Throat culture (procedure)" target="12"/>
+      <arc id="2522185559056" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="14"/>
+      <arc id="2522185591824" source="3" target="Throat culture (procedure)"/>
+      <arc id="2522185561296" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="7"/>
+      <arc id="2522185551120" source="13" target="Spirometry (procedure)"/>
+      <arc id="2522185557328" source="Bone density scan (procedure)" target="2"/>
+      <arc id="2522185590096" source="9" target="Electrical cardioversion"/>
+      <arc id="2522185559568" source="Hemodialysis (procedure)" target="13"/>
+      <arc id="2522185592336" source="7" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185555600" source="7" target="Electrical cardioversion"/>
+      <arc id="2522185588368" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="6"/>
+      <arc id="2522185561808" source="Insertion of endotracheal tube (procedure)" target="9"/>
+      <arc id="2522185557840" source="Hemodialysis (procedure)" target="9"/>
+      <arc id="2522185586704" source="Insertion of endotracheal tube (procedure)" target="8"/>
+      <arc id="2522185527760" source="Measurement of respiratory function (procedure)" target="6"/>
+      <arc id="2522185548240" source="3" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185548752" source="Electrical cardioversion" target="7"/>
+      <arc id="2522185526736" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2522185551824" source="Insertion of endotracheal tube (procedure)" target="5"/>
+      <arc id="2522185552336" source="5" target="Mammography (procedure)"/>
+      <arc id="2522185552848" source="Hemodialysis (procedure)" target="11"/>
+      <arc id="2522185554384" source="Bone density scan (procedure)" target="9"/>
+      <arc id="2522185554896" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="8"/>
+      <arc id="2522185555408" source="Bone density scan (procedure)" target="6"/>
+      <arc id="2522185556112" source="11" target="Mammography (procedure)"/>
+      <arc id="2522185558352" source="Pulmonary rehabilitation (regime/therapy)" target="8"/>
+      <arc id="2522185562320" source="Insertion of endotracheal tube (procedure)" target="7"/>
+      <arc id="2522185591120" source="Measurement of respiratory function (procedure)" target="2"/>
+      <arc id="2522185592912" source="9" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185587152" source="10" target="Hemodialysis (procedure)"/>
+      <arc id="2522185589392" source="7" target="Bone density scan (procedure)"/>
+      <arc id="2522185526096" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2522185588944" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="9"/>
+      <arc id="2522185587664" source="13" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2522185583696" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="13"/>
+      <arc id="2522185563344" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="7"/>
+      <arc id="2522185553168" source="Throat culture (procedure)" target="14"/>
+      <arc id="2522185526608" source="Oxygen administration by mask (procedure)" target="5"/>
+      <arc id="2522185581968" source="2" target="Spirometry (procedure)"/>
+      <arc id="2522185588176" source="Mammography (procedure)" target="7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

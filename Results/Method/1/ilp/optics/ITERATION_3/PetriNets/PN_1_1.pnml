@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021379.0549924" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021379.0549924</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Suture open wound">
+        <name>
+          <text>Suture open wound</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bb8e62c4-9542-4ed2-8f80-104e87406160"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="689cee7e-d02c-49c4-9678-9b09348dc2df"/>
+      </transition>
+      <arc id="1427068687888" source="7" target="Suture open wound"/>
+      <arc id="1427068688016" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068688144" source="Suture open wound" target="2"/>
+      <arc id="1427068688272" source="Suture open wound" target="4"/>
+      <arc id="1427068684816" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="7"/>
+      <arc id="1427068685584" source="▶" target="2"/>
+      <arc id="1427068685840" source="Face mask (physical object)" target="3"/>
+      <arc id="1427068684944" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="1427068685072" source="Suture open wound" target="7"/>
+      <arc id="1427068685200" source="5" target="Suture open wound"/>
+      <arc id="1427068683280" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068684048" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068683920" source="2" target="Face mask (physical object)"/>
+      <arc id="1427068684176" source="3" target="Suture open wound"/>
+      <arc id="1427068684304" source="7" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1427068684432" source="Face mask (physical object)" target="5"/>
+      <arc id="1427068684560" source="4" target="■"/>
+      <arc id="1427068684688" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="1427068685328" source="Suture open wound" target="6"/>
+      <arc id="1427068685456" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068685712" source="2" target="Suture open wound"/>
+      <arc id="1427068685968" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="1427068686096" source="Suture open wound" target="3"/>
+      <arc id="1427068686224" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="1427068683600" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="1427068683472" source="Insertion of endotracheal tube (procedure)" target="7"/>
+      <arc id="1427068686352" source="4" target="Suture open wound"/>
+      <arc id="1427068687184" source="source" target="▶"/>
+      <arc id="1427068687568" source="■" target="sink"/>
+      <arc id="1427068686480" source="Suture open wound" target="5"/>
+      <arc id="1427068687312" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068687696" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="1427068686608" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="6"/>
+      <arc id="1427068688400" source="6" target="Suture open wound"/>
+      <arc id="1427068686736" source="7" target="■"/>
+      <arc id="1427068686864" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068687120" source="6" target="■"/>
+      <arc id="1427068687504" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="1427068687760" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

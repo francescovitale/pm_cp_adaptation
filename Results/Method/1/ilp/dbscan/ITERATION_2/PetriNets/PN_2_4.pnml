@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="98bd8eab-c45e-4ce4-b2e5-77a39e037cd8"/>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2a533b48-3c41-4a17-b418-3583bd2d2f26"/>
+      </transition>
+      <arc id="2084208680336" source="■" target="sink"/>
+      <arc id="2084209761936" source="2" target="Face mask (physical object)"/>
+      <arc id="2084209769168" source="Throat culture (procedure)" target="3"/>
+      <arc id="2084208495760" source="source" target="▶"/>
+      <arc id="2084209766352" source="▶" target="2"/>
+      <arc id="2084209759248" source="3" target="■"/>
+      <arc id="2084209768720" source="▶" target="4"/>
+      <arc id="2084161722256" source="4" target="Throat culture (procedure)"/>
+      <arc id="2084203046928" source="Face mask (physical object)" target="5"/>
+      <arc id="2084203049808" source="5" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

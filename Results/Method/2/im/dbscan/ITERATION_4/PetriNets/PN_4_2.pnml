@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760041955.861885" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760041955.861885</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="902edabb-4a48-47fd-9568-c400214255ab"/>
+      </transition>
+      <transition id="tauJoin_4">
+        <name>
+          <text>tauJoin_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="887e98ec-8434-4878-9910-8ac7d0474915"/>
+      </transition>
+      <transition id="588073bf-365e-4ba6-a1f6-859a97af5db4">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="aaffcf64-d336-4c2d-a696-8a885d5ec834">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="1760721272528" source="aaffcf64-d336-4c2d-a696-8a885d5ec834" target="p_8"/>
+      <arc id="1760721266512" source="p_8" target="tauJoin_4"/>
+      <arc id="1760721325200" source="source" target="tau_1"/>
+      <arc id="1760719682896" source="tau_1" target="p_7"/>
+      <arc id="1760721269200" source="tauJoin_4" target="sink"/>
+      <arc id="1760721272592" source="tau_1" target="p_5"/>
+      <arc id="1760721257616" source="p_6" target="tauJoin_4"/>
+      <arc id="1760721265680" source="p_5" target="588073bf-365e-4ba6-a1f6-859a97af5db4"/>
+      <arc id="1760721266320" source="588073bf-365e-4ba6-a1f6-859a97af5db4" target="p_6"/>
+      <arc id="1760721268816" source="p_7" target="aaffcf64-d336-4c2d-a696-8a885d5ec834"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

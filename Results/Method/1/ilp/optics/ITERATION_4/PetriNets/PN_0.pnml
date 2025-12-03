@@ -1,0 +1,1136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021396.4994519" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021396.4994519</text>
+    </name>
+    <page id="n0">
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="Syphilis infection test">
+        <name>
+          <text>Syphilis infection test</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Ultrasound scan for fetal viability">
+        <name>
+          <text>Ultrasound scan for fetal viability</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Suture open wound">
+        <name>
+          <text>Suture open wound</text>
+        </name>
+      </transition>
+      <transition id="Hemoglobin / Hematocrit / Platelet count">
+        <name>
+          <text>Hemoglobin / Hematocrit / Platelet count</text>
+        </name>
+      </transition>
+      <transition id="Depression screening">
+        <name>
+          <text>Depression screening</text>
+        </name>
+      </transition>
+      <transition id="Human immunodeficiency virus antigen test">
+        <name>
+          <text>Human immunodeficiency virus antigen test</text>
+        </name>
+      </transition>
+      <transition id="Mammography (procedure)">
+        <name>
+          <text>Mammography (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Physical examination of mother">
+        <name>
+          <text>Physical examination of mother</text>
+        </name>
+      </transition>
+      <transition id="Bone density scan (procedure)">
+        <name>
+          <text>Bone density scan (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Hepatitis C antibody test">
+        <name>
+          <text>Hepatitis C antibody test</text>
+        </name>
+      </transition>
+      <transition id="Skin test for tuberculosis">
+        <name>
+          <text>Skin test for tuberculosis</text>
+        </name>
+      </transition>
+      <transition id="Screening for chromosomal aneuploidy in prenatal amniotic fluid">
+        <name>
+          <text>Screening for chromosomal aneuploidy in prenatal amniotic fluid</text>
+        </name>
+      </transition>
+      <transition id="Gonorrhea infection test">
+        <name>
+          <text>Gonorrhea infection test</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Removal of endotracheal tube (procedure)">
+        <name>
+          <text>Removal of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Evaluation of uterine fundal height">
+        <name>
+          <text>Evaluation of uterine fundal height</text>
+        </name>
+      </transition>
+      <transition id="Screening for occult blood in feces (procedure)">
+        <name>
+          <text>Screening for occult blood in feces (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Cytopathology procedure  preparation of smear  genital source">
+        <name>
+          <text>Cytopathology procedure  preparation of smear  genital source</text>
+        </name>
+      </transition>
+      <transition id="Urine screening test for diabetes">
+        <name>
+          <text>Urine screening test for diabetes</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ba4e2b44-5d6f-4172-8bc3-84b039b48632"/>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Blood typing  RH typing">
+        <name>
+          <text>Blood typing  RH typing</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b9376e99-8ffe-48a1-90a6-1aa512e0942f"/>
+      </transition>
+      <transition id="Urine protein test">
+        <name>
+          <text>Urine protein test</text>
+        </name>
+      </transition>
+      <transition id="Measurement of Varicella-zoster virus antibody">
+        <name>
+          <text>Measurement of Varicella-zoster virus antibody</text>
+        </name>
+      </transition>
+      <transition id="Hepatitis B Surface Antigen Measurement">
+        <name>
+          <text>Hepatitis B Surface Antigen Measurement</text>
+        </name>
+      </transition>
+      <transition id="Urine culture">
+        <name>
+          <text>Urine culture</text>
+        </name>
+      </transition>
+      <transition id="Microbial culture (procedure)">
+        <name>
+          <text>Microbial culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Physical examination">
+        <name>
+          <text>Physical examination</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Transthoracic three dimensional ultrasonography of heart (procedure)">
+        <name>
+          <text>Transthoracic three dimensional ultrasonography of heart (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Rubella screening">
+        <name>
+          <text>Rubella screening</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Rectal polypectomy">
+        <name>
+          <text>Rectal polypectomy</text>
+        </name>
+      </transition>
+      <transition id="Auscultation of the fetal heart">
+        <name>
+          <text>Auscultation of the fetal heart</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Chlamydia antigen test">
+        <name>
+          <text>Chlamydia antigen test</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Standard pregnancy test">
+        <name>
+          <text>Standard pregnancy test</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2191567762960" source="6" target="Urine protein test"/>
+      <arc id="2191567677072" source="Hemoglobin / Hematocrit / Platelet count" target="10"/>
+      <arc id="2191567732432" source="Evaluation of uterine fundal height" target="3"/>
+      <arc id="2191567712080" source="7" target="Chlamydia antigen test"/>
+      <arc id="2191567767440" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="10"/>
+      <arc id="2191567757264" source="3" target="Colonoscopy"/>
+      <arc id="2191567609872" source="Blood typing  RH typing" target="2"/>
+      <arc id="2191567611920" source="Bone density scan (procedure)" target="11"/>
+      <arc id="2191567630352" source="9" target="Physical examination"/>
+      <arc id="2191567624208" source="5" target="Rectal polypectomy"/>
+      <arc id="2191567622160" source="2" target="Microbial culture (procedure)"/>
+      <arc id="2191567632400" source="4" target="Auscultation of the fetal heart"/>
+      <arc id="2191567626256" source="Chlamydia antigen test" target="10"/>
+      <arc id="2191567620112" source="10" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567671312" source="10" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567675408" source="Throat culture (procedure)" target="10"/>
+      <arc id="2191567706384" source="7" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567761744" source="10" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567751568" source="Hemoglobin / Hematocrit / Platelet count" target="7"/>
+      <arc id="2191567675856" source="Oxygen administration by mask (procedure)" target="9"/>
+      <arc id="2191567721040" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567710864" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567766224" source="5" target="Electrical cardioversion"/>
+      <arc id="2191567756048" source="Screening for occult blood in feces (procedure)" target="6"/>
+      <arc id="2191567725520" source="6" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567715344" source="Placing subject in prone position (procedure)" target="2"/>
+      <arc id="2191567705168" source="2" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567750352" source="2" target="Physical examination"/>
+      <arc id="2191567719824" source="Physical examination" target="10"/>
+      <arc id="2191567709648" source="5" target="Physical examination of mother"/>
+      <arc id="2191567679120" source="Cytopathology procedure  preparation of smear  genital source" target="4"/>
+      <arc id="2191567714128" source="Hepatitis C antibody test" target="3"/>
+      <arc id="2191567703952" source="2" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567601744" source="5" target="Blood typing  RH typing"/>
+      <arc id="2191567550544" source="6" target="Skin test for tuberculosis"/>
+      <arc id="2191567605840" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="8"/>
+      <arc id="2191567607888" source="5" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567667280" source="Hepatitis C antibody test" target="10"/>
+      <arc id="2191567609936" source="Chlamydia antigen test" target="8"/>
+      <arc id="2191567628368" source="Physical examination of mother" target="11"/>
+      <arc id="2191567616080" source="Urine culture" target="6"/>
+      <arc id="2191567618128" source="8" target="Urine culture"/>
+      <arc id="2191567673424" source="6" target="Hepatitis C antibody test"/>
+      <arc id="2191567708432" source="7" target="Urine screening test for diabetes"/>
+      <arc id="2191567718608" source="10" target="Urine culture"/>
+      <arc id="2191567728784" source="6" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567753616" source="Urine screening test for diabetes" target="4"/>
+      <arc id="2191567677904" source="Plain chest X-ray (procedure)" target="9"/>
+      <arc id="2191567723088" source="Chlamydia antigen test" target="7"/>
+      <arc id="2191567712912" source="2" target="Electrical cardioversion"/>
+      <arc id="2191567768272" source="8" target="Auscultation of the fetal heart"/>
+      <arc id="2191567758096" source="Bone density scan (procedure)" target="4"/>
+      <arc id="2191567727568" source="3" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567717392" source="Evaluation of uterine fundal height" target="11"/>
+      <arc id="2191567762576" source="Oxygen administration by mask (procedure)" target="4"/>
+      <arc id="2191567752400" source="Mammography (procedure)" target="9"/>
+      <arc id="2191567711696" source="Plain chest X-ray (procedure)" target="3"/>
+      <arc id="2191567701520" source="2" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567681168" source="Measurement of Varicella-zoster virus antibody" target="8"/>
+      <arc id="2191567726352" source="3" target="Gonorrhea infection test"/>
+      <arc id="2191567706000" source="Suture open wound" target="3"/>
+      <arc id="2191567761360" source="11" target="Medication Reconciliation (procedure)"/>
+      <arc id="2191567614096" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="3"/>
+      <arc id="2191567603856" source="5" target="Colonoscopy"/>
+      <arc id="2191567616144" source="10" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567632528" source="Hemoglobin / Hematocrit / Platelet count" target="9"/>
+      <arc id="2191567630480" source="Physical examination" target="3"/>
+      <arc id="2191567620240" source="Depression screening" target="6"/>
+      <arc id="2191567622288" source="Removal of endotracheal tube (procedure)" target="8"/>
+      <arc id="2191567624336" source="Depression screening" target="2"/>
+      <arc id="2191567626384" source="11" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567671440" source="8" target="Rectal polypectomy"/>
+      <arc id="2191567710480" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567765840" source="5" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567755664" source="Human immunodeficiency virus antigen test" target="5"/>
+      <arc id="2191567725136" source="4" target="Hepatitis C antibody test"/>
+      <arc id="2191567714960" source="3" target="Suture open wound"/>
+      <arc id="2191567760144" source="Standard pregnancy test" target="10"/>
+      <arc id="2191567719440" source="Skin test for tuberculosis" target="11"/>
+      <arc id="2191567709264" source="Blood typing  RH typing" target="10"/>
+      <arc id="2191567764624" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="2"/>
+      <arc id="2191567754448" source="9" target="Throat culture (procedure)"/>
+      <arc id="2191567723920" source="11" target="Chlamydia antigen test"/>
+      <arc id="2191567713744" source="Depression screening" target="5"/>
+      <arc id="2191567703568" source="5" target="Gonorrhea infection test"/>
+      <arc id="2191567683216" source="6" target="Colonoscopy"/>
+      <arc id="2191567763408" source="7" target="Colonoscopy"/>
+      <arc id="2191567618256" source="Screening for occult blood in feces (procedure)" target="4"/>
+      <arc id="2191567669456" source="6" target="Rectal polypectomy"/>
+      <arc id="2191567605968" source="Standard pregnancy test" target="5"/>
+      <arc id="2191567601872" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="8"/>
+      <arc id="2191567550672" source="Measurement of Varicella-zoster virus antibody" target="7"/>
+      <arc id="2191567608016" source="Measurement of Varicella-zoster virus antibody" target="3"/>
+      <arc id="2191567610064" source="Physical examination of mother" target="2"/>
+      <arc id="2191567626448" source="10" target="Auscultation of the fetal heart"/>
+      <arc id="2191567612112" source="10" target="Rubella screening"/>
+      <arc id="2191567628496" source="2" target="Standard pregnancy test"/>
+      <arc id="2191567677520" source="Urine protein test" target="3"/>
+      <arc id="2191567712528" source="Urine protein test" target="2"/>
+      <arc id="2191567722704" source="9" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567757712" source="7" target="Standard pregnancy test"/>
+      <arc id="2191567767888" source="4" target="Throat culture (procedure)"/>
+      <arc id="2191567550928" source="8" target="Rubella screening"/>
+      <arc id="2191567727184" source="9" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567717008" source="11" target="Auscultation of the fetal heart"/>
+      <arc id="2191567731664" source="Evaluation of uterine fundal height" target="5"/>
+      <arc id="2191567701136" source="Oxygen administration by mask (procedure)" target="7"/>
+      <arc id="2191567766672" source="11" target="Urine protein test"/>
+      <arc id="2191567705616" source="Screening for occult blood in feces (procedure)" target="7"/>
+      <arc id="2191567760976" source="10" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567750800" source="7" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567730448" source="Cytopathology procedure  preparation of smear  genital source" target="7"/>
+      <arc id="2191567710096" source="Human immunodeficiency virus antigen test" target="7"/>
+      <arc id="2191567624464" source="Rubella screening" target="8"/>
+      <arc id="2191567614224" source="6" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567630608" source="Urine culture" target="4"/>
+      <arc id="2191567548688" source="7" target="Syphilis infection test"/>
+      <arc id="2191567603984" source="Depression screening" target="4"/>
+      <arc id="2191567616272" source="6" target="Throat culture (procedure)"/>
+      <arc id="2191567632656" source="Evaluation of uterine fundal height" target="6"/>
+      <arc id="2191567667472" source="11" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567669520" source="Hepatitis C antibody test" target="11"/>
+      <arc id="2191567673616" source="5" target="Rubella screening"/>
+      <arc id="2191567679568" source="8" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567724752" source="Microbial culture (procedure)" target="7"/>
+      <arc id="2191567759760" source="Auscultation of the fetal heart" target="4"/>
+      <arc id="2191567729232" source="3" target="Urine culture"/>
+      <arc id="2191567719056" source="Human immunodeficiency virus antigen test" target="6"/>
+      <arc id="2191567764240" source="Urine screening test for diabetes" target="8"/>
+      <arc id="2191567723536" source="2" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567768720" source="Plain chest X-ray (procedure)" target="10"/>
+      <arc id="2191567758544" source="Gonorrhea infection test" target="11"/>
+      <arc id="2191567717840" source="Hemoglobin / Hematocrit / Platelet count" target="8"/>
+      <arc id="2191567752848" source="3" target="Chlamydia antigen test"/>
+      <arc id="2191567722320" source="Syphilis infection test" target="8"/>
+      <arc id="2191567712144" source="4" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567614288" source="Physical examination of mother" target="9"/>
+      <arc id="2191567550800" source="Chlamydia antigen test" target="9"/>
+      <arc id="2191567620432" source="11" target="Rectal polypectomy"/>
+      <arc id="2191566143824" source="Insertion of endotracheal tube (procedure)" target="8"/>
+      <arc id="2191567602000" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="7"/>
+      <arc id="2191567606096" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="2191567608144" source="9" target="Suture open wound"/>
+      <arc id="2191567626576" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="2191567612240" source="5" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567628624" source="Gonorrhea infection test" target="3"/>
+      <arc id="2191567681616" source="Removal of endotracheal tube (procedure)" target="4"/>
+      <arc id="2191567716624" source="Insertion of endotracheal tube (procedure)" target="10"/>
+      <arc id="2191567726800" source="8" target="Hemodialysis (procedure)"/>
+      <arc id="2191567751632" source="11" target="Electrical cardioversion"/>
+      <arc id="2191567731280" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567766288" source="10" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567765584" source="4" target="Physical examination"/>
+      <arc id="2191567705232" source="7" target="Rubella screening"/>
+      <arc id="2191567760592" source="Insertion of endotracheal tube (procedure)" target="5"/>
+      <arc id="2191567730064" source="Ultrasound scan for fetal viability" target="8"/>
+      <arc id="2191567709712" source="4" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567623824" source="4" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567754896" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="6"/>
+      <arc id="2191567669008" source="5" target="Hemodialysis (procedure)"/>
+      <arc id="2191567714192" source="Standard pregnancy test" target="2"/>
+      <arc id="2191567669648" source="Face mask (physical object)" target="3"/>
+      <arc id="2191567622544" source="3" target="Urine protein test"/>
+      <arc id="2191567628688" source="8" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567630736" source="Standard pregnancy test" target="7"/>
+      <arc id="2191567604112" source="3" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567612304" source="Evaluation of uterine fundal height" target="4"/>
+      <arc id="2191567616400" source="Gonorrhea infection test" target="10"/>
+      <arc id="2191567632784" source="10" target="Skin test for tuberculosis"/>
+      <arc id="2191567618448" source="Gonorrhea infection test" target="4"/>
+      <arc id="2191567667600" source="Evaluation of uterine fundal height" target="8"/>
+      <arc id="2191567673488" source="10" target="Physical examination of mother"/>
+      <arc id="2191567763856" source="Ultrasound scan for fetal viability" target="6"/>
+      <arc id="2191567753680" source="Rectal polypectomy" target="10"/>
+      <arc id="2191567712976" source="Mammography (procedure)" target="10"/>
+      <arc id="2191567702800" source="Skin test for tuberculosis" target="7"/>
+      <arc id="2191567627088" source="Microbial culture (procedure)" target="2"/>
+      <arc id="2191567707280" source="4" target="Suture open wound"/>
+      <arc id="2191567621392" source="4" target="Blood typing  RH typing"/>
+      <arc id="2191567752464" source="Bone density scan (procedure)" target="5"/>
+      <arc id="2191567676752" source="7" target="Physical examination"/>
+      <arc id="2191567721936" source="3" target="■"/>
+      <arc id="2191567767120" source="6" target="Hemodialysis (procedure)"/>
+      <arc id="2191567625872" source="4" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567756944" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="4"/>
+      <arc id="2191567671056" source="Physical examination" target="4"/>
+      <arc id="2191567726416" source="9" target="Urine protein test"/>
+      <arc id="2191567716240" source="Physical examination of mother" target="6"/>
+      <arc id="2191567610320" source="2" target="Syphilis infection test"/>
+      <arc id="2191567626704" source="Microbial culture (procedure)" target="11"/>
+      <arc id="2191567612368" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="2191567614416" source="4" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567618512" source="11" target="Depression screening"/>
+      <arc id="2191567620560" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="2191567669712" source="Cytopathology procedure  preparation of smear  genital source" target="3"/>
+      <arc id="2191567622608" source="10" target="Mammography (procedure)"/>
+      <arc id="2191567602128" source="Hemodialysis (procedure)" target="5"/>
+      <arc id="2191567548880" source="2" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567710544" source="Standard pregnancy test" target="11"/>
+      <arc id="2191567700368" source="9" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567765904" source="Urine culture" target="7"/>
+      <arc id="2191567755728" source="10" target="Urine screening test for diabetes"/>
+      <arc id="2191567680016" source="Throat culture (procedure)" target="5"/>
+      <arc id="2191567604304" source="Syphilis infection test" target="5"/>
+      <arc id="2191567669840" source="Human immunodeficiency virus antigen test" target="2"/>
+      <arc id="2191567729680" source="3" target="Blood typing  RH typing"/>
+      <arc id="2191567623440" source="4" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567754512" source="7" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567724560" source="11" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567728464" source="7" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567548944" source="Rectal polypectomy" target="11"/>
+      <arc id="2191567610384" source="Depression screening" target="10"/>
+      <arc id="2191567616528" source="2" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567632912" source="8" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567667728" source="4" target="Rectal polypectomy"/>
+      <arc id="2191567624720" source="9" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567628816" source="Depression screening" target="7"/>
+      <arc id="2191567630864" source="Physical examination of mother" target="10"/>
+      <arc id="2191567677584" source="Evaluation of uterine fundal height" target="10"/>
+      <arc id="2191567677968" source="Microbial culture (procedure)" target="10"/>
+      <arc id="2191567722768" source="11" target="Skin test for tuberculosis"/>
+      <arc id="2191567753296" source="Urine culture" target="5"/>
+      <arc id="2191567702416" source="3" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567767952" source="Colonoscopy" target="4"/>
+      <arc id="2191567682064" source="6" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567671888" source="4" target="Gonorrhea infection test"/>
+      <arc id="2191567706896" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="2191567762256" source="3" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567731728" source="10" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567721552" source="8" target="Urine screening test for diabetes"/>
+      <arc id="2191567701200" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="10"/>
+      <arc id="2191567756560" source="Chlamydia antigen test" target="4"/>
+      <arc id="2191567715856" source="Hemoglobin / Hematocrit / Platelet count" target="4"/>
+      <arc id="2191567705680" source="11" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567675152" source="5" target="Urine protein test"/>
+      <arc id="2191567730512" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="2"/>
+      <arc id="2191567622736" source="Physical examination of mother" target="4"/>
+      <arc id="2191567602256" source="5" target="Bone density scan (procedure)"/>
+      <arc id="2191567606352" source="8" target="Syphilis infection test"/>
+      <arc id="2191567608400" source="8" target="Depression screening"/>
+      <arc id="2191567624784" source="11" target="Syphilis infection test"/>
+      <arc id="2191567614544" source="Physical examination" target="5"/>
+      <arc id="2191567630928" source="Plain chest X-ray (procedure)" target="11"/>
+      <arc id="2191567551056" source="Gonorrhea infection test" target="5"/>
+      <arc id="2191567618640" source="7" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567667792" source="Evaluation of uterine fundal height" target="9"/>
+      <arc id="2191567751184" source="8" target="Suture open wound"/>
+      <arc id="2191567714640" source="2" target="Physical examination of mother"/>
+      <arc id="2191567755344" source="9" target="Skin test for tuberculosis"/>
+      <arc id="2191567704464" source="Auscultation of the fetal heart" target="2"/>
+      <arc id="2191567749648" source="4" target="Microbial culture (procedure)"/>
+      <arc id="2191567673936" source="Syphilis infection test" target="2"/>
+      <arc id="2191567729296" source="11" target="Rubella screening"/>
+      <arc id="2191567719120" source="Depression screening" target="8"/>
+      <arc id="2191567708944" source="Bone density scan (procedure)" target="3"/>
+      <arc id="2191567712272" source="Screening for occult blood in feces (procedure)" target="5"/>
+      <arc id="2191567723600" source="Mammography (procedure)" target="2"/>
+      <arc id="2191567703248" source="3" target="Rectal polypectomy"/>
+      <arc id="2191567682896" source="Measurement of Varicella-zoster virus antibody" target="11"/>
+      <arc id="2191567728080" source="Hepatitis B Surface Antigen Measurement" target="6"/>
+      <arc id="2191567763088" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="2191567752912" source="11" target="Hemodialysis (procedure)"/>
+      <arc id="2191567677200" source="7" target="Face mask (physical object)"/>
+      <arc id="2191567732560" source="6" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567628944" source="4" target="Depression screening"/>
+      <arc id="2191567549072" source="7" target="Blood typing  RH typing"/>
+      <arc id="2191567606416" source="Placing subject in prone position (procedure)" target="10"/>
+      <arc id="2191567616656" source="Cytopathology procedure  preparation of smear  genital source" target="8"/>
+      <arc id="2191567618704" source="9" target="Blood typing  RH typing"/>
+      <arc id="2191567620752" source="Blood typing  RH typing" target="3"/>
+      <arc id="2191567622800" source="Auscultation of the fetal heart" target="5"/>
+      <arc id="2191567610512" source="Placing subject in prone position (procedure)" target="11"/>
+      <arc id="2191567678096" source="Insertion of endotracheal tube (procedure)" target="7"/>
+      <arc id="2191567681680" source="4" target="Urine culture"/>
+      <arc id="2191567702032" source="Suture open wound" target="4"/>
+      <arc id="2191567726864" source="10" target="Chlamydia antigen test"/>
+      <arc id="2191567757392" source="5" target="Hepatitis C antibody test"/>
+      <arc id="2191567706512" source="9" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567761872" source="Blood typing  RH typing" target="5"/>
+      <arc id="2191567675984" source="Hemoglobin / Hematocrit / Platelet count" target="11"/>
+      <arc id="2191567731344" source="8" target="Colonoscopy"/>
+      <arc id="2191567710992" source="Rectal polypectomy" target="6"/>
+      <arc id="2191567700816" source="Auscultation of the fetal heart" target="10"/>
+      <arc id="2191567756176" source="7" target="Hemodialysis (procedure)"/>
+      <arc id="2191567680464" source="Insertion of endotracheal tube (procedure)" target="9"/>
+      <arc id="2191567725648" source="Physical examination" target="9"/>
+      <arc id="2191567715472" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567719952" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="5"/>
+      <arc id="2191567765136" source="7" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567667920" source="7" target="Rectal polypectomy"/>
+      <arc id="2191567669968" source="Standard pregnancy test" target="3"/>
+      <arc id="2191567602384" source="8" target="Physical examination of mother"/>
+      <arc id="2191567549136" source="4" target="Physical examination of mother"/>
+      <arc id="2191567551184" source="Colonoscopy" target="3"/>
+      <arc id="2191567604432" source="10" target="Electrical cardioversion"/>
+      <arc id="2191567608528" source="Bone density scan (procedure)" target="9"/>
+      <arc id="2191567624912" source="Physical examination of mother" target="5"/>
+      <arc id="2191567626960" source="7" target="Mammography (procedure)"/>
+      <arc id="2191567612624" source="Human immunodeficiency virus antigen test" target="9"/>
+      <arc id="2191567704080" source="Throat culture (procedure)" target="2"/>
+      <arc id="2191567718736" source="2" target="Spirometry (procedure)"/>
+      <arc id="2191567728912" source="3" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567708560" source="5" target="Skin test for tuberculosis"/>
+      <arc id="2191567749264" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="4"/>
+      <arc id="2191567768400" source="Rubella screening" target="5"/>
+      <arc id="2191567758224" source="7" target="Urine culture"/>
+      <arc id="2191567682512" source="Urine protein test" target="8"/>
+      <arc id="2191567727696" source="Skin test for tuberculosis" target="9"/>
+      <arc id="2191567717520" source="Throat culture (procedure)" target="7"/>
+      <arc id="2191567762704" source="6" target="Face mask (physical object)"/>
+      <arc id="2191567732176" source="Electrical cardioversion" target="7"/>
+      <arc id="2191567701648" source="Urine screening test for diabetes" target="9"/>
+      <arc id="2191567767184" source="10" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567716304" source="11" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567624976" source="Microbial culture (procedure)" target="4"/>
+      <arc id="2191567610640" source="11" target="Suture open wound"/>
+      <arc id="2191567612688" source="Insertion of endotracheal tube (procedure)" target="11"/>
+      <arc id="2191567629072" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="7"/>
+      <arc id="2191567606544" source="5" target="Chlamydia antigen test"/>
+      <arc id="2191567620880" source="Hemodialysis (procedure)" target="2"/>
+      <arc id="2191567680272" source="Cytopathology procedure  preparation of smear  genital source" target="10"/>
+      <arc id="2191567675600" source="3" target="Hemodialysis (procedure)"/>
+      <arc id="2191567682320" source="■" target="sink"/>
+      <arc id="2191567700752" source="Auscultation of the fetal heart" target="7"/>
+      <arc id="2191567706128" source="Hepatitis B Surface Antigen Measurement" target="4"/>
+      <arc id="2191567720784" source="▶" target="2"/>
+      <arc id="2191567751312" source="Ultrasound scan for fetal viability" target="3"/>
+      <arc id="2191567700432" source="Removal of endotracheal tube (procedure)" target="10"/>
+      <arc id="2191567725264" source="9" target="Bone density scan (procedure)"/>
+      <arc id="2191567715088" source="▶" target="4"/>
+      <arc id="2191567760272" source="2" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567719568" source="Microbial culture (procedure)" target="6"/>
+      <arc id="2191567633680" source="Suture open wound" target="6"/>
+      <arc id="2191567764752" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="9"/>
+      <arc id="2191567724048" source="5" target="Mammography (procedure)"/>
+      <arc id="2191567703696" source="7" target="Physical examination of mother"/>
+      <arc id="2191567759056" source="6" target="Physical examination of mother"/>
+      <arc id="2191567683344" source="5" target="Physical examination"/>
+      <arc id="2191567718352" source="Urine screening test for diabetes" target="3"/>
+      <arc id="2191567549264" source="Hepatitis C antibody test" target="9"/>
+      <arc id="2191567614800" source="Gonorrhea infection test" target="9"/>
+      <arc id="2191567631184" source="Removal of endotracheal tube (procedure)" target="9"/>
+      <arc id="2191567551312" source="6" target="Microbial culture (procedure)"/>
+      <arc id="2191567616848" source="10" target="Microbial culture (procedure)"/>
+      <arc id="2191567633232" source="5" target="Microbial culture (procedure)"/>
+      <arc id="2191567604560" source="Throat culture (procedure)" target="4"/>
+      <arc id="2191567602512" source="7" target="Electrical cardioversion"/>
+      <arc id="2191567606608" source="Skin test for tuberculosis" target="2"/>
+      <arc id="2191567608656" source="3" target="Hepatitis C antibody test"/>
+      <arc id="2191567708176" source="3" target="Electrical cardioversion"/>
+      <arc id="2191567763536" source="2" target="Urine protein test"/>
+      <arc id="2191567712656" source="8" target="Chlamydia antigen test"/>
+      <arc id="2191567757840" source="4" target="Urine screening test for diabetes"/>
+      <arc id="2191567727312" source="Ultrasound scan for fetal viability" target="7"/>
+      <arc id="2191567717136" source="Bone density scan (procedure)" target="8"/>
+      <arc id="2191567676432" source="Depression screening" target="3"/>
+      <arc id="2191567721616" source="10" target="Depression screening"/>
+      <arc id="2191567766800" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2191567726096" source="9" target="Urine culture"/>
+      <arc id="2191567715920" source="Colonoscopy" target="7"/>
+      <arc id="2191567761104" source="Syphilis infection test" target="6"/>
+      <arc id="2191567619856" source="2" target="Hemodialysis (procedure)"/>
+      <arc id="2191567750928" source="6" target="Depression screening"/>
+      <arc id="2191567720400" source="Auscultation of the fetal heart" target="8"/>
+      <arc id="2191567621008" source="4" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567623056" source="Microbial culture (procedure)" target="3"/>
+      <arc id="2191567627152" source="Mammography (procedure)" target="6"/>
+      <arc id="2191567610768" source="Auscultation of the fetal heart" target="3"/>
+      <arc id="2191567618960" source="Urine screening test for diabetes" target="2"/>
+      <arc id="2191567676304" source="Human immunodeficiency virus antigen test" target="11"/>
+      <arc id="2191567680400" source="8" target="Throat culture (procedure)"/>
+      <arc id="2191567682448" source="8" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567704976" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567707024" source="7" target="Auscultation of the fetal heart"/>
+      <arc id="2191567710224" source="Urine culture" target="11"/>
+      <arc id="2191567724880" source="7" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567753232" source="5" target="Syphilis infection test"/>
+      <arc id="2191567755408" source="Physical examination" target="7"/>
+      <arc id="2191567759888" source="9" target="Syphilis infection test"/>
+      <arc id="2191567764368" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567754192" source="10" target="Blood typing  RH typing"/>
+      <arc id="2191567714320" source="Hemodialysis (procedure)" target="10"/>
+      <arc id="2191567703312" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567768848" source="Hemodialysis (procedure)" target="9"/>
+      <arc id="2191567758672" source="Measurement of Varicella-zoster virus antibody" target="6"/>
+      <arc id="2191567717968" source="Ultrasound scan for fetal viability" target="9"/>
+      <arc id="2191567707792" source="Ultrasound scan for fetal viability" target="5"/>
+      <arc id="2191567677264" source="Rectal polypectomy" target="8"/>
+      <arc id="2191567722448" source="2" target="Rubella screening"/>
+      <arc id="2191567612880" source="Mammography (procedure)" target="3"/>
+      <arc id="2191567616976" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2191567619024" source="source" target="▶"/>
+      <arc id="2191567668176" source="9" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567549392" source="Blood typing  RH typing" target="9"/>
+      <arc id="2191567608784" source="Screening for occult blood in feces (procedure)" target="9"/>
+      <arc id="2191567670224" source="5" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567672272" source="Oxygen administration by mask (procedure)" target="3"/>
+      <arc id="2191567674320" source="Electrical cardioversion" target="2"/>
+      <arc id="2191567678416" source="3" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567702096" source="11" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567757456" source="3" target="Physical examination of mother"/>
+      <arc id="2191567767632" source="6" target="Urine screening test for diabetes"/>
+      <arc id="2191567716752" source="10" target="Rectal polypectomy"/>
+      <arc id="2191567620688" source="Electrical cardioversion" target="5"/>
+      <arc id="2191567751760" source="Skin test for tuberculosis" target="3"/>
+      <arc id="2191567766416" source="Rectal polypectomy" target="9"/>
+      <arc id="2191567705360" source="9" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567760720" source="10" target="Throat culture (procedure)"/>
+      <arc id="2191567750544" source="Urine protein test" target="9"/>
+      <arc id="2191567720016" source="3" target="Mammography (procedure)"/>
+      <arc id="2191567709840" source="2" target="Urine screening test for diabetes"/>
+      <arc id="2191567765200" source="11" target="Blood typing  RH typing"/>
+      <arc id="2191567679312" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="5"/>
+      <arc id="2191567724496" source="5" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567551504" source="Urine protein test" target="11"/>
+      <arc id="2191567604752" source="Oxygen administration by mask (procedure)" target="11"/>
+      <arc id="2191567610896" source="3" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567612944" source="11" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567633424" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2191567668240" source="11" target="Physical examination of mother"/>
+      <arc id="2191567621136" source="4" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567623184" source="8" target="Physical examination"/>
+      <arc id="2191567625232" source="9" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567627280" source="Throat culture (procedure)" target="8"/>
+      <arc id="2191567704144" source="5" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567728976" source="6" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567759504" source="2" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567763984" source="Human immunodeficiency virus antigen test" target="8"/>
+      <arc id="2191567753808" source="Standard pregnancy test" target="4"/>
+      <arc id="2191567723280" source="2" target="Urine culture"/>
+      <arc id="2191567713104" source="4" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567672400" source="3" target="Physical examination"/>
+      <arc id="2191567717584" source="6" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567707408" source="3" target="Syphilis infection test"/>
+      <arc id="2191567752592" source="4" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567732240" source="Rubella screening" target="10"/>
+      <arc id="2191567722064" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="2191567711888" source="Blood typing  RH typing" target="8"/>
+      <arc id="2191567681360" source="9" target="Colonoscopy"/>
+      <arc id="2191567726544" source="9" target="Auscultation of the fetal heart"/>
+      <arc id="2191567623248" source="8" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567602768" source="Bone density scan (procedure)" target="6"/>
+      <arc id="2191567606864" source="6" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567549520" source="Screening for occult blood in feces (procedure)" target="8"/>
+      <arc id="2191567608912" source="Physical examination of mother" target="7"/>
+      <arc id="2191567625296" source="Physical examination" target="11"/>
+      <arc id="2191567610960" source="8" target="Mammography (procedure)"/>
+      <arc id="2191567629392" source="Screening for occult blood in feces (procedure)" target="11"/>
+      <arc id="2191567615056" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="2191567631440" source="Urine culture" target="9"/>
+      <arc id="2191567675664" source="Urine screening test for diabetes" target="10"/>
+      <arc id="2191567731024" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="2191567761552" source="Pulmonary rehabilitation (regime/therapy)" target="11"/>
+      <arc id="2191567720848" source="11" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567710672" source="Insertion of endotracheal tube (procedure)" target="4"/>
+      <arc id="2191567766032" source="9" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567755856" source="7" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567767568" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="4"/>
+      <arc id="2191567750160" source="Skin test for tuberculosis" target="8"/>
+      <arc id="2191567674448" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="7"/>
+      <arc id="2191567709456" source="Pulmonary rehabilitation (regime/therapy)" target="5"/>
+      <arc id="2191567754640" source="Removal of endotracheal tube (procedure)" target="2"/>
+      <arc id="2191567678928" source="9" target="Hemodialysis (procedure)"/>
+      <arc id="2191567724112" source="Hepatitis B Surface Antigen Measurement" target="2"/>
+      <arc id="2191567713936" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="9"/>
+      <arc id="2191567673232" source="Spirometry (procedure)" target="10"/>
+      <arc id="2191567613072" source="5" target="Urine culture"/>
+      <arc id="2191567615120" source="Removal of endotracheal tube (procedure)" target="11"/>
+      <arc id="2191567551632" source="8" target="Hepatitis C antibody test"/>
+      <arc id="2191567604880" source="Screening for occult blood in feces (procedure)" target="3"/>
+      <arc id="2191567602832" source="Chlamydia antigen test" target="11"/>
+      <arc id="2191567617168" source="Oxygen administration by mask (procedure)" target="10"/>
+      <arc id="2191567619216" source="Oxygen administration by mask (procedure)" target="6"/>
+      <arc id="2191567668368" source="6" target="Syphilis infection test"/>
+      <arc id="2191567621264" source="Physical examination" target="8"/>
+      <arc id="2191567606928" source="11" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567677712" source="2" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567708240" source="Blood typing  RH typing" target="11"/>
+      <arc id="2191567753424" source="Urine protein test" target="6"/>
+      <arc id="2191567722896" source="2" target="Depression screening"/>
+      <arc id="2191567763600" source="Oxygen administration by mask (procedure)" target="8"/>
+      <arc id="2191567702544" source="4" target="Face mask (physical object)"/>
+      <arc id="2191567768080" source="Physical examination of mother" target="3"/>
+      <arc id="2191567672016" source="Standard pregnancy test" target="6"/>
+      <arc id="2191567762384" source="4" target="Chlamydia antigen test"/>
+      <arc id="2191567752208" source="4" target="Standard pregnancy test"/>
+      <arc id="2191567731856" source="3" target="Auscultation of the fetal heart"/>
+      <arc id="2191567711504" source="5" target="Suture open wound"/>
+      <arc id="2191567701328" source="8" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567766864" source="Gonorrhea infection test" target="6"/>
+      <arc id="2191567756688" source="4" target="Bone density scan (procedure)"/>
+      <arc id="2191567680976" source="6" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567730640" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567619280" source="11" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567668432" source="Mammography (procedure)" target="4"/>
+      <arc id="2191567549648" source="Hemoglobin / Hematocrit / Platelet count" target="5"/>
+      <arc id="2191567609040" source="6" target="Gonorrhea infection test"/>
+      <arc id="2191567611088" source="5" target="Auscultation of the fetal heart"/>
+      <arc id="2191567629520" source="4" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567631568" source="Electrical cardioversion" target="4"/>
+      <arc id="2191567633616" source="Urine culture" target="2"/>
+      <arc id="2191567670480" source="Skin test for tuberculosis" target="4"/>
+      <arc id="2191567672528" source="Urine screening test for diabetes" target="7"/>
+      <arc id="2191567679760" source="Colonoscopy" target="9"/>
+      <arc id="2191567700112" source="Rectal polypectomy" target="4"/>
+      <arc id="2191567765648" source="11" target="Microbial culture (procedure)"/>
+      <arc id="2191567714768" source="Hepatitis C antibody test" target="6"/>
+      <arc id="2191567704592" source="Oxygen administration by mask (procedure)" target="2"/>
+      <arc id="2191567749776" source="Standard pregnancy test" target="9"/>
+      <arc id="2191567674064" source="Screening for occult blood in feces (procedure)" target="2"/>
+      <arc id="2191567729424" source="Hepatitis B Surface Antigen Measurement" target="11"/>
+      <arc id="2191567678544" source="6" target="Standard pregnancy test"/>
+      <arc id="2191567713552" source="6" target="Electrical cardioversion"/>
+      <arc id="2191567768912" source="3" target="Bone density scan (procedure)"/>
+      <arc id="2191567683024" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="3"/>
+      <arc id="2191567728208" source="9" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567707856" source="11" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567753040" source="9" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567732688" source="3" target="Skin test for tuberculosis"/>
+      <arc id="2191567625488" source="Placing subject in prone position (procedure)" target="3"/>
+      <arc id="2191567627536" source="4" target="Mammography (procedure)"/>
+      <arc id="2191567613200" source="Urine culture" target="3"/>
+      <arc id="2191567629584" source="5" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567615248" source="7" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567551760" source="Rubella screening" target="4"/>
+      <arc id="2191567605008" source="Suture open wound" target="9"/>
+      <arc id="2191567607056" source="7" target="Microbial culture (procedure)"/>
+      <arc id="2191567602960" source="5" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567617296" source="Microbial culture (procedure)" target="9"/>
+      <arc id="2191567671632" source="2" target="Auscultation of the fetal heart"/>
+      <arc id="2191567726992" source="Skin test for tuberculosis" target="5"/>
+      <arc id="2191567706640" source="Plain chest X-ray (procedure)" target="8"/>
+      <arc id="2191567762000" source="Suture open wound" target="10"/>
+      <arc id="2191567751824" source="Hemodialysis (procedure)" target="7"/>
+      <arc id="2191567676112" source="Blood typing  RH typing" target="6"/>
+      <arc id="2191567731472" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="6"/>
+      <arc id="2191567721296" source="2" target="Throat culture (procedure)"/>
+      <arc id="2191567711120" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567700944" source="8" target="Microbial culture (procedure)"/>
+      <arc id="2191567756304" source="8" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567680592" source="3" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567725776" source="10" target="Gonorrhea infection test"/>
+      <arc id="2191567715600" source="Physical examination of mother" target="8"/>
+      <arc id="2191567760784" source="Hepatitis B Surface Antigen Measurement" target="7"/>
+      <arc id="2191567750608" source="11" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567674896" source="Syphilis infection test" target="11"/>
+      <arc id="2191567730256" source="Suture open wound" target="5"/>
+      <arc id="2191567615312" source="Mammography (procedure)" target="11"/>
+      <arc id="2191567551824" source="7" target="Gonorrhea infection test"/>
+      <arc id="2191567619408" source="9" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567668560" source="Depression screening" target="11"/>
+      <arc id="2191567549776" source="Hepatitis C antibody test" target="2"/>
+      <arc id="2191567603024" source="9" target="Microbial culture (procedure)"/>
+      <arc id="2191567607120" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567609168" source="7" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567625552" source="2" target="Colonoscopy"/>
+      <arc id="2191567674704" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567704208" source="Colonoscopy" target="10"/>
+      <arc id="2191567673680" source="8" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567749392" source="2" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567759568" source="11" target="Urine screening test for diabetes"/>
+      <arc id="2191567718864" source="Rectal polypectomy" target="2"/>
+      <arc id="2191567708688" source="4" target="Skin test for tuberculosis"/>
+      <arc id="2191567753872" source="Rubella screening" target="6"/>
+      <arc id="2191567678160" source="9" target="Gonorrhea infection test"/>
+      <arc id="2191567713168" source="9" target="Rectal polypectomy"/>
+      <arc id="2191567758352" source="Hemodialysis (procedure)" target="11"/>
+      <arc id="2191567682640" source="Chlamydia antigen test" target="2"/>
+      <arc id="2191567727824" source="Urine screening test for diabetes" target="6"/>
+      <arc id="2191567762832" source="2" target="Mammography (procedure)"/>
+      <arc id="2191567711952" source="11" target="Bone density scan (procedure)"/>
+      <arc id="2191567701776" source="Hepatitis C antibody test" target="4"/>
+      <arc id="2191567615888" source="Hepatitis B Surface Antigen Measurement" target="10"/>
+      <arc id="2191567621520" source="3" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567623568" source="Ultrasound scan for fetal viability" target="2"/>
+      <arc id="2191567627664" source="3" target="Depression screening"/>
+      <arc id="2191567629712" source="3" target="Urine screening test for diabetes"/>
+      <arc id="2191567631760" source="8" target="Blood typing  RH typing"/>
+      <arc id="2191567613328" source="7" target="Bone density scan (procedure)"/>
+      <arc id="2191567617424" source="9" target="Chlamydia antigen test"/>
+      <arc id="2191567619472" source="6" target="Rubella screening"/>
+      <arc id="2191567670672" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="3"/>
+      <arc id="2191567701392" source="2" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567706256" source="Throat culture (procedure)" target="9"/>
+      <arc id="2191567761616" source="11" target="■"/>
+      <arc id="2191567731088" source="11" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567710736" source="3" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567700560" source="Rectal polypectomy" target="3"/>
+      <arc id="2191567755920" source="7" target="Depression screening"/>
+      <arc id="2191567614672" source="Hepatitis B Surface Antigen Measurement" target="9"/>
+      <arc id="2191567680208" source="2" target="Gonorrhea infection test"/>
+      <arc id="2191567725392" source="3" target="Microbial culture (procedure)"/>
+      <arc id="2191567715216" source="9" target="Rubella screening"/>
+      <arc id="2191567705040" source="Screening for occult blood in feces (procedure)" target="10"/>
+      <arc id="2191567629328" source="Auscultation of the fetal heart" target="9"/>
+      <arc id="2191567750224" source="Skin test for tuberculosis" target="10"/>
+      <arc id="2191567709520" source="10" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567764880" source="Hepatitis C antibody test" target="7"/>
+      <arc id="2191567678992" source="10" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567714000" source="Colonoscopy" target="6"/>
+      <arc id="2191567769360" source="10" target="Physical examination"/>
+      <arc id="2191567759184" source="Medication Reconciliation (procedure)" target="9"/>
+      <arc id="2191567552400" source="7" target="Suture open wound"/>
+      <arc id="2191567683472" source="Hemodialysis (procedure)" target="8"/>
+      <arc id="2191567631824" source="10" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567617488" source="7" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567633872" source="Auscultation of the fetal heart" target="11"/>
+      <arc id="2191567625680" source="7" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567668688" source="Rubella screening" target="3"/>
+      <arc id="2191567605200" source="7" target="Throat culture (procedure)"/>
+      <arc id="2191567603152" source="4" target="Hemodialysis (procedure)"/>
+      <arc id="2191567607248" source="Removal of endotracheal tube (procedure)" target="6"/>
+      <arc id="2191567609296" source="Urine protein test" target="10"/>
+      <arc id="2191567672784" source="Rubella screening" target="9"/>
+      <arc id="2191567728656" source="10" target="Suture open wound"/>
+      <arc id="2191567722960" source="Bone density scan (procedure)" target="10"/>
+      <arc id="2191567768144" source="9" target="Depression screening"/>
+      <arc id="2191567757968" source="Urine screening test for diabetes" target="5"/>
+      <arc id="2191567616720" source="Rectal polypectomy" target="5"/>
+      <arc id="2191567682256" source="9" target="■"/>
+      <arc id="2191567727440" source="Mammography (procedure)" target="5"/>
+      <arc id="2191567631376" source="Hepatitis C antibody test" target="8"/>
+      <arc id="2191567762448" source="9" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567752272" source="Measurement of Varicella-zoster virus antibody" target="10"/>
+      <arc id="2191567676560" source="4" target="Rubella screening"/>
+      <arc id="2191567731920" source="2" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567721744" source="2" target="Chlamydia antigen test"/>
+      <arc id="2191567711568" source="11" target="Hepatitis C antibody test"/>
+      <arc id="2191567681040" source="Throat culture (procedure)" target="11"/>
+      <arc id="2191567726224" source="8" target="Urine protein test"/>
+      <arc id="2191567716048" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567705872" source="Evaluation of uterine fundal height" target="2"/>
+      <arc id="2191567751056" source="2" target="Hepatitis C antibody test"/>
+      <arc id="2191567615504" source="11" target="Gonorrhea infection test"/>
+      <arc id="2191567552016" source="3" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567605264" source="Electrical cardioversion" target="11"/>
+      <arc id="2191567619600" source="3" target="Placing subject in prone position (procedure)"/>
+      <arc id="2191567623696" source="6" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567625744" source="Oxygen administration by mask (procedure)" target="5"/>
+      <arc id="2191567627792" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567613456" source="Syphilis infection test" target="7"/>
+      <arc id="2191567629840" source="9" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567672848" source="10" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2191567725008" source="2" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567714832" source="Microbial culture (procedure)" target="8"/>
+      <arc id="2191567760016" source="Placing subject in prone position (procedure)" target="9"/>
+      <arc id="2191567729488" source="11" target="Standard pregnancy test"/>
+      <arc id="2191567764496" source="Skin test for tuberculosis" target="6"/>
+      <arc id="2191567754320" source="Hepatitis B Surface Antigen Measurement" target="5"/>
+      <arc id="2191567713616" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="11"/>
+      <arc id="2191567703440" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="5"/>
+      <arc id="2191567758800" source="Suture open wound" target="11"/>
+      <arc id="2191567718096" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2191567603280" source="Plain chest X-ray (procedure)" target="2"/>
+      <arc id="2191567550032" source="5" target="Urine screening test for diabetes"/>
+      <arc id="2191567609424" source="8" target="Electrical cardioversion"/>
+      <arc id="2191567611472" source="Removal of endotracheal tube (procedure)" target="5"/>
+      <arc id="2191567613520" source="Syphilis infection test" target="10"/>
+      <arc id="2191567631952" source="Removal of endotracheal tube (procedure)" target="7"/>
+      <arc id="2191567617616" source="Hepatitis C antibody test" target="5"/>
+      <arc id="2191567634000" source="6" target="Physical examination"/>
+      <arc id="2191567670864" source="Rectal polypectomy" target="7"/>
+      <arc id="2191567677008" source="2" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567702224" source="Ultrasound scan for fetal viability" target="4"/>
+      <arc id="2191567712400" source="6" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567757584" source="4" target="Urine protein test"/>
+      <arc id="2191567671696" source="Colonoscopy" target="11"/>
+      <arc id="2191567727056" source="Cytopathology procedure  preparation of smear  genital source" target="2"/>
+      <arc id="2191567716880" source="6" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567721360" source="10" target="Bone density scan (procedure)"/>
+      <arc id="2191567730320" source="11" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567720144" source="Electrical cardioversion" target="3"/>
+      <arc id="2191567709968" source="Chlamydia antigen test" target="6"/>
+      <arc id="2191567755152" source="3" target="Standard pregnancy test"/>
+      <arc id="2191567679440" source="10" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567611536" source="Electrical cardioversion" target="9"/>
+      <arc id="2191567629968" source="8" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567615632" source="Gonorrhea infection test" target="2"/>
+      <arc id="2191567632016" source="5" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567550096" source="Urine screening test for diabetes" target="11"/>
+      <arc id="2191567552144" source="Bone density scan (procedure)" target="2"/>
+      <arc id="2191567605392" source="8" target="Gonorrhea infection test"/>
+      <arc id="2191567619728" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2191567668880" source="Human immunodeficiency virus antigen test" target="10"/>
+      <arc id="2191567621776" source="Pulmonary rehabilitation (regime/therapy)" target="7"/>
+      <arc id="2191567718928" source="Colonoscopy" target="8"/>
+      <arc id="2191567764112" source="Suture open wound" target="2"/>
+      <arc id="2191567723408" source="Depression screening" target="9"/>
+      <arc id="2191567703056" source="Removal of endotracheal tube (procedure)" target="3"/>
+      <arc id="2191567717712" source="Mammography (procedure)" target="8"/>
+      <arc id="2191567707536" source="8" target="Standard pregnancy test"/>
+      <arc id="2191567732368" source="Hepatitis B Surface Antigen Measurement" target="3"/>
+      <arc id="2191567722192" source="Electrical cardioversion" target="6"/>
+      <arc id="2191567767376" source="Throat culture (procedure)" target="6"/>
+      <arc id="2191567757200" source="Blood typing  RH typing" target="7"/>
+      <arc id="2191567681488" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="11"/>
+      <arc id="2191567634128" source="Electrical cardioversion" target="8"/>
+      <arc id="2191567621840" source="6" target="Urine culture"/>
+      <arc id="2191567605456" source="Standard pregnancy test" target="8"/>
+      <arc id="2191567603408" source="8" target="Screening for chromosomal aneuploidy in prenatal amniotic fluid"/>
+      <arc id="2191567607504" source="7" target="Hepatitis C antibody test"/>
+      <arc id="2191567611600" source="11" target="Urine culture"/>
+      <arc id="2191567613648" source="4" target="Colonoscopy"/>
+      <arc id="2191567679184" source="8" target="Bone density scan (procedure)"/>
+      <arc id="2191567681232" source="Human immunodeficiency virus antigen test" target="3"/>
+      <arc id="2191567705808" source="Syphilis infection test" target="9"/>
+      <arc id="2191567716496" source="4" target="Electrical cardioversion"/>
+      <arc id="2191567675792" source="8" target="Skin test for tuberculosis"/>
+      <arc id="2191567720976" source="Cytopathology procedure  preparation of smear  genital source" target="9"/>
+      <arc id="2191567670096" source="2" target="Suture open wound"/>
+      <arc id="2191567761488" source="Electrical cardioversion" target="10"/>
+      <arc id="2191567760464" source="Cytopathology procedure  preparation of smear  genital source" target="11"/>
+      <arc id="2191567674576" source="10" target="Syphilis infection test"/>
+      <arc id="2191567729936" source="6" target="Blood typing  RH typing"/>
+      <arc id="2191567719760" source="Hemodialysis (procedure)" target="3"/>
+      <arc id="2191567754768" source="Hemoglobin / Hematocrit / Platelet count" target="6"/>
+      <arc id="2191567724240" source="5" target="Throat culture (procedure)"/>
+      <arc id="2191567759248" source="Microbial culture (procedure)" target="5"/>
+      <arc id="2191567623952" source="3" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567609616" source="Ultrasound scan for fetal viability" target="11"/>
+      <arc id="2191567626000" source="6" target="Auscultation of the fetal heart"/>
+      <arc id="2191567628048" source="10" target="Hepatitis C antibody test"/>
+      <arc id="2191567630096" source="Hemoglobin / Hematocrit / Platelet count" target="3"/>
+      <arc id="2191567632144" source="Chlamydia antigen test" target="5"/>
+      <arc id="2191567607568" source="11" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567550224" source="5" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567552272" source="6" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2191567634192" source="Auscultation of the fetal heart" target="6"/>
+      <arc id="2191567708368" source="Measurement of Varicella-zoster virus antibody" target="5"/>
+      <arc id="2191567718544" source="11" target="Throat culture (procedure)"/>
+      <arc id="2191567763728" source="Suture open wound" target="7"/>
+      <arc id="2191567702672" source="8" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567672144" source="8" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567717328" source="9" target="Standard pregnancy test"/>
+      <arc id="2191567707152" source="4" target="Spirometry (procedure)"/>
+      <arc id="2191567676624" source="Insertion of endotracheal tube (procedure)" target="2"/>
+      <arc id="2191567721808" source="7" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567756816" source="9" target="Physical examination of mother"/>
+      <arc id="2191567670928" source="11" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567716112" source="Urine culture" target="8"/>
+      <arc id="2191567761296" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="11"/>
+      <arc id="2191567613776" source="9" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567550288" source="Gonorrhea infection test" target="7"/>
+      <arc id="2191567615824" source="Bone density scan (procedure)" target="7"/>
+      <arc id="2191567617872" source="8" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567621968" source="9" target="Cytopathology procedure  preparation of smear  genital source"/>
+      <arc id="2191567605584" source="4" target="Syphilis infection test"/>
+      <arc id="2191567603536" source="Rubella screening" target="11"/>
+      <arc id="2191567611728" source="10" target="Colonoscopy"/>
+      <arc id="2191567628112" source="10" target="Evaluation of uterine fundal height"/>
+      <arc id="2191567673168" source="7" target="Plain chest X-ray (procedure)"/>
+      <arc id="2191567720592" source="Syphilis infection test" target="4"/>
+      <arc id="2191567730768" source="5" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="2191567679888" source="Measurement of Varicella-zoster virus antibody" target="2"/>
+      <arc id="2191567604176" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="2"/>
+      <arc id="2191567704720" source="Urine protein test" target="5"/>
+      <arc id="2191567749904" source="Syphilis infection test" target="3"/>
+      <arc id="2191567674192" source="7" target="Skin test for tuberculosis"/>
+      <arc id="2191567729552" source="Ultrasound scan for fetal viability" target="10"/>
+      <arc id="2191567719376" source="Throat culture (procedure)" target="3"/>
+      <arc id="2191567709200" source="2" target="Bone density scan (procedure)"/>
+      <arc id="2191567633488" source="10" target="Urine protein test"/>
+      <arc id="2191567623312" source="11" target="Colonoscopy"/>
+      <arc id="2191567678672" source="9" target="Urine screening test for diabetes"/>
+      <arc id="2191567720464" source="10" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567723856" source="3" target="Rubella screening"/>
+      <arc id="2191567769040" source="9" target="Electrical cardioversion"/>
+      <arc id="2191567672976" source="3" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2191567728336" source="11" target="Physical examination"/>
+      <arc id="2191567707984" source="Physical examination" target="2"/>
+      <arc id="2191567763344" source="Rubella screening" target="2"/>
+      <arc id="2191567619984" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="6"/>
+      <arc id="2191567669136" source="2" target="Hemoglobin / Hematocrit / Platelet count"/>
+      <arc id="2191567622032" source="Cytopathology procedure  preparation of smear  genital source" target="5"/>
+      <arc id="2191567624080" source="Hemoglobin / Hematocrit / Platelet count" target="2"/>
+      <arc id="2191567626128" source="10" target="Standard pregnancy test"/>
+      <arc id="2191567630224" source="9" target="Hepatitis C antibody test"/>
+      <arc id="2191567632272" source="Chlamydia antigen test" target="3"/>
+      <arc id="2191567607696" source="Urine protein test" target="7"/>
+      <arc id="2191567609744" source="Cytopathology procedure  preparation of smear  genital source" target="6"/>
+      <arc id="2191567613840" source="11" target="Mammography (procedure)"/>
+      <arc id="2191567702288" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2191567681936" source="2" target="Skin test for tuberculosis"/>
+      <arc id="2191567671760" source="Urine culture" target="10"/>
+      <arc id="2191567706768" source="2" target="Rectal polypectomy"/>
+      <arc id="2191567751952" source="5" target="Standard pregnancy test"/>
+      <arc id="2191567711248" source="Blood typing  RH typing" target="4"/>
+      <arc id="2191567766608" source="3" target="Throat culture (procedure)"/>
+      <arc id="2191567756432" source="6" target="Bone density scan (procedure)"/>
+      <arc id="2191567680720" source="5" target="Removal of endotracheal tube (procedure)"/>
+      <arc id="2191567670544" source="10" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567725904" source="Gonorrhea infection test" target="8"/>
+      <arc id="2191567750736" source="Rubella screening" target="7"/>
+      <arc id="2191567675024" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="9"/>
+      <arc id="2191567634320" source="7" target="Urine protein test"/>
+      <arc id="2191567755216" source="Face mask (physical object)" target="11"/>
+      <arc id="2191567611856" source="2" target="Blood typing  RH typing"/>
+      <arc id="2191567628240" source="5" target="Human immunodeficiency virus antigen test"/>
+      <arc id="2191567618000" source="4" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567669200" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="2191567607760" source="Physical examination" target="6"/>
+      <arc id="2191567605712" source="Human immunodeficiency virus antigen test" target="4"/>
+      <arc id="2191567603664" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2191567550416" source="6" target="Mammography (procedure)"/>
+      <arc id="2191567671248" source="Hepatitis B Surface Antigen Measurement" target="8"/>
+      <arc id="2191567675344" source="5" target="Depression screening"/>
+      <arc id="2191567704336" source="9" target="Mammography (procedure)"/>
+      <arc id="2191567714512" source="10" target="Hepatitis B Surface Antigen Measurement"/>
+      <arc id="2191567724688" source="6" target="Suture open wound"/>
+      <arc id="2191567749520" source="Urine protein test" target="4"/>
+      <arc id="2191567759696" source="Mammography (procedure)" target="7"/>
+      <arc id="2191567608272" source="Measurement of Varicella-zoster virus antibody" target="4"/>
+      <arc id="2191567673808" source="8" target="Measurement of Varicella-zoster virus antibody"/>
+      <arc id="2191567708816" source="2" target="Ultrasound scan for fetal viability"/>
+      <arc id="2191567633104" source="Colonoscopy" target="5"/>
+      <arc id="2191567754000" source="Screening for chromosomal aneuploidy in prenatal amniotic fluid" target="10"/>
+      <arc id="2191567678288" source="Suture open wound" target="8"/>
+      <arc id="2191567713296" source="3" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2191567703120" source="10" target="Hemodialysis (procedure)"/>
+      <arc id="2191567768656" source="Measurement of Varicella-zoster virus antibody" target="9"/>
+      <arc id="2191567627408" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="8"/>
+      <arc id="2191567758480" source="Colonoscopy" target="2"/>
+      <arc id="2191567682768" source="6" target="Chlamydia antigen test"/>
+      <arc id="2191567727952" source="Evaluation of uterine fundal height" target="7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

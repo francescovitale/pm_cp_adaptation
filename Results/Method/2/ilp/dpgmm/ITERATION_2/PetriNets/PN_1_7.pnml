@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041805.8922317" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041805.8922317</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="acab2bdc-40f2-427a-9b97-dfaf3e25ff4d"/>
+      </transition>
+      <arc id="2743494479440" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2743494480656" source="■" target="sink"/>
+      <arc id="2743494480784" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2743494478352" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="2743494479888" source="source" target="Face mask (physical object)"/>
+      <arc id="2743494480016" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2743494480208" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2743494480336" source="Face mask (physical object)" target="3"/>
+      <arc id="2743494480848" source="Face mask (physical object)" target="5"/>
+      <arc id="2743494480080" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2743494479568" source="6" target="■"/>
+      <arc id="2743494480592" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2743494479824" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="2743494478160" source="4" target="■"/>
+      <arc id="2743494478672" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2743494478928" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="2743494478800" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2743494479056" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2743494479184" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2743494479312" source="Insertion of endotracheal tube (procedure)" target="6"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

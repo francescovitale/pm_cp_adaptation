@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042233.4250267" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042233.4250267</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="763b0b25-98c3-4e98-a5a3-07e23f7aff09"/>
+      </transition>
+      <transition id="2d0bea59-e36a-4817-827a-9b007812d384">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="skip_7">
+        <name>
+          <text>skip_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6c9dbd4c-e2d4-4997-b2a1-77d9e7181131"/>
+      </transition>
+      <transition id="init_loop_5">
+        <name>
+          <text>init_loop_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="598dbfba-658b-44a4-8c98-705ba7f0c968"/>
+      </transition>
+      <transition id="skip_8">
+        <name>
+          <text>skip_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2dd1372e-e674-4569-81c6-3a94352a2850"/>
+      </transition>
+      <transition id="7b755901-bcbf-4ede-9a2e-5b37fda58e33">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="skip_9">
+        <name>
+          <text>skip_9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="246e88d7-acc3-49df-9f77-d86babf17e8f"/>
+      </transition>
+      <arc id="2194439121424" source="p_6" target="7b755901-bcbf-4ede-9a2e-5b37fda58e33"/>
+      <arc id="2194439121744" source="skip_7" target="p_7"/>
+      <arc id="2194439121872" source="7b755901-bcbf-4ede-9a2e-5b37fda58e33" target="p_5"/>
+      <arc id="2194439120720" source="p_8" target="skip_7"/>
+      <arc id="2194439120656" source="source" target="tau_1"/>
+      <arc id="2194439119760" source="p_7" target="2d0bea59-e36a-4817-827a-9b007812d384"/>
+      <arc id="2194439120080" source="p_5" target="init_loop_5"/>
+      <arc id="2194439120592" source="tau_1" target="p_5"/>
+      <arc id="2194439120976" source="2d0bea59-e36a-4817-827a-9b007812d384" target="p_8"/>
+      <arc id="2194439120848" source="skip_8" target="p_6"/>
+      <arc id="2194439121488" source="skip_9" target="sink"/>
+      <arc id="2194439121104" source="p_8" target="skip_8"/>
+      <arc id="2194439121232" source="p_6" target="skip_9"/>
+      <arc id="2194439121296" source="init_loop_5" target="p_7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

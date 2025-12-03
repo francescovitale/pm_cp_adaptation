@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021425.654204" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021425.654204</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9f485121-c956-4df9-b58d-40117415d595"/>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="11335ff6-2e5c-49b8-8897-48db357d304f"/>
+      </transition>
+      <arc id="2877553998992" source="■" target="sink"/>
+      <arc id="2877553999376" source="source" target="▶"/>
+      <arc id="2877553998416" source="2" target="Face mask (physical object)"/>
+      <arc id="2877553998224" source="Throat culture (procedure)" target="2"/>
+      <arc id="2877553998544" source="▶" target="2"/>
+      <arc id="2877553999184" source="2" target="Throat culture (procedure)"/>
+      <arc id="2877553999312" source="Face mask (physical object)" target="3"/>
+      <arc id="2877553999504" source="Throat culture (procedure)" target="3"/>
+      <arc id="2877553999568" source="3" target="Throat culture (procedure)"/>
+      <arc id="2877553999696" source="3" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

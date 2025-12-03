@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021379.0706625" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021379.0706625</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="434b94a6-2720-40e2-a1fe-61a6afb932fb"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f2010d6a-e20f-4ff3-9fe9-e46ec0f9aa31"/>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <arc id="1427068780816" source="■" target="sink"/>
+      <arc id="1427068747536" source="▶" target="2"/>
+      <arc id="1427068780944" source="2" target="Face mask (physical object)"/>
+      <arc id="1427068781072" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1427068780752" source="source" target="▶"/>
+      <arc id="1427068781136" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068781264" source="Face mask (physical object)" target="3"/>
+      <arc id="1427068781392" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1427068781520" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068781648" source="3" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042013.0837092" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042013.0837092</text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="intplace_Face mask (physical object)">
+        <name>
+          <text>intplace_Face mask (physical object)</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b75f5211-8201-4892-adf0-59e6edb559c3"/>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <arc id="1409888526800" source="source0" target="Face mask (physical object)"/>
+      <arc id="1409888526096" source="intplace_Face mask (physical object)" target="Medication Reconciliation (procedure)"/>
+      <arc id="1409888527184" source="intplace_Face mask (physical object)" target="hid_2"/>
+      <arc id="1409888526736" source="hid_2" target="sink0"/>
+      <arc id="1409888526544" source="Face mask (physical object)" target="intplace_Face mask (physical object)"/>
+      <arc id="1409888527376" source="Medication Reconciliation (procedure)" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <transition id="Brief general examination (procedure)">
+        <name>
+          <text>Brief general examination (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Review of systems (procedure)">
+        <name>
+          <text>Review of systems (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Peripheral blood smear interpretation">
+        <name>
+          <text>Peripheral blood smear interpretation</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="168d386c-d47b-4ab6-864d-d074fa82a9f8"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="335113e4-767c-4845-84ae-cf03aa0004fb"/>
+      </transition>
+      <arc id="2877561087632" source="Peripheral blood smear interpretation" target="5"/>
+      <arc id="2877562494672" source="6" target="Peripheral blood smear interpretation"/>
+      <arc id="2877555793616" source="8" target="Throat culture (procedure)"/>
+      <arc id="2877561079568" source="Review of systems (procedure)" target="5"/>
+      <arc id="2877555795728" source="8" target="Review of systems (procedure)"/>
+      <arc id="2877562488720" source="Peripheral blood smear interpretation" target="6"/>
+      <arc id="2877562492816" source="6" target="Throat culture (procedure)"/>
+      <arc id="2877561089040" source="3" target="Brief general examination (procedure)"/>
+      <arc id="2877563560976" source="source" target="▶"/>
+      <arc id="2877561083792" source="Review of systems (procedure)" target="2"/>
+      <arc id="2877561078160" source="Brief general examination (procedure)" target="2"/>
+      <arc id="2877561081488" source="2" target="Peripheral blood smear interpretation"/>
+      <arc id="2877561090960" source="2" target="Review of systems (procedure)"/>
+      <arc id="2877561080976" source="3" target="Throat culture (procedure)"/>
+      <arc id="2877561088400" source="Review of systems (procedure)" target="3"/>
+      <arc id="2877561082640" source="Brief general examination (procedure)" target="4"/>
+      <arc id="2877561092496" source="Peripheral blood smear interpretation" target="4"/>
+      <arc id="2877561088144" source="4" target="Peripheral blood smear interpretation"/>
+      <arc id="2877561077840" source="5" target="Review of systems (procedure)"/>
+      <arc id="2877559675280" source="Review of systems (procedure)" target="8"/>
+      <arc id="2877557763408" source="8" target="Peripheral blood smear interpretation"/>
+      <arc id="2877561090896" source="3" target="■"/>
+      <arc id="2877561091280" source="4" target="Face mask (physical object)"/>
+      <arc id="2877562488144" source="6" target="Review of systems (procedure)"/>
+      <arc id="2877561085328" source="Review of systems (procedure)" target="4"/>
+      <arc id="2877561093520" source="5" target="Brief general examination (procedure)"/>
+      <arc id="2877561079248" source="Face mask (physical object)" target="3"/>
+      <arc id="2877559676432" source="Review of systems (procedure)" target="7"/>
+      <arc id="2877561091792" source="5" target="Peripheral blood smear interpretation"/>
+      <arc id="2877559670480" source="Brief general examination (procedure)" target="8"/>
+      <arc id="2877561089808" source="5" target="■"/>
+      <arc id="2877559676688" source="▶" target="8"/>
+      <arc id="2877558505360" source="Brief general examination (procedure)" target="6"/>
+      <arc id="2877561093328" source="3" target="Review of systems (procedure)"/>
+      <arc id="2877561084752" source="Peripheral blood smear interpretation" target="3"/>
+      <arc id="2877561090000" source="Brief general examination (procedure)" target="3"/>
+      <arc id="2877563563984" source="■" target="sink"/>
+      <arc id="2877561077968" source="Peripheral blood smear interpretation" target="2"/>
+      <arc id="2877561093712" source="▶" target="2"/>
+      <arc id="2877561080400" source="2" target="Brief general examination (procedure)"/>
+      <arc id="2877561083600" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2877561085008" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2877561083216" source="3" target="Peripheral blood smear interpretation"/>
+      <arc id="2877561090320" source="4" target="Brief general examination (procedure)"/>
+      <arc id="2877561092176" source="Face mask (physical object)" target="5"/>
+      <arc id="2877562497360" source="6" target="Brief general examination (procedure)"/>
+      <arc id="2877559681424" source="7" target="Brief general examination (procedure)"/>
+      <arc id="2877559677328" source="7" target="Peripheral blood smear interpretation"/>
+      <arc id="2877561092560" source="Brief general examination (procedure)" target="5"/>
+      <arc id="2877559673616" source="8" target="Brief general examination (procedure)"/>
+      <arc id="2877563136848" source="Peripheral blood smear interpretation" target="7"/>
+      <arc id="2877557838864" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="2877562496016" source="Review of systems (procedure)" target="6"/>
+      <arc id="2877561080912" source="Throat culture (procedure)" target="4"/>
+      <arc id="2877563137104" source="Brief general examination (procedure)" target="7"/>
+      <arc id="2877561079056" source="4" target="Review of systems (procedure)"/>
+      <arc id="2877559672144" source="7" target="Review of systems (procedure)"/>
+      <arc id="2877559670160" source="Peripheral blood smear interpretation" target="8"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

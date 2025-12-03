@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="01d0978b-57f8-4b1e-81b1-aea0eb934b50"/>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="909ef310-93f7-46ac-970a-212f77a3ddfd"/>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2595291851856" source="■" target="sink"/>
+      <arc id="2595294695440" source="Measurement of respiratory function (procedure)" target="3"/>
+      <arc id="2595288825552" source="▶" target="2"/>
+      <arc id="2595288819408" source="2" target="Face mask (physical object)"/>
+      <arc id="2595294920400" source="source" target="▶"/>
+      <arc id="2595294698128" source="3" target="■"/>
+      <arc id="2595293059856" source="▶" target="4"/>
+      <arc id="2595293057680" source="4" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2595267746576" source="Face mask (physical object)" target="5"/>
+      <arc id="2595285661584" source="5" target="■"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

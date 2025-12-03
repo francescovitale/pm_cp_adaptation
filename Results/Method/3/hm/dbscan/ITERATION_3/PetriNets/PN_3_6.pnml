@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Intramuscular injection">
+        <name>
+          <text>pre_Intramuscular injection</text>
+        </name>
+      </place>
+      <place id="intplace_Intramuscular injection">
+        <name>
+          <text>intplace_Intramuscular injection</text>
+        </name>
+      </place>
+      <transition id="Intramuscular injection">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e32b7a3b-09e5-4dfd-a55a-4cdde5d9c650"/>
+      </transition>
+      <transition id="hid_5">
+        <name>
+          <text>hid_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1a9f7cc1-7a93-4fbf-8dfb-fe6f9a1c38a8"/>
+      </transition>
+      <transition id="hid_6">
+        <name>
+          <text>hid_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="283f6716-5626-4e02-a7ad-22ba5001863a"/>
+      </transition>
+      <arc id="2410534581776" source="hid_6" target="sink0"/>
+      <arc id="2410534578768" source="intplace_Intramuscular injection" target="hid_6"/>
+      <arc id="2410539053008" source="intplace_Intramuscular injection" target="hid_5"/>
+      <arc id="2410539056208" source="pre_Intramuscular injection" target="Intramuscular injection"/>
+      <arc id="2410534569360" source="hid_5" target="pre_Intramuscular injection"/>
+      <arc id="2410534569040" source="Face mask (physical object)" target="pre_Intramuscular injection"/>
+      <arc id="2410539049680" source="source0" target="hid_3"/>
+      <arc id="2410539045712" source="hid_3" target="pre_Intramuscular injection"/>
+      <arc id="2410539054160" source="Intramuscular injection" target="intplace_Intramuscular injection"/>
+      <arc id="2410534568720" source="intplace_Intramuscular injection" target="Face mask (physical object)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

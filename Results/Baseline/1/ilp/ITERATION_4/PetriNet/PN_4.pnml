@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Sputum examination (procedure)">
+        <name>
+          <text>Sputum examination (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4aa0690a-72b7-4505-927b-da38972ebab8"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="818a2d62-9d53-4fb7-a13b-e030628d5d25"/>
+      </transition>
+      <arc id="1577395435024" source="Spirometry (procedure)" target="3"/>
+      <arc id="1577395435152" source="Sputum examination (procedure)" target="3"/>
+      <arc id="1577395472400" source="Measurement of respiratory function (procedure)" target="4"/>
+      <arc id="1577395435280" source="Throat culture (procedure)" target="3"/>
+      <arc id="1577395435408" source="3" target="Measurement of respiratory function (procedure)"/>
+      <arc id="1577395430928" source="2" target="Sputum examination (procedure)"/>
+      <arc id="1577395434512" source="Face mask (physical object)" target="3"/>
+      <arc id="1577395431056" source="2" target="Throat culture (procedure)"/>
+      <arc id="1577395430672" source="2" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1577395434768" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1577375804944" source="Measurement of respiratory function (procedure)" target="2"/>
+      <arc id="1577395429520" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1577395422608" source="source" target="▶"/>
+      <arc id="1577395429648" source="Pulmonary rehabilitation (regime/therapy)" target="2"/>
+      <arc id="1577395429776" source="Spirometry (procedure)" target="2"/>
+      <arc id="1577395435536" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1577395435664" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1577395435792" source="3" target="Spirometry (procedure)"/>
+      <arc id="1577395435920" source="3" target="Sputum examination (procedure)"/>
+      <arc id="1577395472528" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="1577395472656" source="Pulmonary rehabilitation (regime/therapy)" target="4"/>
+      <arc id="1577395472784" source="Spirometry (procedure)" target="4"/>
+      <arc id="1577395436048" source="3" target="Throat culture (procedure)"/>
+      <arc id="1577395472912" source="Sputum examination (procedure)" target="4"/>
+      <arc id="1577395436176" source="3" target="■"/>
+      <arc id="1577395473040" source="Throat culture (procedure)" target="4"/>
+      <arc id="1577395473168" source="4" target="Measurement of respiratory function (procedure)"/>
+      <arc id="1577395473296" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1577395473424" source="4" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1577395473552" source="4" target="Spirometry (procedure)"/>
+      <arc id="1577395473680" source="4" target="Sputum examination (procedure)"/>
+      <arc id="1577395473808" source="4" target="Throat culture (procedure)"/>
+      <arc id="1577395422288" source="■" target="sink"/>
+      <arc id="1577395429904" source="Sputum examination (procedure)" target="2"/>
+      <arc id="1577395430032" source="Throat culture (procedure)" target="2"/>
+      <arc id="1577395430160" source="▶" target="2"/>
+      <arc id="1577395430288" source="2" target="Face mask (physical object)"/>
+      <arc id="1577395430416" source="2" target="Measurement of respiratory function (procedure)"/>
+      <arc id="1577395430544" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1577395434640" source="Measurement of respiratory function (procedure)" target="3"/>
+      <arc id="1577395430800" source="2" target="Spirometry (procedure)"/>
+      <arc id="1577395434896" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f60bb115-c904-40fa-992c-d2b940a605e5"/>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="93257dcc-a994-47bb-a3f4-1bcbf69624a9"/>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2595285982864" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2595288818960" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2595295974160" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2595288822672" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2595285982224" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="2595288816144" source="source" target="▶"/>
+      <arc id="2595288816400" source="2" target="Face mask (physical object)"/>
+      <arc id="2595288814352" source="2" target="Plain chest X-ray (procedure)"/>
+      <arc id="2595288814480" source="Face mask (physical object)" target="3"/>
+      <arc id="2595288809616" source="3" target="■"/>
+      <arc id="2595288810960" source="■" target="sink"/>
+      <arc id="2595288823760" source="▶" target="2"/>
+      <arc id="2595288819920" source="Plain chest X-ray (procedure)" target="2"/>
+      <arc id="2595288817232" source="Plain chest X-ray (procedure)" target="3"/>
+      <arc id="2595288825680" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2595288820816" source="4" target="Face mask (physical object)"/>
+      <arc id="2595288823120" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="2595293067728" source="▶" target="5"/>
+      <arc id="2595294190160" source="5" target="■"/>
+      <arc id="2595293065488" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="2595293061392" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2595288814736" source="▶" target="4"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

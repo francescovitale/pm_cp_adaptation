@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042224.0851243" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042224.0851243</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="0b906a05-cad7-4844-896c-1101e91c0ce2">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="3793c98d-95c4-4bec-9f4a-7f6281442f04">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="b7f27b05-d8b8-456a-89eb-8033c2bbb76f">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="0d1dffab-849e-4317-84c4-4741f81f71d1">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2657575896528" source="source" target="0b906a05-cad7-4844-896c-1101e91c0ce2"/>
+      <arc id="2657575896080" source="b7f27b05-d8b8-456a-89eb-8033c2bbb76f" target="p_4"/>
+      <arc id="2657575896656" source="p_3" target="b7f27b05-d8b8-456a-89eb-8033c2bbb76f"/>
+      <arc id="2657575896464" source="p_4" target="0d1dffab-849e-4317-84c4-4741f81f71d1"/>
+      <arc id="2657575896272" source="0b906a05-cad7-4844-896c-1101e91c0ce2" target="p_3"/>
+      <arc id="2657575896912" source="0d1dffab-849e-4317-84c4-4741f81f71d1" target="p_5"/>
+      <arc id="2657575896784" source="p_5" target="3793c98d-95c4-4bec-9f4a-7f6281442f04"/>
+      <arc id="2657575897168" source="3793c98d-95c4-4bec-9f4a-7f6281442f04" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

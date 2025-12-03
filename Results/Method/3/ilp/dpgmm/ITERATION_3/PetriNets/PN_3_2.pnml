@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Suture open wound">
+        <name>
+          <text>Suture open wound</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5dd44953-1112-45c2-91b6-0210038f3ce8"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6b61edcf-1ba9-4645-911c-25c03eaf9faa"/>
+      </transition>
+      <arc id="1835074344592" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835074354896" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="1835074355024" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="1835074340240" source="3" target="Suture open wound"/>
+      <arc id="1835074349712" source="Plain chest X-ray (procedure)" target="3"/>
+      <arc id="1835074350352" source="3" target="■"/>
+      <arc id="1835074509840" source="■" target="sink"/>
+      <arc id="1835074345104" source="Suture open wound" target="2"/>
+      <arc id="1835074348816" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835074344720" source="2" target="Suture open wound"/>
+      <arc id="1835074345360" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1835074347408" source="3" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1835074350096" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="1835074338896" source="5" target="Throat culture (procedure)"/>
+      <arc id="1835074342928" source="5" target="Suture open wound"/>
+      <arc id="1835074354064" source="4" target="Throat culture (procedure)"/>
+      <arc id="1835074346384" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835074348752" source="4" target="Suture open wound"/>
+      <arc id="1835074352592" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835074354000" source="Face mask (physical object)" target="4"/>
+      <arc id="1835074343120" source="▶" target="2"/>
+      <arc id="1835074346448" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1835074507216" source="source" target="▶"/>
+      <arc id="1835074354256" source="2" target="Face mask (physical object)"/>
+      <arc id="1835074339664" source="Placing subject in prone position (procedure)" target="3"/>
+      <arc id="1835074344016" source="Suture open wound" target="3"/>
+      <arc id="1835074342352" source="Throat culture (procedure)" target="3"/>
+      <arc id="1835074349264" source="Suture open wound" target="4"/>
+      <arc id="1835074339088" source="▶" target="5"/>
+      <arc id="1835074343312" source="Suture open wound" target="5"/>
+      <arc id="1835074339728" source="4" target="Plain chest X-ray (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

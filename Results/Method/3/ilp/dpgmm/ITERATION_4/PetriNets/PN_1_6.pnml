@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042107.8971562" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042107.8971562</text>
+    </name>
+    <page id="n0">
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of subcutaneous contraceptive">
+        <name>
+          <text>Insertion of subcutaneous contraceptive</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Removal of subcutaneous contraceptive">
+        <name>
+          <text>Removal of subcutaneous contraceptive</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="449a20e4-951b-4bde-a510-4079f6e4032c"/>
+      </transition>
+      <arc id="1807068376784" source="Face mask (physical object)" target="8"/>
+      <arc id="1807068376912" source="9" target="■"/>
+      <arc id="1807068377040" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1807068375568" source="4" target="Insertion of subcutaneous contraceptive"/>
+      <arc id="1807068376592" source="10" target="■"/>
+      <arc id="1807068374416" source="10" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1807068374800" source="Insertion of endotracheal tube (procedure)" target="10"/>
+      <arc id="1807068374544" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1807068375056" source="■" target="sink"/>
+      <arc id="1807068374928" source="Placing subject in prone position (procedure)" target="9"/>
+      <arc id="1807068375440" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="10"/>
+      <arc id="1807068375184" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1807068376720" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="1807068377168" source="9" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1807068377296" source="Removal of subcutaneous contraceptive" target="4"/>
+      <arc id="1807068377424" source="Spirometry (procedure)" target="3"/>
+      <arc id="1807068377552" source="5" target="Face mask (physical object)"/>
+      <arc id="1807068377680" source="9" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1807068377808" source="9" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1807068377936" source="Face mask (physical object)" target="6"/>
+      <arc id="1807068375632" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1807068375760" source="Plain chest X-ray (procedure)" target="9"/>
+      <arc id="1807068375888" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="1807068376016" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="1807068374352" source="7" target="■"/>
+      <arc id="1807068373840" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="1807068374736" source="source" target="Spirometry (procedure)"/>
+      <arc id="1807068376144" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="9"/>
+      <arc id="1807068375376" source="3" target="Removal of subcutaneous contraceptive"/>
+      <arc id="1807068376272" source="Insertion of subcutaneous contraceptive" target="5"/>
+      <arc id="1807068376528" source="6" target="Plain chest X-ray (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

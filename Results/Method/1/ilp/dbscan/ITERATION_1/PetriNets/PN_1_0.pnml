@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="77a30224-e3e4-4579-adcd-156f281a3700"/>
+      </transition>
+      <arc id="1888698146576" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1888697180048" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1888698147600" source="■" target="sink"/>
+      <arc id="1888698140048" source="Face mask (physical object)" target="3"/>
+      <arc id="1888698139280" source="source" target="Face mask (physical object)"/>
+      <arc id="1888698153488" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="1888698146960" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="1888698150928" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1888698143760" source="4" target="■"/>
+      <arc id="1888693833360" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="1888693829840" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1888693838160" source="6" target="■"/>
+      <arc id="1888697181520" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1888693831376" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="1888698147792" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1888698142800" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="1888698144208" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="1888698141904" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="1888697184336" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="1888697177552" source="Face mask (physical object)" target="5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

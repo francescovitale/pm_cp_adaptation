@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021425.654204" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021425.654204</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e2d50c98-9664-4588-a25b-5ac2c4e4bbfd"/>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b9a4409f-e7da-4f91-a6f9-e095e81a04dc"/>
+      </transition>
+      <arc id="2877554040656" source="▶" target="2"/>
+      <arc id="2877554040784" source="Electrical cardioversion" target="3"/>
+      <arc id="2877554038032" source="Electrical cardioversion" target="5"/>
+      <arc id="2877554038416" source="4" target="Electrical cardioversion"/>
+      <arc id="2877554039312" source="source" target="▶"/>
+      <arc id="2877554039440" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="2877554040848" source="■" target="sink"/>
+      <arc id="2877554040976" source="3" target="Electrical cardioversion"/>
+      <arc id="2877554041040" source="Electrical cardioversion" target="4"/>
+      <arc id="2877554041168" source="▶" target="5"/>
+      <arc id="2877554041296" source="Electrical cardioversion" target="6"/>
+      <arc id="2877554041424" source="Electrical cardioversion" target="7"/>
+      <arc id="2877554040400" source="2" target="Electrical cardioversion"/>
+      <arc id="2877554040144" source="Face mask (physical object)" target="4"/>
+      <arc id="2877554039504" source="6" target="■"/>
+      <arc id="2877554039632" source="Throat culture (procedure)" target="7"/>
+      <arc id="2877554039760" source="7" target="Medication Reconciliation (procedure)"/>
+      <arc id="2877554038224" source="4" target="■"/>
+      <arc id="2877554038352" source="5" target="Throat culture (procedure)"/>
+      <arc id="2877554038736" source="Electrical cardioversion" target="2"/>
+      <arc id="2877554038864" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2877554039120" source="Throat culture (procedure)" target="3"/>
+      <arc id="2877554039248" source="3" target="Face mask (physical object)"/>
+      <arc id="2877554039888" source="7" target="Electrical cardioversion"/>
+      <arc id="2877554040016" source="6" target="Electrical cardioversion"/>
+      <arc id="2877554040272" source="5" target="Electrical cardioversion"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

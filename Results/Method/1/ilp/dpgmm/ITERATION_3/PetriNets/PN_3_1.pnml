@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Intramuscular injection">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b8d78020-7d3f-4e46-85b3-7ed91123a004"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6a3d843b-0724-4642-b481-300267360b12"/>
+      </transition>
+      <arc id="2877555801936" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2877559676048" source="■" target="sink"/>
+      <arc id="2877563139088" source="Intramuscular injection" target="2"/>
+      <arc id="2877559680912" source="source" target="▶"/>
+      <arc id="2877563139472" source="2" target="Face mask (physical object)"/>
+      <arc id="2877563132176" source="2" target="Intramuscular injection"/>
+      <arc id="2877563131408" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2877555801104" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2877555798224" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2877555798096" source="Throat culture (procedure)" target="4"/>
+      <arc id="2877555799184" source="4" target="Intramuscular injection"/>
+      <arc id="2877555786704" source="4" target="Throat culture (procedure)"/>
+      <arc id="2877555787088" source="3" target="Intramuscular injection"/>
+      <arc id="2877555797328" source="Intramuscular injection" target="3"/>
+      <arc id="2877555794512" source="3" target="Throat culture (procedure)"/>
+      <arc id="2877555797968" source="Intramuscular injection" target="4"/>
+      <arc id="2877555794768" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2877555790800" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="2877563134800" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="2877563135824" source="Throat culture (procedure)" target="2"/>
+      <arc id="2877563139536" source="▶" target="2"/>
+      <arc id="2877563129296" source="2" target="Throat culture (procedure)"/>
+      <arc id="2877555799120" source="Throat culture (procedure)" target="3"/>
+      <arc id="2877555796048" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2877555792208" source="Face mask (physical object)" target="3"/>
+      <arc id="2877555800528" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="2877555794576" source="4" target="■"/>
+      <arc id="2877555788752" source="Plain chest X-ray (procedure)" target="4"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

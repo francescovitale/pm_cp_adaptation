@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041850.3547106" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041850.3547106</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="73bcec50-5a9a-4fea-bcde-5cadf409f8a2"/>
+      </transition>
+      <arc id="2200150648656" source="2" target="Face mask (physical object)"/>
+      <arc id="2200150648848" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2200150647504" source="▶" target="2"/>
+      <arc id="2200150649296" source="Face mask (physical object)" target="sink"/>
+      <arc id="2200150649040" source="source" target="▶"/>
+      <arc id="2200150649168" source="▶" target="4"/>
+      <arc id="2200150649232" source="4" target="Face mask (physical object)"/>
+      <arc id="2200150649424" source="4" target="Medication Reconciliation (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

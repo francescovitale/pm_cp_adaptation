@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021379.0549924" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021379.0549924</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c61fcdf3-366f-43bd-ba5b-aaaf72849513"/>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0a77ddbd-0ee1-4d86-9afa-3ff312a1eb15"/>
+      </transition>
+      <arc id="1427068696080" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="1427068696208" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="1427068696336" source="Spirometry (procedure)" target="3"/>
+      <arc id="1427068696464" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068694032" source="8" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068694544" source="Spirometry (procedure)" target="6"/>
+      <arc id="1427068694160" source="Pulmonary rehabilitation (regime/therapy)" target="2"/>
+      <arc id="1427068693776" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="1427068694288" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427068694416" source="Pulmonary rehabilitation (regime/therapy)" target="6"/>
+      <arc id="1427068692240" source="7" target="Spirometry (procedure)"/>
+      <arc id="1427068692368" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+      <arc id="1427068692880" source="4" target="Face mask (physical object)"/>
+      <arc id="1427068693008" source="Insertion of endotracheal tube (procedure)" target="5"/>
+      <arc id="1427068696592" source="4" target="Spirometry (procedure)"/>
+      <arc id="1427068696720" source="Spirometry (procedure)" target="4"/>
+      <arc id="1427068696848" source="Spirometry (procedure)" target="5"/>
+      <arc id="1427068731856" source="7" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068697104" source="Insertion of endotracheal tube (procedure)" target="9"/>
+      <arc id="1427068731984" source="8" target="Spirometry (procedure)"/>
+      <arc id="1427068693136" source="Pulmonary rehabilitation (regime/therapy)" target="4"/>
+      <arc id="1427068697232" source="2" target="Spirometry (procedure)"/>
+      <arc id="1427068732112" source="5" target="Spirometry (procedure)"/>
+      <arc id="1427068693264" source="3" target="Spirometry (procedure)"/>
+      <arc id="1427068732240" source="4" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068693392" source="▶" target="2"/>
+      <arc id="1427068697488" source="8" target="■"/>
+      <arc id="1427068732368" source="9" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1427068693520" source="Spirometry (procedure)" target="7"/>
+      <arc id="1427068697616" source="Pulmonary rehabilitation (regime/therapy)" target="8"/>
+      <arc id="1427068732496" source="Face mask (physical object)" target="5"/>
+      <arc id="1427068693648" source="Plain chest X-ray (procedure)" target="8"/>
+      <arc id="1427068697744" source="6" target="Spirometry (procedure)"/>
+      <arc id="1427068732624" source="Pulmonary rehabilitation (regime/therapy)" target="7"/>
+      <arc id="1427068697872" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="1427068732752" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="1427068693904" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="9"/>
+      <arc id="1427068698000" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068732880" source="9" target="Spirometry (procedure)"/>
+      <arc id="1427068698128" source="Pulmonary rehabilitation (regime/therapy)" target="5"/>
+      <arc id="1427068698256" source="5" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068698384" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068692688" source="■" target="sink"/>
+      <arc id="1427068692816" source="9" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068692432" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="1427068697296" source="source" target="▶"/>
+      <arc id="1427068697424" source="9" target="■"/>
+      <arc id="1427068694672" source="6" target="■"/>
+      <arc id="1427068731472" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068731600" source="Pulmonary rehabilitation (regime/therapy)" target="9"/>
+      <arc id="1427068731728" source="8" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1427068694800" source="6" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068694928" source="Face mask (physical object)" target="7"/>
+      <arc id="1427068695056" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1427068695184" source="Spirometry (procedure)" target="9"/>
+      <arc id="1427068695312" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="1427068695440" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1427068695568" source="Spirometry (procedure)" target="2"/>
+      <arc id="1427068695696" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="8"/>
+      <arc id="1427068695824" source="Spirometry (procedure)" target="8"/>
+      <arc id="1427068695952" source="2" target="Pulmonary rehabilitation (regime/therapy)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

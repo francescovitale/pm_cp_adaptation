@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041927.071269" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041927.071269</text>
+    </name>
+    <page id="n0">
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3abd0db2-1993-4b82-b1e8-bd62dea42253"/>
+      </transition>
+      <transition id="97570844-b087-4d41-885b-ef534149786c">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="init_loop_5">
+        <name>
+          <text>init_loop_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="af21b8b6-e473-46ba-8f07-ba84778807f1"/>
+      </transition>
+      <transition id="skip_7">
+        <name>
+          <text>skip_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4cbb6b8a-f66f-4130-8702-cdb308328631"/>
+      </transition>
+      <transition id="tauJoin_4">
+        <name>
+          <text>tauJoin_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ba389a53-0853-496f-b9f6-27ef198fd680"/>
+      </transition>
+      <transition id="skip_8">
+        <name>
+          <text>skip_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ef656734-6f24-411c-970e-0d2464d6f1e4"/>
+      </transition>
+      <transition id="2b90bfdd-e516-4332-bf89-b917cecda2b3">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="25ff9c4e-c4de-4652-998f-d29175ffcea7">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="9a45c05a-b39a-4419-b165-3b837f6a9fb0">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="2668268917008" source="init_loop_5" target="p_7"/>
+      <arc id="2668268916624" source="tauJoin_4" target="sink"/>
+      <arc id="2668268915600" source="97570844-b087-4d41-885b-ef534149786c" target="p_8"/>
+      <arc id="2668268915856" source="2b90bfdd-e516-4332-bf89-b917cecda2b3" target="p_10"/>
+      <arc id="2668268916240" source="p_11" target="9a45c05a-b39a-4419-b165-3b837f6a9fb0"/>
+      <arc id="2668268916816" source="p_8" target="skip_8"/>
+      <arc id="2668268916752" source="p_6" target="tauJoin_4"/>
+      <arc id="2668268917072" source="tau_1" target="p_5"/>
+      <arc id="2668268917200" source="skip_8" target="p_6"/>
+      <arc id="2668268917968" source="9a45c05a-b39a-4419-b165-3b837f6a9fb0" target="p_12"/>
+      <arc id="2668268917328" source="25ff9c4e-c4de-4652-998f-d29175ffcea7" target="p_6"/>
+      <arc id="2668268916432" source="p_5" target="2b90bfdd-e516-4332-bf89-b917cecda2b3"/>
+      <arc id="2668268917456" source="p_12" target="tauJoin_4"/>
+      <arc id="2668268916944" source="p_5" target="init_loop_5"/>
+      <arc id="2668268915664" source="p_8" target="skip_7"/>
+      <arc id="2668268915536" source="source" target="tau_1"/>
+      <arc id="2668268915152" source="p_7" target="97570844-b087-4d41-885b-ef534149786c"/>
+      <arc id="2668268915920" source="tau_1" target="p_11"/>
+      <arc id="2668268916304" source="skip_7" target="p_7"/>
+      <arc id="2668268916048" source="p_10" target="25ff9c4e-c4de-4652-998f-d29175ffcea7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

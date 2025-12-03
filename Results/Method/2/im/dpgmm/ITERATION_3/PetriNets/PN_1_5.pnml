@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041910.8910167" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041910.8910167</text>
+    </name>
+    <page id="n0">
+      <place id="p_21">
+        <name>
+          <text>p_21</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_19">
+        <name>
+          <text>p_19</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <place id="p_20">
+        <name>
+          <text>p_20</text>
+        </name>
+      </place>
+      <place id="p_18">
+        <name>
+          <text>p_18</text>
+        </name>
+      </place>
+      <transition id="b413f6cc-faf9-46a1-96ea-84cc948671c1">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="cc431f2b-49db-43da-9416-9524199ae438">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_15">
+        <name>
+          <text>skip_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f8345bfc-e8fa-4e56-94fd-b4f58b5f6997"/>
+      </transition>
+      <transition id="99949ce7-363a-4523-a678-74578c60b7e9">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="dc4f15aa-da7f-48c7-8173-46207d4bddbd">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="6c7dc266-7449-4252-8d95-a1bd22957cbc">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="init_loop_6">
+        <name>
+          <text>init_loop_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="420f2d4f-274a-4ddb-b1b5-1f144a1d9f85"/>
+      </transition>
+      <transition id="9da501a9-eeed-4673-84d8-f31b1809e5f5">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_14">
+        <name>
+          <text>skip_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a1c71369-176e-4ad7-a671-6d8ba5ad887e"/>
+      </transition>
+      <transition id="skip_8">
+        <name>
+          <text>skip_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6465687b-d4fd-4535-82fa-13b8004b7f7a"/>
+      </transition>
+      <transition id="skip_11">
+        <name>
+          <text>skip_11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c87e1038-479e-4955-b819-11395e3d1791"/>
+      </transition>
+      <transition id="d61c0f28-7624-46bb-a0a7-635773598198">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="7fa36ad3-2f95-41cb-8dcb-9803ac342f5b">
+        <name>
+          <text>Transthoracic three dimensional ultrasonography of heart (procedure)</text>
+        </name>
+      </transition>
+      <transition id="3e51e275-1cf0-48b2-8642-c919d5128ef6">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="init_loop_4">
+        <name>
+          <text>init_loop_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c967be16-7702-437a-ac9c-8c32b416dc59"/>
+      </transition>
+      <transition id="skip_9">
+        <name>
+          <text>skip_9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="31206d2e-86a3-4dd3-9ccf-5be7a4b56956"/>
+      </transition>
+      <transition id="06dad0ff-b37e-45e8-8cc2-7bfb1385bc56">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2204393113104" source="p_7" target="3e51e275-1cf0-48b2-8642-c919d5128ef6"/>
+      <arc id="2204393078288" source="7fa36ad3-2f95-41cb-8dcb-9803ac342f5b" target="p_4"/>
+      <arc id="2204393112080" source="p_21" target="99949ce7-363a-4523-a678-74578c60b7e9"/>
+      <arc id="2204393077392" source="p_20" target="skip_15"/>
+      <arc id="2204393077648" source="p_13" target="d61c0f28-7624-46bb-a0a7-635773598198"/>
+      <arc id="2204393077904" source="p_15" target="6c7dc266-7449-4252-8d95-a1bd22957cbc"/>
+      <arc id="2204393111696" source="99949ce7-363a-4523-a678-74578c60b7e9" target="p_20"/>
+      <arc id="2204393112592" source="p_8" target="skip_11"/>
+      <arc id="2204393111952" source="9da501a9-eeed-4673-84d8-f31b1809e5f5" target="p_21"/>
+      <arc id="2204393112976" source="b413f6cc-faf9-46a1-96ea-84cc948671c1" target="p_11"/>
+      <arc id="2204393112720" source="cc431f2b-49db-43da-9416-9524199ae438" target="p_18"/>
+      <arc id="2204393111888" source="p_18" target="b413f6cc-faf9-46a1-96ea-84cc948671c1"/>
+      <arc id="2204393114000" source="source" target="7fa36ad3-2f95-41cb-8dcb-9803ac342f5b"/>
+      <arc id="2204393114256" source="skip_8" target="p_13"/>
+      <arc id="2204393114384" source="06dad0ff-b37e-45e8-8cc2-7bfb1385bc56" target="p_7"/>
+      <arc id="2204393112400" source="p_14" target="skip_8"/>
+      <arc id="2204393112912" source="p_19" target="9da501a9-eeed-4673-84d8-f31b1809e5f5"/>
+      <arc id="2204393113168" source="d61c0f28-7624-46bb-a0a7-635773598198" target="p_15"/>
+      <arc id="2204393113296" source="6c7dc266-7449-4252-8d95-a1bd22957cbc" target="p_14"/>
+      <arc id="2204393113424" source="dc4f15aa-da7f-48c7-8173-46207d4bddbd" target="p_7"/>
+      <arc id="2204393113552" source="skip_11" target="p_19"/>
+      <arc id="2204393112144" source="init_loop_4" target="p_11"/>
+      <arc id="2204393078480" source="p_20" target="skip_14"/>
+      <arc id="2204393112272" source="3e51e275-1cf0-48b2-8642-c919d5128ef6" target="p_8"/>
+      <arc id="2204393077712" source="p_8" target="init_loop_4"/>
+      <arc id="2204393077584" source="p_12" target="06dad0ff-b37e-45e8-8cc2-7bfb1385bc56"/>
+      <arc id="2204393077968" source="skip_15" target="sink"/>
+      <arc id="2204393078352" source="skip_14" target="p_19"/>
+      <arc id="2204393077840" source="p_14" target="skip_9"/>
+      <arc id="2204393078736" source="p_11" target="init_loop_6"/>
+      <arc id="2204393078224" source="init_loop_6" target="p_13"/>
+      <arc id="2204393113808" source="skip_9" target="p_12"/>
+      <arc id="2204393113936" source="p_12" target="cc431f2b-49db-43da-9416-9524199ae438"/>
+      <arc id="2204393114192" source="p_4" target="dc4f15aa-da7f-48c7-8173-46207d4bddbd"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

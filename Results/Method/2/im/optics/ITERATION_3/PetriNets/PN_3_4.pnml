@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760041883.8632612" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760041883.8632612</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <transition id="5db4e6ea-d678-42b5-9082-1e12b82c0e36">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="1709f22a-825c-44ec-8f95-a7357ddea37b">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="cfba707c-643c-448e-9dcd-4473b83ab681">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="a1dccf7e-923e-4696-a907-386288b05fbf">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0216c1bd-bb39-4707-975c-df619f94818e"/>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="04993bb7-aa40-4818-8b8f-ff5f9edfb870"/>
+      </transition>
+      <arc id="2633929554256" source="p_7" target="skip_4"/>
+      <arc id="2633929555920" source="p_7" target="skip_5"/>
+      <arc id="2633931752976" source="source" target="5db4e6ea-d678-42b5-9082-1e12b82c0e36"/>
+      <arc id="2633931754320" source="p_4" target="1709f22a-825c-44ec-8f95-a7357ddea37b"/>
+      <arc id="2633931760592" source="5db4e6ea-d678-42b5-9082-1e12b82c0e36" target="p_4"/>
+      <arc id="2633929543376" source="skip_5" target="sink"/>
+      <arc id="2633929543760" source="skip_4" target="p_6"/>
+      <arc id="2633929548368" source="1709f22a-825c-44ec-8f95-a7357ddea37b" target="p_6"/>
+      <arc id="2633929540880" source="p_6" target="cfba707c-643c-448e-9dcd-4473b83ab681"/>
+      <arc id="2633929546512" source="cfba707c-643c-448e-9dcd-4473b83ab681" target="p_8"/>
+      <arc id="2633929539664" source="p_8" target="a1dccf7e-923e-4696-a907-386288b05fbf"/>
+      <arc id="2633929543824" source="a1dccf7e-923e-4696-a907-386288b05fbf" target="p_7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

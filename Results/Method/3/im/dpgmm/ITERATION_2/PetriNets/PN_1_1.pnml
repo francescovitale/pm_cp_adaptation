@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042184.3652115" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042184.3652115</text>
+    </name>
+    <page id="n0">
+      <place id="p_17">
+        <name>
+          <text>p_17</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_16">
+        <name>
+          <text>p_16</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_19">
+        <name>
+          <text>p_19</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_20">
+        <name>
+          <text>p_20</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="init_loop_4">
+        <name>
+          <text>init_loop_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a2d53a57-554b-4739-a59e-f3265f447ca8"/>
+      </transition>
+      <transition id="skip_12">
+        <name>
+          <text>skip_12</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="278dbe25-e81c-45bd-b7df-e24c75b4b983"/>
+      </transition>
+      <transition id="376d9197-a887-458b-977d-741c92f7caf8">
+        <name>
+          <text>Insertion of subcutaneous contraceptive</text>
+        </name>
+      </transition>
+      <transition id="43fa9ea9-1c75-410f-9f7f-312253613071">
+        <name>
+          <text>Bone density scan (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_11">
+        <name>
+          <text>skip_11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d955bdfe-0b7e-4618-951e-cc88478047a6"/>
+      </transition>
+      <transition id="e47bc5de-3a1d-409b-b3d9-53c54249a529">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="68a0f76f-9712-4cc9-822e-b0fb9cf90099">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="b88acc6e-c4f4-4dbb-9ea7-cfa60c69a49c">
+        <name>
+          <text>Upper arm X-ray</text>
+        </name>
+      </transition>
+      <transition id="b422dafb-af75-4821-95ae-166f20f4d0dc">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_8">
+        <name>
+          <text>skip_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4fd03e32-7e56-4607-8549-43e766281bf1"/>
+      </transition>
+      <transition id="a5bffb41-704c-4c22-90d7-57274250b605">
+        <name>
+          <text>Removal of subcutaneous contraceptive</text>
+        </name>
+      </transition>
+      <transition id="0f333260-ea76-4601-83d1-c453f6511169">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="c3e9bb9a-55b1-4743-a611-7f44287d93a7">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="fd10b844-1485-48aa-b449-95aceb8e5476">
+        <name>
+          <text>Suture open wound</text>
+        </name>
+      </transition>
+      <transition id="979b7f27-53e7-4f63-8b9f-b8d3e670e03c">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="fbdd1a26-eb25-4d91-9d4f-4ccb5f3c0923">
+        <name>
+          <text>Bone immobilization</text>
+        </name>
+      </transition>
+      <transition id="dfd6d861-b684-441e-8236-07f70a051c57">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="18d233d3-9e46-436a-82c7-22e5198595e3">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4e5c4402-779b-4a00-a93a-0b7e67fb1fe1"/>
+      </transition>
+      <arc id="1846324203344" source="376d9197-a887-458b-977d-741c92f7caf8" target="p_4"/>
+      <arc id="1846324205456" source="skip_11" target="p_19"/>
+      <arc id="1846324203152" source="p_16" target="skip_6"/>
+      <arc id="1846324203408" source="e47bc5de-3a1d-409b-b3d9-53c54249a529" target="p_17"/>
+      <arc id="1846324200720" source="p_16" target="18d233d3-9e46-436a-82c7-22e5198595e3"/>
+      <arc id="1846324201360" source="p_7" target="fbdd1a26-eb25-4d91-9d4f-4ccb5f3c0923"/>
+      <arc id="1846324202128" source="skip_12" target="sink"/>
+      <arc id="1846324202256" source="68a0f76f-9712-4cc9-822e-b0fb9cf90099" target="p_5"/>
+      <arc id="1846324203664" source="b422dafb-af75-4821-95ae-166f20f4d0dc" target="p_20"/>
+      <arc id="1846324202896" source="p_17" target="979b7f27-53e7-4f63-8b9f-b8d3e670e03c"/>
+      <arc id="1846324203600" source="p_15" target="e47bc5de-3a1d-409b-b3d9-53c54249a529"/>
+      <arc id="1846324203792" source="p_19" target="b422dafb-af75-4821-95ae-166f20f4d0dc"/>
+      <arc id="1846324205712" source="p_12" target="skip_8"/>
+      <arc id="1846324203856" source="979b7f27-53e7-4f63-8b9f-b8d3e670e03c" target="p_16"/>
+      <arc id="1846324205968" source="p_20" target="skip_12"/>
+      <arc id="1846324203984" source="source" target="b88acc6e-c4f4-4dbb-9ea7-cfa60c69a49c"/>
+      <arc id="1846324204112" source="fbdd1a26-eb25-4d91-9d4f-4ccb5f3c0923" target="p_8"/>
+      <arc id="1846324204240" source="b88acc6e-c4f4-4dbb-9ea7-cfa60c69a49c" target="p_7"/>
+      <arc id="1846324204368" source="43fa9ea9-1c75-410f-9f7f-312253613071" target="p_4"/>
+      <arc id="1846324204496" source="fd10b844-1485-48aa-b449-95aceb8e5476" target="p_4"/>
+      <arc id="1846324204624" source="source" target="fd10b844-1485-48aa-b449-95aceb8e5476"/>
+      <arc id="1846324204752" source="p_8" target="43fa9ea9-1c75-410f-9f7f-312253613071"/>
+      <arc id="1846324204880" source="p_6" target="376d9197-a887-458b-977d-741c92f7caf8"/>
+      <arc id="1846324205008" source="p_11" target="0f333260-ea76-4601-83d1-c453f6511169"/>
+      <arc id="1846324205264" source="dfd6d861-b684-441e-8236-07f70a051c57" target="p_11"/>
+      <arc id="1846324205392" source="p_20" target="skip_11"/>
+      <arc id="1846324203088" source="init_loop_4" target="p_15"/>
+      <arc id="1846324202320" source="skip_6" target="p_15"/>
+      <arc id="1846324202448" source="a5bffb41-704c-4c22-90d7-57274250b605" target="p_6"/>
+      <arc id="1846324201424" source="18d233d3-9e46-436a-82c7-22e5198595e3" target="p_11"/>
+      <arc id="1846324201552" source="source" target="c3e9bb9a-55b1-4743-a611-7f44287d93a7"/>
+      <arc id="1846324201040" source="p_4" target="dfd6d861-b684-441e-8236-07f70a051c57"/>
+      <arc id="1846324201680" source="c3e9bb9a-55b1-4743-a611-7f44287d93a7" target="p_4"/>
+      <arc id="1846324201808" source="source" target="68a0f76f-9712-4cc9-822e-b0fb9cf90099"/>
+      <arc id="1846324202064" source="p_5" target="a5bffb41-704c-4c22-90d7-57274250b605"/>
+      <arc id="1846324202704" source="0f333260-ea76-4601-83d1-c453f6511169" target="p_12"/>
+      <arc id="1846324205648" source="skip_8" target="p_19"/>
+      <arc id="1846324202832" source="p_12" target="init_loop_4"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

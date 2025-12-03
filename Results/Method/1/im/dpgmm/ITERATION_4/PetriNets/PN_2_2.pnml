@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021561.8025982" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021561.8025982</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="bdd71d15-f04c-4d29-9f02-8293c52a260f">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="skip_1">
+        <name>
+          <text>skip_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="46165d51-5ccc-491b-b9ed-82cea236a473"/>
+      </transition>
+      <transition id="c79500e0-184f-415d-8aa3-87187a0ad3d2">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2822850461968" source="source" target="bdd71d15-f04c-4d29-9f02-8293c52a260f"/>
+      <arc id="2822850395856" source="p_3" target="c79500e0-184f-415d-8aa3-87187a0ad3d2"/>
+      <arc id="2822850461904" source="p_3" target="skip_1"/>
+      <arc id="2822850462096" source="bdd71d15-f04c-4d29-9f02-8293c52a260f" target="p_3"/>
+      <arc id="2822850462160" source="skip_1" target="sink"/>
+      <arc id="2822850462544" source="c79500e0-184f-415d-8aa3-87187a0ad3d2" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

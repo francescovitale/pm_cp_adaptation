@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="10">
+        <name>
+          <text>10</text>
+        </name>
+      </place>
+      <place id="14">
+        <name>
+          <text>14</text>
+        </name>
+      </place>
+      <place id="13">
+        <name>
+          <text>13</text>
+        </name>
+      </place>
+      <place id="11">
+        <name>
+          <text>11</text>
+        </name>
+      </place>
+      <place id="15">
+        <name>
+          <text>15</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <place id="12">
+        <name>
+          <text>12</text>
+        </name>
+      </place>
+      <transition id="Screening for occult blood in feces (procedure)">
+        <name>
+          <text>Screening for occult blood in feces (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2fafebe0-a8ab-4178-b7a2-40ee0ca281e9"/>
+      </transition>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Rectal polypectomy">
+        <name>
+          <text>Rectal polypectomy</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="73d947e9-e77a-4fd5-a4c0-6238e5b7dabf"/>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2161511280464" source="Face mask (physical object)" target="12"/>
+      <arc id="2161511270288" source="8" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511319440" source="14" target="Hemodialysis (procedure)"/>
+      <arc id="2161511243280" source="Rectal polypectomy" target="6"/>
+      <arc id="2161511243792" source="6" target="Colonoscopy"/>
+      <arc id="2161511246864" source="Colonoscopy" target="7"/>
+      <arc id="2161511244304" source="6" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2161511247376" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="2161511247888" source="7" target="Colonoscopy"/>
+      <arc id="2161511248400" source="7" target="Rectal polypectomy"/>
+      <arc id="2161511269392" source="Screening for occult blood in feces (procedure)" target="8"/>
+      <arc id="2161511269904" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2161511270416" source="8" target="Throat culture (procedure)"/>
+      <arc id="2161511278736" source="Throat culture (procedure)" target="11"/>
+      <arc id="2161511319952" source="14" target="Throat culture (procedure)"/>
+      <arc id="2161511283216" source="Hemodialysis (procedure)" target="13"/>
+      <arc id="2161511322192" source="Medication Reconciliation (procedure)" target="15"/>
+      <arc id="2161511279248" source="11" target="Hemodialysis (procedure)"/>
+      <arc id="2161511269072" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="2161511318224" source="Colonoscopy" target="14"/>
+      <arc id="2161511275280" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="10"/>
+      <arc id="2161511319568" source="14" target="Medication Reconciliation (procedure)"/>
+      <arc id="2161511283728" source="13" target="Hemodialysis (procedure)"/>
+      <arc id="2161511322704" source="Screening for occult blood in feces (procedure)" target="15"/>
+      <arc id="2161511275792" source="Plain chest X-ray (procedure)" target="10"/>
+      <arc id="2161511271824" source="Placing subject in prone position (procedure)" target="9"/>
+      <arc id="2161511179728" source="Spirometry (procedure)" target="2"/>
+      <arc id="2161511323216" source="15" target="Hemodialysis (procedure)"/>
+      <arc id="2161511276304" source="10" target="Colonoscopy"/>
+      <arc id="2161511272336" source="Throat culture (procedure)" target="9"/>
+      <arc id="2161511237712" source="4" target="Face mask (physical object)"/>
+      <arc id="2161511241808" source="5" target="Rectal polypectomy"/>
+      <arc id="2161511236688" source="Colonoscopy" target="4"/>
+      <arc id="2161511240784" source="Hemodialysis (procedure)" target="5"/>
+      <arc id="2161511179856" source="Throat culture (procedure)" target="2"/>
+      <arc id="2161511183952" source="Rectal polypectomy" target="3"/>
+      <arc id="2161511237200" source="Screening for occult blood in feces (procedure)" target="4"/>
+      <arc id="2161511241296" source="Throat culture (procedure)" target="5"/>
+      <arc id="2161511180880" source="2" target="Throat culture (procedure)"/>
+      <arc id="2161511179344" source="Hemodialysis (procedure)" target="2"/>
+      <arc id="2161511276816" source="10" target="Plain chest X-ray (procedure)"/>
+      <arc id="2161511184720" source="3" target="Face mask (physical object)"/>
+      <arc id="2161511280784" source="Rectal polypectomy" target="12"/>
+      <arc id="2161511272848" source="9" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511180752" source="2" target="Spirometry (procedure)"/>
+      <arc id="2161511281296" source="12" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2161511238352" source="4" target="Throat culture (procedure)"/>
+      <arc id="2161511277328" source="10" target="■"/>
+      <arc id="2161511185232" source="3" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511283536" source="Colonoscopy" target="13"/>
+      <arc id="2161511273360" source="9" target="Throat culture (procedure)"/>
+      <arc id="2161511281808" source="12" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511319056" source="▶" target="14"/>
+      <arc id="2161511242896" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="2161511243408" source="Screening for occult blood in feces (procedure)" target="6"/>
+      <arc id="2161511243920" source="6" target="Face mask (physical object)"/>
+      <arc id="2161511244432" source="6" target="Rectal polypectomy"/>
+      <arc id="2161511246992" source="Face mask (physical object)" target="7"/>
+      <arc id="2161511247504" source="Rectal polypectomy" target="7"/>
+      <arc id="2161511248016" source="7" target="Hemodialysis (procedure)"/>
+      <arc id="2161511248528" source="7" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511269008" source="Insertion of endotracheal tube (procedure)" target="8"/>
+      <arc id="2161511269520" source="Throat culture (procedure)" target="8"/>
+      <arc id="2161511278864" source="▶" target="11"/>
+      <arc id="2161511283344" source="Throat culture (procedure)" target="13"/>
+      <arc id="2161511279376" source="11" target="Rectal polypectomy"/>
+      <arc id="2161511275408" source="Face mask (physical object)" target="10"/>
+      <arc id="2161511277648" source="Colonoscopy" target="11"/>
+      <arc id="2161511283856" source="13" target="Rectal polypectomy"/>
+      <arc id="2161511322832" source="Throat culture (procedure)" target="15"/>
+      <arc id="2161511279888" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="12"/>
+      <arc id="2161511318864" source="Hemodialysis (procedure)" target="14"/>
+      <arc id="2161511275920" source="Rectal polypectomy" target="10"/>
+      <arc id="2161511271952" source="Plain chest X-ray (procedure)" target="9"/>
+      <arc id="2161511323344" source="15" target="Medication Reconciliation (procedure)"/>
+      <arc id="2161511276432" source="10" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2161511237840" source="4" target="Hemodialysis (procedure)"/>
+      <arc id="2161511236816" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="2161511240912" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2161511241936" source="5" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511179984" source="▶" target="2"/>
+      <arc id="2161511184080" source="Screening for occult blood in feces (procedure)" target="3"/>
+      <arc id="2161511237328" source="Throat culture (procedure)" target="4"/>
+      <arc id="2161511241424" source="5" target="Colonoscopy"/>
+      <arc id="2161511183568" source="Colonoscopy" target="3"/>
+      <arc id="2161511179472" source="Rectal polypectomy" target="2"/>
+      <arc id="2161511180368" source="2" target="Hemodialysis (procedure)"/>
+      <arc id="2161511237968" source="4" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2161511280912" source="Screening for occult blood in feces (procedure)" target="12"/>
+      <arc id="2161511276944" source="10" target="Rectal polypectomy"/>
+      <arc id="2161511323856" source="15" target="Throat culture (procedure)"/>
+      <arc id="2161511184848" source="3" target="Hemodialysis (procedure)"/>
+      <arc id="2161511272976" source="9" target="Plain chest X-ray (procedure)"/>
+      <arc id="2161511322128" source="Colonoscopy" target="15"/>
+      <arc id="2161511281424" source="12" target="Hemodialysis (procedure)"/>
+      <arc id="2161511185360" source="3" target="Spirometry (procedure)"/>
+      <arc id="2161511273488" source="9" target="■"/>
+      <arc id="2161511318672" source="Screening for occult blood in feces (procedure)" target="14"/>
+      <arc id="2161511323728" source="15" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511242960" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="2161511281936" source="12" target="Throat culture (procedure)"/>
+      <arc id="2161511270032" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511319184" source="14" target="Colonoscopy"/>
+      <arc id="2161511278480" source="Screening for occult blood in feces (procedure)" target="11"/>
+      <arc id="2161510726928" source="source" target="▶"/>
+      <arc id="2161511242512" source="Colonoscopy" target="6"/>
+      <arc id="2161511243536" source="Throat culture (procedure)" target="6"/>
+      <arc id="2161511244048" source="6" target="Hemodialysis (procedure)"/>
+      <arc id="2161511244560" source="6" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511247120" source="Hemodialysis (procedure)" target="7"/>
+      <arc id="2161511247632" source="Screening for occult blood in feces (procedure)" target="7"/>
+      <arc id="2161511248144" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511248656" source="7" target="Throat culture (procedure)"/>
+      <arc id="2161511269136" source="Colonoscopy" target="8"/>
+      <arc id="2161511270544" source="8" target="■"/>
+      <arc id="2161511280720" source="Colonoscopy" target="12"/>
+      <arc id="2161511319696" source="14" target="Rectal polypectomy"/>
+      <arc id="2161511278992" source="11" target="Colonoscopy"/>
+      <arc id="2161511268816" source="Hemodialysis (procedure)" target="8"/>
+      <arc id="2161511322448" source="Placing subject in prone position (procedure)" target="15"/>
+      <arc id="2161511279504" source="11" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511318480" source="Rectal polypectomy" target="14"/>
+      <arc id="2161511275536" source="Hemodialysis (procedure)" target="10"/>
+      <arc id="2161511271568" source="Insertion of endotracheal tube (procedure)" target="9"/>
+      <arc id="2161511283984" source="13" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511272464" source="9" target="Colonoscopy"/>
+      <arc id="2161511322960" source="▶" target="15"/>
+      <arc id="2161511280016" source="Hemodialysis (procedure)" target="12"/>
+      <arc id="2161511276048" source="Screening for occult blood in feces (procedure)" target="10"/>
+      <arc id="2161511272080" source="Rectal polypectomy" target="9"/>
+      <arc id="2161511323472" source="15" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511280528" source="Placing subject in prone position (procedure)" target="12"/>
+      <arc id="2161511240528" source="Colonoscopy" target="5"/>
+      <arc id="2161511183696" source="Hemodialysis (procedure)" target="3"/>
+      <arc id="2161511236944" source="Pulmonary rehabilitation (regime/therapy)" target="4"/>
+      <arc id="2161511241040" source="Rectal polypectomy" target="5"/>
+      <arc id="2161511242064" source="5" target="Throat culture (procedure)"/>
+      <arc id="2161511180112" source="2" target="Colonoscopy"/>
+      <arc id="2161511184208" source="Spirometry (procedure)" target="3"/>
+      <arc id="2161511237456" source="▶" target="4"/>
+      <arc id="2161511241552" source="5" target="Hemodialysis (procedure)"/>
+      <arc id="2161511179600" source="Screening for occult blood in feces (procedure)" target="2"/>
+      <arc id="2161511180496" source="2" target="Rectal polypectomy"/>
+      <arc id="2161511184464" source="▶" target="3"/>
+      <arc id="2161511272592" source="9" target="Hemodialysis (procedure)"/>
+      <arc id="2161511281040" source="Throat culture (procedure)" target="12"/>
+      <arc id="2161511323984" source="15" target="■"/>
+      <arc id="2161511238096" source="4" target="Rectal polypectomy"/>
+      <arc id="2161511270864" source="Colonoscopy" target="9"/>
+      <arc id="2161511277072" source="10" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511184976" source="3" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2161511283280" source="Rectal polypectomy" target="13"/>
+      <arc id="2161511273104" source="9" target="Rectal polypectomy"/>
+      <arc id="2161511321616" source="Hemodialysis (procedure)" target="15"/>
+      <arc id="2161511281552" source="12" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511185488" source="3" target="Throat culture (procedure)"/>
+      <arc id="2161511269648" source="8" target="Colonoscopy"/>
+      <arc id="2161511282064" source="12" target="■"/>
+      <arc id="2161511270160" source="8" target="Rectal polypectomy"/>
+      <arc id="2161511319312" source="14" target="Face mask (physical object)"/>
+      <arc id="2161511243152" source="Pulmonary rehabilitation (regime/therapy)" target="6"/>
+      <arc id="2161511243664" source="▶" target="6"/>
+      <arc id="2161511244176" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="2161511244688" source="6" target="Throat culture (procedure)"/>
+      <arc id="2161511247248" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="2161511247760" source="Throat culture (procedure)" target="7"/>
+      <arc id="2161511248272" source="7" target="Plain chest X-ray (procedure)"/>
+      <arc id="2161511248784" source="7" target="■"/>
+      <arc id="2161511269264" source="Rectal polypectomy" target="8"/>
+      <arc id="2161511269776" source="8" target="Hemodialysis (procedure)"/>
+      <arc id="2161511319824" source="14" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511279120" source="11" target="Face mask (physical object)"/>
+      <arc id="2161511268944" source="Face mask (physical object)" target="8"/>
+      <arc id="2161511275152" source="Colonoscopy" target="10"/>
+      <arc id="2161511283600" source="13" target="Colonoscopy"/>
+      <arc id="2161511322576" source="Rectal polypectomy" target="15"/>
+      <arc id="2161511279632" source="11" target="Throat culture (procedure)"/>
+      <arc id="2161511318608" source="Medication Reconciliation (procedure)" target="14"/>
+      <arc id="2161511275664" source="Placing subject in prone position (procedure)" target="10"/>
+      <arc id="2161511277904" source="Rectal polypectomy" target="11"/>
+      <arc id="2161511284112" source="13" target="Throat culture (procedure)"/>
+      <arc id="2161511276560" source="10" target="Hemodialysis (procedure)"/>
+      <arc id="2161511323088" source="15" target="Colonoscopy"/>
+      <arc id="2161511276176" source="Throat culture (procedure)" target="10"/>
+      <arc id="2161511282384" source="Screening for occult blood in feces (procedure)" target="13"/>
+      <arc id="2161511272208" source="Screening for occult blood in feces (procedure)" target="9"/>
+      <arc id="2161511278416" source="Hemodialysis (procedure)" target="11"/>
+      <arc id="2161511323600" source="15" target="Rectal polypectomy"/>
+      <arc id="2161511237584" source="4" target="Colonoscopy"/>
+      <arc id="2161511241680" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511240656" source="Face mask (physical object)" target="5"/>
+      <arc id="2161511237072" source="Rectal polypectomy" target="4"/>
+      <arc id="2161511241168" source="Screening for occult blood in feces (procedure)" target="5"/>
+      <arc id="2161511184336" source="Throat culture (procedure)" target="3"/>
+      <arc id="2161511183824" source="Pulmonary rehabilitation (regime/therapy)" target="3"/>
+      <arc id="2161511180240" source="2" target="Face mask (physical object)"/>
+      <arc id="2161510726608" source="■" target="sink"/>
+      <arc id="2161511179216" source="Colonoscopy" target="2"/>
+      <arc id="2161511184592" source="3" target="Colonoscopy"/>
+      <arc id="2161511180624" source="2" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511272720" source="9" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2161511276688" source="10" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2161511242192" source="5" target="■"/>
+      <arc id="2161511281168" source="12" target="Colonoscopy"/>
+      <arc id="2161511238224" source="4" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511270992" source="Hemodialysis (procedure)" target="9"/>
+      <arc id="2161511277200" source="10" target="Throat culture (procedure)"/>
+      <arc id="2161511185104" source="3" target="Rectal polypectomy"/>
+      <arc id="2161511273232" source="9" target="Screening for occult blood in feces (procedure)"/>
+      <arc id="2161511281680" source="12" target="Rectal polypectomy"/>
+      <arc id="2161511271504" source="Face mask (physical object)" target="9"/>
+      <arc id="2161511318928" source="Throat culture (procedure)" target="14"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

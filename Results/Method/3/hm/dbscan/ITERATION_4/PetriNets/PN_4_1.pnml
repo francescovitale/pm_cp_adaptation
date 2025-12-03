@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_Placing subject in prone position (procedure)">
+        <name>
+          <text>pre_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Oxygen administration by mask (procedure)">
+        <name>
+          <text>pre_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Measurement of respiratory function (procedure)">
+        <name>
+          <text>intplace_Measurement of respiratory function (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Face mask (physical object)">
+        <name>
+          <text>intplace_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="intplace_Medication Reconciliation (procedure)">
+        <name>
+          <text>intplace_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Placing subject in prone position (procedure)">
+        <name>
+          <text>intplace_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Medication Reconciliation (procedure)">
+        <name>
+          <text>pre_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="pre_Measurement of respiratory function (procedure)">
+        <name>
+          <text>pre_Measurement of respiratory function (procedure)</text>
+        </name>
+      </place>
+      <transition id="hid_5">
+        <name>
+          <text>hid_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a74ff4b3-863a-4b1e-9476-c69ca3696ff8"/>
+      </transition>
+      <transition id="hid_10">
+        <name>
+          <text>hid_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e5921b00-4095-4b24-bd38-7084400a8f8e"/>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c8125c47-a17e-44e4-8097-f06007015f90"/>
+      </transition>
+      <transition id="hid_16">
+        <name>
+          <text>hid_16</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d4f5602b-663c-42d3-be36-947788a970ab"/>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4fab7807-2a9c-4615-a56f-a16bde997375"/>
+      </transition>
+      <transition id="hid_11">
+        <name>
+          <text>hid_11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8f08f1cf-9730-486b-b24b-cdb92e2b7671"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="87a508e3-c580-4482-99bb-35638f2f3b7e"/>
+      </transition>
+      <transition id="hid_14">
+        <name>
+          <text>hid_14</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4b3b779b-9d36-4c01-baee-69fa947058ae"/>
+      </transition>
+      <transition id="hid_17">
+        <name>
+          <text>hid_17</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="24ddf24b-e7f9-4451-a387-6786dd53df48"/>
+      </transition>
+      <transition id="hid_18">
+        <name>
+          <text>hid_18</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e3e57df8-9734-4218-a3ba-44a83214c835"/>
+      </transition>
+      <arc id="1837234003792" source="hid_14" target="sink0"/>
+      <arc id="1837234749264" source="intplace_Placing subject in prone position (procedure)" target="hid_18"/>
+      <arc id="1837234221584" source="pre_Measurement of respiratory function (procedure)" target="Measurement of respiratory function (procedure)"/>
+      <arc id="1837234738064" source="hid_11" target="pre_Measurement of respiratory function (procedure)"/>
+      <arc id="1837234222736" source="pre_Oxygen administration by mask (procedure)" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1837234213648" source="source0" target="hid_7"/>
+      <arc id="1837213225360" source="pre_Medication Reconciliation (procedure)" target="Medication Reconciliation (procedure)"/>
+      <arc id="1837234734224" source="intplace_Face mask (physical object)" target="Plain chest X-ray (procedure)"/>
+      <arc id="1837233781776" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="1837234734864" source="Plain chest X-ray (procedure)" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="1837234739728" source="hid_18" target="sink0"/>
+      <arc id="1837233825808" source="intplace_Measurement of respiratory function (procedure)" target="hid_15"/>
+      <arc id="1837231441104" source="Oxygen administration by mask (procedure)" target="pre_Placing subject in prone position (procedure)"/>
+      <arc id="1837234743120" source="Placing subject in prone position (procedure)" target="intplace_Placing subject in prone position (procedure)"/>
+      <arc id="1837231443856" source="Measurement of respiratory function (procedure)" target="intplace_Measurement of respiratory function (procedure)"/>
+      <arc id="1837234743248" source="hid_16" target="sink0"/>
+      <arc id="1837234219600" source="hid_7" target="pre_Measurement of respiratory function (procedure)"/>
+      <arc id="1837233780432" source="source0" target="hid_5"/>
+      <arc id="1837234734928" source="hid_17" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="1837233768656" source="source0" target="hid_3"/>
+      <arc id="1837233774800" source="hid_3" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="1837234748496" source="hid_10" target="pre_Face mask (physical object)"/>
+      <arc id="1837234737104" source="hid_15" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="1837234736208" source="hid_10" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="1837234219344" source="intplace_Medication Reconciliation (procedure)" target="hid_11"/>
+      <arc id="1837234743888" source="intplace_Measurement of respiratory function (procedure)" target="hid_16"/>
+      <arc id="1837234219728" source="pre_Placing subject in prone position (procedure)" target="Placing subject in prone position (procedure)"/>
+      <arc id="1837234219984" source="intplace_Medication Reconciliation (procedure)" target="hid_10"/>
+      <arc id="1837233998800" source="intplace_Face mask (physical object)" target="hid_14"/>
+      <arc id="1837234214032" source="hid_5" target="pre_Face mask (physical object)"/>
+      <arc id="1837234220240" source="Medication Reconciliation (procedure)" target="intplace_Medication Reconciliation (procedure)"/>
+      <arc id="1837234803984" source="Face mask (physical object)" target="intplace_Face mask (physical object)"/>
+      <arc id="1837234740560" source="intplace_Placing subject in prone position (procedure)" target="hid_17"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

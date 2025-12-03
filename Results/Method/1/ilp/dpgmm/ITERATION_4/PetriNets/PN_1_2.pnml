@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021449.788779" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021449.788779</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <place id="9">
+        <name>
+          <text>9</text>
+        </name>
+      </place>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="35ca90ac-bcfc-41a5-82a7-94267ff76f93"/>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Bone density scan (procedure)">
+        <name>
+          <text>Bone density scan (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Upper arm X-ray">
+        <name>
+          <text>Upper arm X-ray</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="158d1586-0a8d-4272-9b6b-3e8c991a8980"/>
+      </transition>
+      <transition id="Bone immobilization">
+        <name>
+          <text>Bone immobilization</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2595286079504" source="4" target="Face mask (physical object)"/>
+      <arc id="2595286074384" source="■" target="sink"/>
+      <arc id="2595286075920" source="9" target="Bone immobilization"/>
+      <arc id="2595286076432" source="2" target="Upper arm X-ray"/>
+      <arc id="2595286081552" source="Bone density scan (procedure)" target="5"/>
+      <arc id="2595286081040" source="Upper arm X-ray" target="4"/>
+      <arc id="2595286077456" source="8" target="Bone density scan (procedure)"/>
+      <arc id="2595286077008" source="9" target="Upper arm X-ray"/>
+      <arc id="2595286077520" source="Bone immobilization" target="7"/>
+      <arc id="2595286078032" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2595286082128" source="Bone density scan (procedure)" target="8"/>
+      <arc id="2595286074960" source="3" target="Bone density scan (procedure)"/>
+      <arc id="2595286079056" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="2595286073936" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="2595286039632" source="Face mask (physical object)" target="7"/>
+      <arc id="2595286040144" source="Face mask (physical object)" target="5"/>
+      <arc id="2595286073424" source="7" target="Bone immobilization"/>
+      <arc id="2595286080080" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="9"/>
+      <arc id="2595286076112" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2595286080592" source="Bone immobilization" target="5"/>
+      <arc id="2595286076624" source="6" target="■"/>
+      <arc id="2595286079120" source="Upper arm X-ray" target="7"/>
+      <arc id="2595286074000" source="8" target="Upper arm X-ray"/>
+      <arc id="2595286040208" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="8"/>
+      <arc id="2595286081168" source="Upper arm X-ray" target="8"/>
+      <arc id="2595286082192" source="4" target="Upper arm X-ray"/>
+      <arc id="2595286081232" source="8" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2595286080720" source="▶" target="2"/>
+      <arc id="2595286077648" source="9" target="Bone density scan (procedure)"/>
+      <arc id="2595286081744" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2595286078160" source="8" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2595286078672" source="3" target="Bone immobilization"/>
+      <arc id="2595286075088" source="Bone immobilization" target="2"/>
+      <arc id="2595286074576" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2595286039248" source="7" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2595286073552" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2595286079696" source="Bone immobilization" target="4"/>
+      <arc id="2595286080208" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2595286074128" source="Bone immobilization" target="3"/>
+      <arc id="2595286074640" source="3" target="Upper arm X-ray"/>
+      <arc id="2595286039824" source="9" target="■"/>
+      <arc id="2595286040336" source="Bone density scan (procedure)" target="2"/>
+      <arc id="2595286079760" source="5" target="Upper arm X-ray"/>
+      <arc id="2595286076688" source="7" target="Upper arm X-ray"/>
+      <arc id="2595286077200" source="Upper arm X-ray" target="5"/>
+      <arc id="2595286081808" source="6" target="Upper arm X-ray"/>
+      <arc id="2595286078736" source="Upper arm X-ray" target="9"/>
+      <arc id="2595286077776" source="2" target="Bone density scan (procedure)"/>
+      <arc id="2595286078288" source="9" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2595286075216" source="6" target="Bone immobilization"/>
+      <arc id="2595286079312" source="Bone density scan (procedure)" target="6"/>
+      <arc id="2595286073680" source="8" target="Bone immobilization"/>
+      <arc id="2595286075728" source="Bone immobilization" target="6"/>
+      <arc id="2595286080336" source="2" target="Bone immobilization"/>
+      <arc id="2595286076880" source="4" target="Bone density scan (procedure)"/>
+      <arc id="2595286079376" source="Upper arm X-ray" target="2"/>
+      <arc id="2595286039952" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2595286074768" source="Bone immobilization" target="8"/>
+      <arc id="2595286075792" source="Upper arm X-ray" target="6"/>
+      <arc id="2595286079888" source="Bone density scan (procedure)" target="7"/>
+      <arc id="2595286076816" source="Bone density scan (procedure)" target="4"/>
+      <arc id="2595286077328" source="8" target="■"/>
+      <arc id="2595286081424" source="source" target="▶"/>
+      <arc id="2595286081936" source="Bone immobilization" target="9"/>
+      <arc id="2595286078864" source="Bone density scan (procedure)" target="9"/>
+      <arc id="2595286077904" source="6" target="Bone density scan (procedure)"/>
+      <arc id="2595286078416" source="Plain chest X-ray (procedure)" target="8"/>
+      <arc id="2595286080976" source="7" target="Bone density scan (procedure)"/>
+      <arc id="2595286074832" source="Bone density scan (procedure)" target="3"/>
+      <arc id="2595286075344" source="Insertion of endotracheal tube (procedure)" target="9"/>
+      <arc id="2595286040016" source="Upper arm X-ray" target="3"/>
+      <arc id="2595286074320" source="5" target="Bone immobilization"/>
+      <arc id="2595286075472" source="8" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2595286079952" source="Placing subject in prone position (procedure)" target="8"/>
+      <arc id="2595286076368" source="Insertion of endotracheal tube (procedure)" target="5"/>
+      <arc id="2595286075984" source="5" target="Bone density scan (procedure)"/>
+      <arc id="2595286080464" source="4" target="Bone immobilization"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

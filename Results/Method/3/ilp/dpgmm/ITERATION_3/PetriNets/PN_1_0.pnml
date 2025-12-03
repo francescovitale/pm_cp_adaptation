@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760042088.6375666" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760042088.6375666</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="922161d4-9b4d-4a66-b776-c40820bcd50a"/>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="aba63f23-1f07-4cd8-b421-3f6300aad35d"/>
+      </transition>
+      <transition id="Hemodialysis (procedure)">
+        <name>
+          <text>Hemodialysis (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Microbial culture (procedure)">
+        <name>
+          <text>Microbial culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Transthoracic three dimensional ultrasonography of heart (procedure)">
+        <name>
+          <text>Transthoracic three dimensional ultrasonography of heart (procedure)</text>
+        </name>
+      </transition>
+      <arc id="1835051484688" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="1835051488784" source="5" target="Microbial culture (procedure)"/>
+      <arc id="1835051486800" source="■" target="sink"/>
+      <arc id="1835051484816" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="2"/>
+      <arc id="1835051488912" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1835051484944" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1835051489040" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="1835051487056" source="source" target="▶"/>
+      <arc id="1835051485072" source="4" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1835051487184" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835051483664" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="1835051483792" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835051483920" source="6" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1835051484048" source="Hemodialysis (procedure)" target="6"/>
+      <arc id="1835051448976" source="5" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1835051483280" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835051483536" source="Microbial culture (procedure)" target="6"/>
+      <arc id="1835051483408" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="3"/>
+      <arc id="1835051484176" source="Microbial culture (procedure)" target="2"/>
+      <arc id="1835051484304" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="1835051485200" source="7" target="Microbial culture (procedure)"/>
+      <arc id="1835051485328" source="6" target="Microbial culture (procedure)"/>
+      <arc id="1835051485456" source="2" target="Face mask (physical object)"/>
+      <arc id="1835051485584" source="Hemodialysis (procedure)" target="4"/>
+      <arc id="1835051485712" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="5"/>
+      <arc id="1835051485840" source="4" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="1835051485968" source="Microbial culture (procedure)" target="5"/>
+      <arc id="1835051486096" source="Medication Reconciliation (procedure)" target="7"/>
+      <arc id="1835051486224" source="Insertion of endotracheal tube (procedure)" target="3"/>
+      <arc id="1835051486352" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="6"/>
+      <arc id="1835051486480" source="▶" target="2"/>
+      <arc id="1835051486736" source="Insertion of endotracheal tube (procedure)" target="6"/>
+      <arc id="1835051488528" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="4"/>
+      <arc id="1835051486992" source="2" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1835051450064" source="4" target="■"/>
+      <arc id="1835051450192" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1835051449168" source="Microbial culture (procedure)" target="4"/>
+      <arc id="1835051449296" source="7" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835051449424" source="Face mask (physical object)" target="5"/>
+      <arc id="1835051448784" source="6" target="■"/>
+      <arc id="1835051449552" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835051449680" source="Transthoracic three dimensional ultrasonography of heart (procedure)" target="7"/>
+      <arc id="1835051449808" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1835051449936" source="6" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1835051487248" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="1835051487376" source="4" target="Microbial culture (procedure)"/>
+      <arc id="1835051487504" source="7" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1835051487632" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1835051488656" source="4" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="1835051487760" source="2" target="Microbial culture (procedure)"/>
+      <arc id="1835051371088" source="3" target="Microbial culture (procedure)"/>
+      <arc id="1835051487888" source="Face mask (physical object)" target="3"/>
+      <arc id="1835051488016" source="Microbial culture (procedure)" target="3"/>
+      <arc id="1835051488144" source="3" target="Transthoracic three dimensional ultrasonography of heart (procedure)"/>
+      <arc id="1835051488272" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="1835051488400" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="1835051484432" source="Microbial culture (procedure)" target="7"/>
+      <arc id="1835051484560" source="Medication Reconciliation (procedure)" target="4"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

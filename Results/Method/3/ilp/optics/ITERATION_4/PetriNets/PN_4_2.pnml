@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Measurement of respiratory function (procedure)">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b757a218-3749-447b-8692-6e852042cf93"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d4b954d3-bae9-45fb-bce6-7f83422cf0d1"/>
+      </transition>
+      <arc id="2135737130512" source="Oxygen administration by mask (procedure)" target="3"/>
+      <arc id="2135735143056" source="3" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2135735156624" source="Placing subject in prone position (procedure)" target="3"/>
+      <arc id="2135737394960" source="Oxygen administration by mask (procedure)" target="2"/>
+      <arc id="2135732811152" source="source" target="▶"/>
+      <arc id="2135736101648" source="Placing subject in prone position (procedure)" target="2"/>
+      <arc id="2135731713168" source="2" target="Measurement of respiratory function (procedure)"/>
+      <arc id="2135737132432" source="2" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2135735145872" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="2135735154832" source="3" target="Placing subject in prone position (procedure)"/>
+      <arc id="2135735144528" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="2135735140688" source="3" target="Plain chest X-ray (procedure)"/>
+      <arc id="2135735148880" source="Plain chest X-ray (procedure)" target="4"/>
+      <arc id="2135735144784" source="Oxygen administration by mask (procedure)" target="6"/>
+      <arc id="2135735142672" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2135735144464" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="2135735149264" source="Oxygen administration by mask (procedure)" target="4"/>
+      <arc id="2135735143312" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="2135735145424" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="2135735145552" source="Placing subject in prone position (procedure)" target="4"/>
+      <arc id="2135735145680" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="2135735149776" source="4" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2135735152016" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2135735156112" source="6" target="Plain chest X-ray (procedure)"/>
+      <arc id="2135735154128" source="▶" target="4"/>
+      <arc id="2135735145936" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2135735146192" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2135735146320" source="4" target="Face mask (physical object)"/>
+      <arc id="2135735150416" source="5" target="■"/>
+      <arc id="2135735144336" source="5" target="Plain chest X-ray (procedure)"/>
+      <arc id="2135735150544" source="Plain chest X-ray (procedure)" target="6"/>
+      <arc id="2135737137744" source="2" target="Placing subject in prone position (procedure)"/>
+      <arc id="2135737133648" source="2" target="Plain chest X-ray (procedure)"/>
+      <arc id="2135737133008" source="Face mask (physical object)" target="3"/>
+      <arc id="2135734660816" source="■" target="sink"/>
+      <arc id="2135737347664" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="2135732057936" source="Plain chest X-ray (procedure)" target="2"/>
+      <arc id="2135731714640" source="▶" target="2"/>
+      <arc id="2135732206800" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2135737129040" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2135735144912" source="Plain chest X-ray (procedure)" target="3"/>
+      <arc id="2135735148816" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2135735146832" source="Measurement of respiratory function (procedure)" target="5"/>
+      <arc id="2135735144592" source="5" target="Placing subject in prone position (procedure)"/>
+      <arc id="2135735144848" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2135735149456" source="3" target="■"/>
+      <arc id="2135735141392" source="6" target="Placing subject in prone position (procedure)"/>
+      <arc id="2135735153808" source="4" target="Placing subject in prone position (procedure)"/>
+      <arc id="2135735155920" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="2135735149840" source="Oxygen administration by mask (procedure)" target="5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

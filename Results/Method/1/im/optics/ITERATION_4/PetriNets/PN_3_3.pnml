@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021522.7985137" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021522.7985137</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <transition id="be04f66f-cc1a-4cd2-a912-3c22edf64e84">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="e627c4db-acf6-49ba-b9be-73343bcf9062"/>
+      </transition>
+      <transition id="eda7d949-261c-4906-86be-ed6228bf8ad4">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="33cdbf5b-d345-4cc0-bf8d-6240b26307d3"/>
+      </transition>
+      <arc id="2146493740880" source="source" target="be04f66f-cc1a-4cd2-a912-3c22edf64e84"/>
+      <arc id="2146493741072" source="skip_5" target="sink"/>
+      <arc id="2146493739856" source="be04f66f-cc1a-4cd2-a912-3c22edf64e84" target="p_5"/>
+      <arc id="2146493740048" source="p_5" target="eda7d949-261c-4906-86be-ed6228bf8ad4"/>
+      <arc id="2146493741008" source="eda7d949-261c-4906-86be-ed6228bf8ad4" target="p_6"/>
+      <arc id="2146493740496" source="p_6" target="skip_4"/>
+      <arc id="2146493741584" source="skip_4" target="p_5"/>
+      <arc id="2146493741200" source="p_6" target="skip_5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="pre_Medication Reconciliation (procedure)">
+        <name>
+          <text>pre_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Medication Reconciliation (procedure)">
+        <name>
+          <text>intplace_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_2">
+        <name>
+          <text>hid_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="98968647-fbd8-4d8f-b5e4-2c54febfea6b"/>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="27d63955-533e-4f0c-89c6-6840b7801b3b"/>
+      </transition>
+      <transition id="hid_5">
+        <name>
+          <text>hid_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bdbbde5b-d279-4e8f-bec7-8bbff6adcbf0"/>
+      </transition>
+      <transition id="hid_7">
+        <name>
+          <text>hid_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d1721a19-9934-4238-b0be-f2c54b94c734"/>
+      </transition>
+      <arc id="3044048771344" source="intplace_Medication Reconciliation (procedure)" target="hid_5"/>
+      <arc id="3044048767760" source="intplace_Medication Reconciliation (procedure)" target="hid_7"/>
+      <arc id="3044048779024" source="hid_7" target="sink0"/>
+      <arc id="3044048774288" source="source0" target="hid_2"/>
+      <arc id="3044048777104" source="hid_2" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="3044048776464" source="hid_5" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="3044048770896" source="Face mask (physical object)" target="sink0"/>
+      <arc id="3044022840016" source="pre_Medication Reconciliation (procedure)" target="Medication Reconciliation (procedure)"/>
+      <arc id="3044048772688" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="3044048765136" source="source0" target="hid_4"/>
+      <arc id="3044048770384" source="Medication Reconciliation (procedure)" target="intplace_Medication Reconciliation (procedure)"/>
+      <arc id="3044048778192" source="hid_5" target="pre_Face mask (physical object)"/>
+      <arc id="3044048770064" source="hid_4" target="pre_Face mask (physical object)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

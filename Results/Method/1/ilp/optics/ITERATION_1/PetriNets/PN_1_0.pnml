@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <place id="7">
+        <name>
+          <text>7</text>
+        </name>
+      </place>
+      <place id="8">
+        <name>
+          <text>8</text>
+        </name>
+      </place>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="149b5998-1e2c-4215-8eeb-114c432c6dfb"/>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Suture open wound">
+        <name>
+          <text>Suture open wound</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f40ed51c-04bf-4179-9786-0fe9fd2fbc7b"/>
+      </transition>
+      <arc id="2339753932432" source="7" target="Suture open wound"/>
+      <arc id="2339753930448" source="8" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2339753932688" source="7" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2339753930704" source="8" target="■"/>
+      <arc id="2339752187408" source="Suture open wound" target="4"/>
+      <arc id="2339752183440" source="Insertion of endotracheal tube (procedure)" target="4"/>
+      <arc id="2339752191760" source="3" target="Suture open wound"/>
+      <arc id="2339752197008" source="3" target="Face mask (physical object)"/>
+      <arc id="2339753713936" source="source" target="▶"/>
+      <arc id="2339752187920" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="2339752196496" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="2339752193424" source="4" target="Suture open wound"/>
+      <arc id="2339752190864" source="5" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2339752182672" source="5" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2339752183952" source="5" target="■"/>
+      <arc id="2339753928976" source="Placing subject in prone position (procedure)" target="6"/>
+      <arc id="2339753931216" source="Suture open wound" target="8"/>
+      <arc id="2339753931344" source="Face mask (physical object)" target="6"/>
+      <arc id="2339753929360" source="6" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2339753933456" source="7" target="■"/>
+      <arc id="2339753929616" source="Suture open wound" target="6"/>
+      <arc id="2339753931728" source="8" target="Suture open wound"/>
+      <arc id="2339753931984" source="Insertion of endotracheal tube (procedure)" target="8"/>
+      <arc id="2339752183248" source="Face mask (physical object)" target="4"/>
+      <arc id="2339753932368" source="7" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2339753932816" source="Suture open wound" target="7"/>
+      <arc id="2339753926288" source="6" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2339752185616" source="5" target="Suture open wound"/>
+      <arc id="2339752187728" source="Suture open wound" target="5"/>
+      <arc id="2339753932752" source="Placing subject in prone position (procedure)" target="7"/>
+      <arc id="2339752188624" source="Plain chest X-ray (procedure)" target="5"/>
+      <arc id="2339752192848" source="Placing subject in prone position (procedure)" target="5"/>
+      <arc id="2339752194000" source="4" target="Plain chest X-ray (procedure)"/>
+      <arc id="2339753715408" source="■" target="sink"/>
+      <arc id="2339752183120" source="2" target="Electrical cardioversion"/>
+      <arc id="2339752192720" source="▶" target="2"/>
+      <arc id="2339752192976" source="Suture open wound" target="2"/>
+      <arc id="2339752197968" source="2" target="Suture open wound"/>
+      <arc id="2339752188368" source="Electrical cardioversion" target="3"/>
+      <arc id="2339752192464" source="Suture open wound" target="3"/>
+      <arc id="2339753933520" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="7"/>
+      <arc id="2339753933648" source="Plain chest X-ray (procedure)" target="7"/>
+      <arc id="2339753925456" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="8"/>
+      <arc id="2339753933776" source="6" target="Suture open wound"/>
+      <arc id="2339753933904" source="7" target="Insertion of endotracheal tube (procedure)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

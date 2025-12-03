@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760041927.062274" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760041927.062274</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="skip_1">
+        <name>
+          <text>skip_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5fa1088f-dbc4-430b-b3bb-d8d0aadd12cc"/>
+      </transition>
+      <transition id="dc1a13d8-1e32-4c47-a712-b76851f89c52">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="12b79ad2-3c2f-455e-a7a2-4ca55085e738">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="43a6866b-56be-4f23-af47-17a69e4bbddd">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2668268753040" source="source" target="skip_1"/>
+      <arc id="2668268752976" source="skip_1" target="p_3"/>
+      <arc id="2668268752720" source="source" target="43a6866b-56be-4f23-af47-17a69e4bbddd"/>
+      <arc id="2668268752528" source="p_3" target="12b79ad2-3c2f-455e-a7a2-4ca55085e738"/>
+      <arc id="2668268753296" source="43a6866b-56be-4f23-af47-17a69e4bbddd" target="p_3"/>
+      <arc id="2668268753168" source="12b79ad2-3c2f-455e-a7a2-4ca55085e738" target="p_4"/>
+      <arc id="2668268753360" source="p_4" target="dc1a13d8-1e32-4c47-a712-b76851f89c52"/>
+      <arc id="2668268753616" source="dc1a13d8-1e32-4c47-a712-b76851f89c52" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

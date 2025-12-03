@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021544.639699" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021544.639699</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <transition id="b9e2d8b0-cd79-42f1-88bb-dfeeedb08e0d">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="297d6163-d49d-4ac5-9407-a2e10b123d65">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="skip_8">
+        <name>
+          <text>skip_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="78e0dbcd-058f-4fe7-aca3-95927756cb73"/>
+      </transition>
+      <transition id="init_loop_4">
+        <name>
+          <text>init_loop_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6cc69c5f-6b14-4613-93b9-ff666db3c082"/>
+      </transition>
+      <transition id="29b007e8-6659-4c74-a486-2d089219cf7a">
+        <name>
+          <text>Measurement of respiratory function (procedure)</text>
+        </name>
+      </transition>
+      <transition id="86c3dd2a-8e0c-4fb4-814c-e16b4bda87ef">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fcd5eeb5-6063-44fa-92d8-381c8fd55901"/>
+      </transition>
+      <transition id="skip_7">
+        <name>
+          <text>skip_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d8cae5fa-573f-40e6-889e-2f8d32bdf4ac"/>
+      </transition>
+      <arc id="3071966842384" source="p_6" target="init_loop_4"/>
+      <arc id="3071966842448" source="p_4" target="29b007e8-6659-4c74-a486-2d089219cf7a"/>
+      <arc id="3071966842576" source="29b007e8-6659-4c74-a486-2d089219cf7a" target="p_6"/>
+      <arc id="3071966841104" source="p_7" target="b9e2d8b0-cd79-42f1-88bb-dfeeedb08e0d"/>
+      <arc id="3071966840400" source="init_loop_4" target="p_8"/>
+      <arc id="3071966840720" source="p_9" target="skip_7"/>
+      <arc id="3071966841040" source="skip_6" target="p_8"/>
+      <arc id="3071966841296" source="skip_7" target="p_7"/>
+      <arc id="3071966841232" source="p_7" target="skip_8"/>
+      <arc id="3071966841424" source="b9e2d8b0-cd79-42f1-88bb-dfeeedb08e0d" target="p_6"/>
+      <arc id="3071966841552" source="p_9" target="skip_6"/>
+      <arc id="3071966842064" source="86c3dd2a-8e0c-4fb4-814c-e16b4bda87ef" target="p_9"/>
+      <arc id="3071966841808" source="297d6163-d49d-4ac5-9407-a2e10b123d65" target="p_4"/>
+      <arc id="3071966842000" source="skip_8" target="sink"/>
+      <arc id="3071966842960" source="p_8" target="86c3dd2a-8e0c-4fb4-814c-e16b4bda87ef"/>
+      <arc id="3071966842256" source="source" target="297d6163-d49d-4ac5-9407-a2e10b123d65"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

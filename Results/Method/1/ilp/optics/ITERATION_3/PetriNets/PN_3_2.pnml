@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8489fc2c-fc08-4615-ba88-37330cb1440b"/>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3505b01f-ad76-4f5f-af17-5560c3cdf9ae"/>
+      </transition>
+      <arc id="1427071321616" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="1427078665744" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427079091088" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="1427072860432" source="■" target="sink"/>
+      <arc id="1427071322640" source="source" target="▶"/>
+      <arc id="1427071329424" source="▶" target="2"/>
+      <arc id="1427071326352" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427071321104" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427071320720" source="3" target="■"/>
+      <arc id="1427071335440" source="Face mask (physical object)" target="5"/>
+      <arc id="1427079099856" source="6" target="Throat culture (procedure)"/>
+      <arc id="1427071327056" source="Face mask (physical object)" target="4"/>
+      <arc id="1427071322960" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1427071334992" source="2" target="Face mask (physical object)"/>
+      <arc id="1427071332304" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1427071324752" source="Throat culture (procedure)" target="3"/>
+      <arc id="1427071321424" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427079087440" source="5" target="■"/>
+      <arc id="1427071327696" source="4" target="Throat culture (procedure)"/>
+      <arc id="1427079092688" source="▶" target="6"/>
+      <arc id="1427079088848" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="1427071329680" source="Medication Reconciliation (procedure)" target="5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

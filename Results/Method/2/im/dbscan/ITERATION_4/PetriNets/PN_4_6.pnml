@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1760041955.861885" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1760041955.861885</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="0e712ce6-ad82-4951-aecc-6c2640a3f1e8">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="7e8abd83-0855-4618-a547-fee72e1738f5">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <arc id="1760718729552" source="source" target="0e712ce6-ad82-4951-aecc-6c2640a3f1e8"/>
+      <arc id="1760718725264" source="p_3" target="7e8abd83-0855-4618-a547-fee72e1738f5"/>
+      <arc id="1760718727760" source="7e8abd83-0855-4618-a547-fee72e1738f5" target="sink"/>
+      <arc id="1760718726288" source="0e712ce6-ad82-4951-aecc-6c2640a3f1e8" target="p_3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

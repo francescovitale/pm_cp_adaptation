@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>pre_Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Plain chest X-ray (procedure)">
+        <name>
+          <text>pre_Plain chest X-ray (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Intramuscular injection">
+        <name>
+          <text>pre_Intramuscular injection</text>
+        </name>
+      </place>
+      <place id="pre_Oxygen administration by mask (procedure)">
+        <name>
+          <text>pre_Oxygen administration by mask (procedure)</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="intplace_Intramuscular injection">
+        <name>
+          <text>intplace_Intramuscular injection</text>
+        </name>
+      </place>
+      <place id="intplace_Placing subject in prone position (procedure)">
+        <name>
+          <text>intplace_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="splace_in_Face mask (physical object)_Pulmonary rehabilitation (regime/therapy)_2">
+        <name>
+          <text>splace_in_Face mask (physical object)_Pulmonary rehabilitation (regime/therapy)_2</text>
+        </name>
+      </place>
+      <place id="pre_Placing subject in prone position (procedure)">
+        <name>
+          <text>pre_Placing subject in prone position (procedure)</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="intplace_Spirometry (procedure)">
+        <name>
+          <text>intplace_Spirometry (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Face mask (physical object)">
+        <name>
+          <text>intplace_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="intplace_Medication Reconciliation (procedure)">
+        <name>
+          <text>intplace_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="intplace_Plain chest X-ray (procedure)">
+        <name>
+          <text>intplace_Plain chest X-ray (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Medication Reconciliation (procedure)">
+        <name>
+          <text>pre_Medication Reconciliation (procedure)</text>
+        </name>
+      </place>
+      <place id="pre_Face mask (physical object)">
+        <name>
+          <text>pre_Face mask (physical object)</text>
+        </name>
+      </place>
+      <place id="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </place>
+      <transition id="Insertion of endotracheal tube (procedure)">
+        <name>
+          <text>Insertion of endotracheal tube (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_34">
+        <name>
+          <text>hid_34</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="260674ab-92a6-48d9-b5a2-2356c799a3e5"/>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6eee9598-2248-41a5-b677-94d2a7191147"/>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2b8ee9de-3a37-4846-b54f-fe31301087ad"/>
+      </transition>
+      <transition id="hid_8">
+        <name>
+          <text>hid_8</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dadb2c5a-284b-4a82-af44-1263a0c9af69"/>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="faeff190-4a0d-4caa-be4c-aabc14be5d7e"/>
+      </transition>
+      <transition id="Pulmonary rehabilitation (regime/therapy)">
+        <name>
+          <text>Pulmonary rehabilitation (regime/therapy)</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Intramuscular injection">
+        <name>
+          <text>Intramuscular injection</text>
+        </name>
+      </transition>
+      <transition id="hid_35">
+        <name>
+          <text>hid_35</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="75e29348-2ad4-4a0b-805a-c996dab11834"/>
+      </transition>
+      <transition id="hid_38">
+        <name>
+          <text>hid_38</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9c362ab7-d86d-4fad-848b-f8bdb9e81dc3"/>
+      </transition>
+      <transition id="hid_28">
+        <name>
+          <text>hid_28</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c82defb6-b078-4615-ad34-3e0e443dbf5e"/>
+      </transition>
+      <transition id="hid_30">
+        <name>
+          <text>hid_30</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="087efd1e-c507-4024-bb21-24426d45b22f"/>
+      </transition>
+      <transition id="hid_22">
+        <name>
+          <text>hid_22</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a7f98976-2359-40cb-996b-24a2b75a81e7"/>
+      </transition>
+      <transition id="hid_13">
+        <name>
+          <text>hid_13</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="22c08062-6012-42b9-a317-194bfb7b9a6c"/>
+      </transition>
+      <transition id="hid_31">
+        <name>
+          <text>hid_31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8ab82c17-4525-45d0-9504-10c48057f0ee"/>
+      </transition>
+      <transition id="hid_23">
+        <name>
+          <text>hid_23</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="58524e2a-7edf-4f3a-a742-5f7c0e4abfaf"/>
+      </transition>
+      <transition id="hid_32">
+        <name>
+          <text>hid_32</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6ac006ba-1ddd-4191-a767-712747355c0d"/>
+      </transition>
+      <transition id="hid_29">
+        <name>
+          <text>hid_29</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bbf5bbcf-3ce8-4c1c-a12c-32ad10b2ff88"/>
+      </transition>
+      <transition id="hid_37">
+        <name>
+          <text>hid_37</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f88e85c5-d310-4cdc-9332-8037d8e101e6"/>
+      </transition>
+      <transition id="hid_24">
+        <name>
+          <text>hid_24</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="76a5ba81-d498-4f73-a9a1-3831658604fe"/>
+      </transition>
+      <transition id="Spirometry (procedure)">
+        <name>
+          <text>Spirometry (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Plain chest X-ray (procedure)">
+        <name>
+          <text>Plain chest X-ray (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Oxygen administration by mask (procedure)">
+        <name>
+          <text>Oxygen administration by mask (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Placing subject in prone position (procedure)">
+        <name>
+          <text>Placing subject in prone position (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_33">
+        <name>
+          <text>hid_33</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="688aa4c1-95cf-41e4-96f5-5ef1124d2cff"/>
+      </transition>
+      <transition id="hid_25">
+        <name>
+          <text>hid_25</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="18d612ac-f572-482b-b40e-98fcc4426ec4"/>
+      </transition>
+      <transition id="Controlled ventilation procedure and therapy  initiation and management (procedure)">
+        <name>
+          <text>Controlled ventilation procedure and therapy  initiation and management (procedure)</text>
+        </name>
+      </transition>
+      <transition id="hid_26">
+        <name>
+          <text>hid_26</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c89a7058-6e42-4748-a485-1561601a4314"/>
+      </transition>
+      <arc id="2410533549584" source="Controlled ventilation procedure and therapy  initiation and management (procedure)" target="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2410533512720" source="pre_Intramuscular injection" target="Intramuscular injection"/>
+      <arc id="2410533506064" source="hid_3" target="pre_Face mask (physical object)"/>
+      <arc id="2410533510160" source="hid_8" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="2410533506576" source="splace_in_Face mask (physical object)_Pulmonary rehabilitation (regime/therapy)_2" target="hid_3"/>
+      <arc id="2410533507088" source="hid_4" target="pre_Face mask (physical object)"/>
+      <arc id="2410533572688" source="hid_27" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="2410533550608" source="hid_35" target="sink0"/>
+      <arc id="2410533569232" source="hid_38" target="sink0"/>
+      <arc id="2410533540944" source="intplace_Face mask (physical object)" target="hid_22"/>
+      <arc id="2410533541456" source="intplace_Face mask (physical object)" target="hid_23"/>
+      <arc id="2410533541968" source="intplace_Face mask (physical object)" target="hid_24"/>
+      <arc id="2410533570640" source="hid_31" target="pre_Face mask (physical object)"/>
+      <arc id="2410533542480" source="intplace_Face mask (physical object)" target="hid_25"/>
+      <arc id="2410533572176" source="Pulmonary rehabilitation (regime/therapy)" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="2410533568592" source="intplace_Placing subject in prone position (procedure)" target="hid_37"/>
+      <arc id="2410533569104" source="intplace_Placing subject in prone position (procedure)" target="hid_38"/>
+      <arc id="2410533571152" source="hid_23" target="pre_Medication Reconciliation (procedure)"/>
+      <arc id="2410533507728" source="pre_Medication Reconciliation (procedure)" target="Medication Reconciliation (procedure)"/>
+      <arc id="2410533546128" source="intplace_Plain chest X-ray (procedure)" target="hid_30"/>
+      <arc id="2410533514384" source="source0" target="hid_13"/>
+      <arc id="2410533510800" source="pre_Plain chest X-ray (procedure)" target="Plain chest X-ray (procedure)"/>
+      <arc id="2410533518992" source="pre_Placing subject in prone position (procedure)" target="Placing subject in prone position (procedure)"/>
+      <arc id="2410533572816" source="intplace_Placing subject in prone position (procedure)" target="Insertion of endotracheal tube (procedure)"/>
+      <arc id="2410533551248" source="Placing subject in prone position (procedure)" target="intplace_Placing subject in prone position (procedure)"/>
+      <arc id="2410533547280" source="intplace_Intramuscular injection" target="hid_31"/>
+      <arc id="2410533547792" source="intplace_Intramuscular injection" target="hid_32"/>
+      <arc id="2410533543632" source="intplace_Medication Reconciliation (procedure)" target="hid_26"/>
+      <arc id="2410533544144" source="intplace_Medication Reconciliation (procedure)" target="hid_27"/>
+      <arc id="2410533540560" source="Face mask (physical object)" target="intplace_Face mask (physical object)"/>
+      <arc id="2410533544656" source="intplace_Medication Reconciliation (procedure)" target="hid_28"/>
+      <arc id="2410533570256" source="hid_34" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2410533571792" source="hid_32" target="pre_Intramuscular injection"/>
+      <arc id="2410533542608" source="hid_25" target="sink0"/>
+      <arc id="2410533572304" source="Pulmonary rehabilitation (regime/therapy)" target="splace_in_Face mask (physical object)_Pulmonary rehabilitation (regime/therapy)_2"/>
+      <arc id="2410533548304" source="intplace_Intramuscular injection" target="hid_33"/>
+      <arc id="2410533572432" source="Insertion of endotracheal tube (procedure)" target="pre_Plain chest X-ray (procedure)"/>
+      <arc id="2410533517072" source="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2410533514512" source="hid_13" target="pre_Intramuscular injection"/>
+      <arc id="2410533546896" source="Intramuscular injection" target="intplace_Intramuscular injection"/>
+      <arc id="2410533571920" source="hid_29" target="pre_Controlled ventilation procedure and therapy  initiation and management (procedure)"/>
+      <arc id="2410533543248" source="Medication Reconciliation (procedure)" target="intplace_Medication Reconciliation (procedure)"/>
+      <arc id="2410533544784" source="hid_28" target="sink0"/>
+      <arc id="2410533545808" source="intplace_Plain chest X-ray (procedure)" target="hid_29"/>
+      <arc id="2410533470032" source="source0" target="Spirometry (procedure)"/>
+      <arc id="2410533571408" source="hid_24" target="pre_Plain chest X-ray (procedure)"/>
+      <arc id="2410533572944" source="intplace_Spirometry (procedure)" target="hid_3"/>
+      <arc id="2410533548432" source="hid_33" target="sink0"/>
+      <arc id="2410533548944" source="Oxygen administration by mask (procedure)" target="pre_Placing subject in prone position (procedure)"/>
+      <arc id="2410533549968" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="hid_34"/>
+      <arc id="2410533569936" source="hid_22" target="pre_Intramuscular injection"/>
+      <arc id="2410533506960" source="source0" target="hid_4"/>
+      <arc id="2410533504400" source="pre_Face mask (physical object)" target="Face mask (physical object)"/>
+      <arc id="2410533510032" source="source0" target="hid_8"/>
+      <arc id="2410533515152" source="pre_Oxygen administration by mask (procedure)" target="Oxygen administration by mask (procedure)"/>
+      <arc id="2410533550480" source="intplace_Controlled ventilation procedure and therapy  initiation and management (procedure)" target="hid_35"/>
+      <arc id="2410533572048" source="hid_37" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="2410533545424" source="Plain chest X-ray (procedure)" target="intplace_Plain chest X-ray (procedure)"/>
+      <arc id="2410533536720" source="Spirometry (procedure)" target="intplace_Spirometry (procedure)"/>
+      <arc id="2410533573072" source="intplace_Spirometry (procedure)" target="Pulmonary rehabilitation (regime/therapy)"/>
+      <arc id="2410533572560" source="hid_30" target="pre_Oxygen administration by mask (procedure)"/>
+      <arc id="2410533571664" source="hid_26" target="pre_Face mask (physical object)"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

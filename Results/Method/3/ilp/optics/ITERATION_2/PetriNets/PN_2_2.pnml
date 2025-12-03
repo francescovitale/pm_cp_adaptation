@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="ilp" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>ilp</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="4">
+        <name>
+          <text>4</text>
+        </name>
+      </place>
+      <place id="3">
+        <name>
+          <text>3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="2">
+        <name>
+          <text>2</text>
+        </name>
+      </place>
+      <place id="5">
+        <name>
+          <text>5</text>
+        </name>
+      </place>
+      <place id="6">
+        <name>
+          <text>6</text>
+        </name>
+      </place>
+      <transition id="Colonoscopy">
+        <name>
+          <text>Colonoscopy</text>
+        </name>
+      </transition>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Electrical cardioversion">
+        <name>
+          <text>Electrical cardioversion</text>
+        </name>
+      </transition>
+      <transition id="■">
+        <name>
+          <text>■</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="858d6df9-8094-4436-b6b2-7144a3a235dc"/>
+      </transition>
+      <transition id="▶">
+        <name>
+          <text>▶</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="655d1547-a462-4a0e-b203-04ca883dceb9"/>
+      </transition>
+      <arc id="1658971876944" source="5" target="Electrical cardioversion"/>
+      <arc id="1658973093840" source="2" target="Colonoscopy"/>
+      <arc id="1658974774928" source="3" target="Face mask (physical object)"/>
+      <arc id="1658974774160" source="Throat culture (procedure)" target="3"/>
+      <arc id="1658973089936" source="Colonoscopy" target="2"/>
+      <arc id="1658973078032" source="2" target="Electrical cardioversion"/>
+      <arc id="1658974773264" source="Electrical cardioversion" target="3"/>
+      <arc id="1658970184336" source="4" target="Electrical cardioversion"/>
+      <arc id="1658971867792" source="Electrical cardioversion" target="5"/>
+      <arc id="1658973081808" source="2" target="Medication Reconciliation (procedure)"/>
+      <arc id="1658971875216" source="Medication Reconciliation (procedure)" target="5"/>
+      <arc id="1658971867920" source="5" target="Colonoscopy"/>
+      <arc id="1658971877392" source="5" target="Medication Reconciliation (procedure)"/>
+      <arc id="1658969835792" source="Medication Reconciliation (procedure)" target="6"/>
+      <arc id="1658973082320" source="2" target="Throat culture (procedure)"/>
+      <arc id="1658971874000" source="Face mask (physical object)" target="5"/>
+      <arc id="1658971441936" source="6" target="Colonoscopy"/>
+      <arc id="1658971448016" source="6" target="■"/>
+      <arc id="1658971866064" source="Colonoscopy" target="5"/>
+      <arc id="1658971872272" source="5" target="■"/>
+      <arc id="1658970191312" source="Medication Reconciliation (procedure)" target="4"/>
+      <arc id="1658971444688" source="6" target="Medication Reconciliation (procedure)"/>
+      <arc id="1658969849360" source="Electrical cardioversion" target="6"/>
+      <arc id="1658970187344" source="Electrical cardioversion" target="4"/>
+      <arc id="1658973090384" source="Colonoscopy" target="3"/>
+      <arc id="1658974775888" source="Medication Reconciliation (procedure)" target="3"/>
+      <arc id="1658974774864" source="3" target="Medication Reconciliation (procedure)"/>
+      <arc id="1658974781136" source="3" target="Electrical cardioversion"/>
+      <arc id="1658970180560" source="Colonoscopy" target="4"/>
+      <arc id="1658974767056" source="3" target="Colonoscopy"/>
+      <arc id="1658974551376" source="■" target="sink"/>
+      <arc id="1658973092816" source="Medication Reconciliation (procedure)" target="2"/>
+      <arc id="1658973080016" source="Electrical cardioversion" target="2"/>
+      <arc id="1658974545872" source="source" target="▶"/>
+      <arc id="1658970187856" source="4" target="Medication Reconciliation (procedure)"/>
+      <arc id="1658970184016" source="4" target="Colonoscopy"/>
+      <arc id="1658971447952" source="Throat culture (procedure)" target="6"/>
+      <arc id="1658969840592" source="Colonoscopy" target="6"/>
+      <arc id="1658975806736" source="6" target="Electrical cardioversion"/>
+      <arc id="1658973080912" source="▶" target="2"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

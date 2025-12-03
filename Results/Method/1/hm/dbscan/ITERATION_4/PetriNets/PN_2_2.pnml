@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imported_1760021359.728893" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imported_1760021359.728893</text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="splace_in_Face mask (physical object)_Medication Reconciliation (procedure)_0">
+        <name>
+          <text>splace_in_Face mask (physical object)_Medication Reconciliation (procedure)_0</text>
+        </name>
+      </place>
+      <place id="splace_in_Face mask (physical object)_Throat culture (procedure)_0">
+        <name>
+          <text>splace_in_Face mask (physical object)_Throat culture (procedure)_0</text>
+        </name>
+      </place>
+      <transition id="Medication Reconciliation (procedure)">
+        <name>
+          <text>Medication Reconciliation (procedure)</text>
+        </name>
+      </transition>
+      <transition id="Face mask (physical object)">
+        <name>
+          <text>Face mask (physical object)</text>
+        </name>
+      </transition>
+      <transition id="Throat culture (procedure)">
+        <name>
+          <text>Throat culture (procedure)</text>
+        </name>
+      </transition>
+      <arc id="2481443334352" source="source0" target="Medication Reconciliation (procedure)"/>
+      <arc id="2481443333904" source="splace_in_Face mask (physical object)_Medication Reconciliation (procedure)_0" target="Face mask (physical object)"/>
+      <arc id="2481443334480" source="Medication Reconciliation (procedure)" target="splace_in_Face mask (physical object)_Medication Reconciliation (procedure)_0"/>
+      <arc id="2481443333264" source="splace_in_Face mask (physical object)_Throat culture (procedure)_0" target="Face mask (physical object)"/>
+      <arc id="2481443334608" source="source0" target="Throat culture (procedure)"/>
+      <arc id="2481443334992" source="Face mask (physical object)" target="sink0"/>
+      <arc id="2481443334544" source="Throat culture (procedure)" target="splace_in_Face mask (physical object)_Throat culture (procedure)_0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
