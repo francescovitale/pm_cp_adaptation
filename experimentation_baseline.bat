@@ -1,9 +1,3 @@
-:: Options:
-:: anomaly_type=[V, W]; one anomaly type at a time
-:: pd_variant=[im, ilp, hm]
-:: n_clusters=<integer>
-:: n_simulation_traces=<integer>
-
 set pd_variant=im ilp hm
 set n_reps=3
 set iterations=1 2 3 4
