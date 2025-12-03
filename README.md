@@ -1,7 +1,7 @@
 # Requirements to run the method
 
 ## Packages
-This project has been executed on a Windows 10 machine with Python 3.11.5. A few libraries have been used within Python modules. Among these, there are:
+This project has been executed on a Windows 11cmd machine with Python 3.11.5. A few libraries have been used within Python modules. Among these, there are:
 
 - pm4py 2.7.11.11
 - scipy 1.11.2
